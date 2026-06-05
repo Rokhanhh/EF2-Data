@@ -67,12 +67,17 @@
 }
 
 .home-relic-showcase {
+    box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(3, 72px);
+    grid-template-rows: repeat(2, 72px);
     justify-content: center;
     justify-items: center;
     align-items: center;
     gap: 14px;
+    width: 100%;
+    max-width: 320px;
+    height: 202px;
     padding: 22px;
     border: 1px solid rgba(240, 194, 141, .22);
     border-radius: 8px;
@@ -101,7 +106,10 @@
 
     .home-relic-showcase {
         grid-template-columns: repeat(3, 72px);
+        grid-template-rows: repeat(2, 72px);
         gap: 12px;
+        max-width: 270px;
+        height: 184px;
         padding: 14px;
     }
 }
