@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Endless Frontier Data - Artifact Calculator</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="css/relics.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="siteNavbar"></div>
+
+    <div class="container view-hidden" id="listView">
+        <div class="row unit-details">
+            <div class="col-md-12 text-center">
+                <h2 class="general-heading relic-book-title">Relic Book</h2>
+            </div>
+
+            <div class="col-md-12 text-center">
+                <ul class="pagination pagination-sm grade-tabs" id="gradeTabs"></ul>
+            </div>
+
+            <div class="col-md-12 text-center">
+                <div class="view-mode-toggle" role="group" aria-label="Relic view mode">
+                    <button type="button" class="view-mode-btn" data-view-mode="list">Show list</button>
+                    <button type="button" class="view-mode-btn" data-view-mode="images">Show icons</button>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="relic-list-panel artifact-grid" id="artifactContent">Loading relics...</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container view-hidden" id="detailView">
+        <div class="row unit-details">
+            <div class="col-md-12 text-left">
+                <a class="btn btn-default detail-back-link" id="detailBackLink" href="#/relics">Back to Relic List</a>
+                <div class="relic-header">
+                    <img class="relic-main-icon" id="artifactMainIcon" src="" alt="">
+                    <div>
+                        <h3 class="relic-title" id="artifactTitle">Loading...</h3>
+                    </div>
+                </div>
+
+                <div class="relic-controls">
+                <form id="calculatorForm" role="form" class="form-horizontal">
+                    <div class="col-md-3 calculator-control">
+                        Trans Level
+                        <div class="input-group">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default btn-number" data-type="minus" data-field="arttranslevel">
+                                    <span class="glyphicon glyphicon-minus"></span>
+                                </button>
+                            </span>
+                            <input type="text" name="arttranslevel" class="form-control input-number" value="0" min="0" max="0">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="arttranslevel">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 calculator-control">
+                        Enhancement Level
+                        <div class="input-group">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default btn-number" data-type="minus" data-field="artenhancelevel">
+                                    <span class="glyphicon glyphicon-minus"></span>
+                                </button>
+                            </span>
+                            <input type="text" name="artenhancelevel" class="form-control input-number" value="0" min="0" max="200">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="artenhancelevel">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 calculator-control">
+                        Relic Set Level
+                        <div class="input-group">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default btn-number" data-type="minus" data-field="artsetlevel">
+                                    <span class="glyphicon glyphicon-minus"></span>
+                                </button>
+                            </span>
+                            <input type="text" name="artsetlevel" class="form-control input-number" value="0" min="0" max="0">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="artsetlevel">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+                </div>
+            </div>
+
+            <div class="col-md-12 text-left">
+                <div class="relic-panel">
+                    <h4>Relic Ability</h4>
+                    <div id="abilityResults" class="loading">Loading data...</div>
+                </div>
+            </div>
+
+            <div class="col-md-12 text-left">
+                <div class="relic-panel">
+                    <h4 id="setTitle"></h4>
+                    <div id="setEffects"></div>
+                    <div class="artifact-icons relic-set-icons" id="setArtifactIcons"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 text-left">
+                <div class="relic-panel">
+                <h4>Material Costs <span id="materialCostIcons"></span></h4>
+                <table style="width:100%" class="table table-condensed">
+                    <tr>
+                        <td style="border-top: none !important; width:70%">Opening Cost</td>
+                        <td style="border-top: none !important; width:30%" id="openingCost">0</td>
+                    </tr>
+                    <tr>
+                        <td>Next Level Cost</td>
+                        <td id="nextMaterialCost">0</td>
+                    </tr>
+                    <tr>
+                        <td>Total Material Cost So Far</td>
+                        <td id="totalMaterialCost">0</td>
+                    </tr>
+                </table>
+                </div>
+            </div>
+            <div class="col-md-6 text-left">
+                <div class="relic-panel">
+                <h4>Honor Costs <img class="icon-h4" src="images/others/UI_COIN_Big.png" alt=""></h4>
+                <table style="width:100%" class="table table-condensed">
+                    <tr>
+                        <td style="border-top: none !important; width:70%">Next Level Cost</td>
+                        <td style="border-top: none !important; width:30%" id="nextHonorCost">0</td>
+                    </tr>
+                    <tr>
+                        <td>Total Honor So Far</td>
+                        <td id="totalHonorCost">0</td>
+                    </tr>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="siteFooter"></div>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>
