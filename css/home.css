@@ -1,0 +1,107 @@
+.home-view {
+    flex: 1 0 auto;
+    display: flex;
+    color: #f4ead9;
+}
+
+.home-view.view-hidden {
+    display: none;
+}
+
+.home-hero {
+    flex: 1 0 auto;
+    min-height: 0;
+    display: flex;
+    align-items: center;
+    padding: 28px 0 34px;
+    border-bottom: 1px solid #5b4b31;
+    background: linear-gradient(135deg, #1e1815 0%, #2d271d 52%, #151312 100%);
+}
+
+.home-hero-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(230px, 320px);
+    align-items: center;
+    gap: 34px;
+}
+
+.home-copy h1 {
+    margin: 0 0 12px;
+    color: #fff4b4;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, .55);
+}
+
+.home-summary {
+    max-width: 430px;
+    margin: 0 0 22px;
+    color: #ead7b9;
+    font-size: 16px;
+    line-height: 1.55;
+}
+
+.home-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.home-actions .btn {
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+.home-secondary-action {
+    border-color: #5b4b31;
+    background-color: #3a3327;
+    color: #f0c28d;
+}
+
+.home-secondary-action:hover,
+.home-secondary-action:focus {
+    border-color: #d1a12a;
+    background-color: #4a3d2b;
+    color: #ffd98e;
+}
+
+.home-relic-showcase {
+    display: grid;
+    grid-template-columns: repeat(3, 72px);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 14px;
+    padding: 22px;
+    border: 1px solid rgba(240, 194, 141, .22);
+    border-radius: 8px;
+    background-color: rgba(36, 30, 24, .74);
+    box-shadow: 0 16px 30px rgba(0, 0, 0, .32);
+}
+
+.home-relic-showcase .sprite-icon {
+    border-radius: 8px;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, .5));
+}
+
+@media (max-width: 640px) {
+    .home-hero {
+        min-height: auto;
+        padding-top: 26px;
+    }
+
+    .home-hero-inner {
+        grid-template-columns: 1fr;
+    }
+
+    .home-copy h1 {
+        font-size: 38px;
+    }
+
+    .home-relic-showcase {
+        grid-template-columns: repeat(3, 72px);
+        gap: 12px;
+        padding: 14px;
+    }
+}

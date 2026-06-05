@@ -47,14 +47,8 @@ export function renderFooter(options = {}) {
 
 export function defaultNavLinks(activeLabel = "") {
     return [
-        { label: "Home", href: "#" },
-        { label: "Spirit Highlands", href: "#" },
-        { label: "Units", href: "#" },
-        { label: "Pets", href: "#" },
-        { label: "Artifact", href: "#/relics" },
-        { label: "Guild Raid", href: "#" },
-        { label: "Airship", href: "#" },
-        { label: "Guardians", href: "#" },
+        { label: "Home", href: "./" },
+        { label: "Relics", href: "#/relics" },
     ].map((link) => ({ ...link, active: link.label === activeLabel }));
 }
 

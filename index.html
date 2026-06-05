@@ -5,15 +5,38 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Endless Frontier Data - Artifact Calculator</title>
+    <title>Endless Frontier Data</title>
 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="css/sprites.css" rel="stylesheet">
     <link href="css/relics.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
 </head>
 
 <body>
     <div id="siteNavbar"></div>
+
+    <main class="home-view" id="homeView">
+        <section class="home-hero">
+            <div class="container home-hero-inner">
+                <div class="home-copy">
+                    <h1>EF2 Data</h1>
+                    <p class="home-summary">
+                        This site provides information about Endless Frontier 2.
+                    </p>
+                    <div class="home-actions">
+                        <a class="btn btn-default home-secondary-action" href="https://github.com/RokhanHH/EF2-Data" target="_blank" rel="noopener">
+                            View on GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="home-relic-showcase" id="homeRelicShowcase" aria-label="Relic preview">
+                    Loading relic icons...
+                </div>
+            </div>
+        </section>
+    </main>
 
     <div class="container view-hidden" id="listView">
         <div class="row unit-details">
@@ -43,7 +66,7 @@
             <div class="col-md-12 text-left">
                 <a class="btn btn-default detail-back-link" id="detailBackLink" href="#/relics">Back to Relic List</a>
                 <div class="relic-header">
-                    <img class="relic-main-icon" id="artifactMainIcon" src="" alt="">
+                    <span class="relic-main-icon" id="artifactMainIcon"></span>
                     <div>
                         <h3 class="relic-title" id="artifactTitle">Loading...</h3>
                     </div>
@@ -139,7 +162,7 @@
             </div>
             <div class="col-md-6 text-left">
                 <div class="relic-panel">
-                <h4>Honor Costs <img class="icon-h4" src="images/others/UI_COIN_Big.png" alt=""></h4>
+                <h4>Honor Costs <span id="honorCostIcon"></span></h4>
                 <table style="width:100%" class="table table-condensed">
                     <tr>
                         <td style="border-top: none !important; width:70%">Next Level Cost</td>

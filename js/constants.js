@@ -10,12 +10,7 @@ export const ENHANCEMENT_LEVEL_LIMIT = 200;
 
 export const MATERIAL_NAMES = ["Dark Matter", "Ancient Stone", "Dragon Scale", "Bottle of Fairy Tears"];
 
-export const MATERIAL_ICONS = [
-    "images/dungeon/Core1.png",
-    "images/dungeon/Core2.png",
-    "images/dungeon/Core3.png",
-    "images/dungeon/Core4.png",
-];
+export const MATERIAL_ICON_FRAMES = ["Core1", "Core2", "Core3", "Core4"];
 
 export const SKILL_LABELS = {
     damage: "Increase attack power",

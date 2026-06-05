@@ -1,6 +1,7 @@
-import { ENHANCEMENT_LEVEL_LIMIT, MATERIAL_ICONS, MATERIAL_NAMES } from "./constants.js";
+import { renderAtlasIcon, renderAtlasIconById } from "./asset-atlas.js";
+import { ENHANCEMENT_LEVEL_LIMIT, MATERIAL_ICON_FRAMES, MATERIAL_NAMES } from "./constants.js";
 import { loadRelicData } from "./data.js";
-import { renderNavbar } from "./layout.js";
+import { defaultNavLinks, renderNavbar } from "./layout.js";
 import {
     getAbilityId,
     getArtifactSet,
@@ -14,7 +15,7 @@ import {
     skillLabel,
     totalMaterialCost,
 } from "./relic-calculations.js";
-import { clamp, escapeHtml, formatNumber, treasureImagePath } from "./utils.js";
+import { clamp, escapeHtml, formatNumber } from "./utils.js";
 
 const state = {
     treasures: [],
@@ -23,6 +24,7 @@ const state = {
     sets: [],
     limitBreakAccByGrade: {},
     locale: {},
+    assetAtlases: {},
     selectedKindNum: 1,
     grade: 1,
     mode: "images",
@@ -68,6 +70,7 @@ function getElements() {
         setTitle: document.getElementById("setTitle"),
         setEffects: document.getElementById("setEffects"),
         materialCostIcons: document.getElementById("materialCostIcons"),
+        honorCostIcon: document.getElementById("honorCostIcon"),
         openingCost: document.getElementById("openingCost"),
         nextMaterialCost: document.getElementById("nextMaterialCost"),
         totalMaterialCost: document.getElementById("totalMaterialCost"),
@@ -115,8 +118,12 @@ function renderSetIcons(set, treasure) {
         const item = state.treasureMap.get(kindNum);
         const inactive = kindNum === treasure.kindNum ? "" : " inactive";
         const name = item ? getTreasureName(item) : `Artifact ${kindNum}`;
-        const imagePath = treasureImagePath(kindNum);
-        return `<a href="#/relics/${kindNum}" title="${escapeHtml(name)}"><img class="icon-48 artifact-icon${inactive}" src="${imagePath}" alt="${escapeHtml(name)}" onerror="this.outerHTML='<span class=&quot;artifact-icon-fallback${inactive}&quot;>${kindNum}</span>'"></a>`;
+        const icon = renderRelicIcon(kindNum, {
+            label: name,
+            className: `icon-48 artifact-icon${inactive}`,
+            size: 48,
+        });
+        return `<a href="#/relics/${kindNum}" title="${escapeHtml(name)}">${icon}</a>`;
     }).join("&nbsp;");
 }
 
@@ -143,8 +150,11 @@ function renderCalculator() {
 
     els.title.textContent = `${getTreasureName(treasure)} ${treasure.grade}*`;
     els.detailBackLink.href = "#/relics";
-    els.mainIcon.src = treasureImagePath(treasure.kindNum);
-    els.mainIcon.alt = getTreasureName(treasure);
+    els.mainIcon.innerHTML = renderRelicIcon(treasure.kindNum, {
+        label: getTreasureName(treasure),
+        className: "relic-main-icon-sprite",
+        size: 58,
+    });
     renderSetIcons(set, treasure);
     renderAbilities(treasure, trans, enhance);
     renderSet(set, setLevel, trans);
@@ -191,8 +201,17 @@ function renderSet(set, setLevel, trans) {
 function renderCosts(treasure, enhance) {
     const limitBreakLevel = Math.max(0, enhance - (treasure.maxLv || 20));
     els.materialCostIcons.innerHTML = treasure.openCost
-        .map((cost, index) => cost > 0 ? `<img class="icon-h4" src="${MATERIAL_ICONS[index]}" alt="${escapeHtml(MATERIAL_NAMES[index])}" title="${escapeHtml(MATERIAL_NAMES[index])}">` : "")
+        .map((cost, index) => cost > 0 ? renderAtlasIcon(state.assetAtlases.ui, MATERIAL_ICON_FRAMES[index], {
+            label: MATERIAL_NAMES[index],
+            className: "icon-h4",
+            size: 20,
+        }) : "")
         .join("");
+    els.honorCostIcon.innerHTML = renderAtlasIcon(state.assetAtlases.ui, "UI_COIN_Big", {
+        label: "Honor coin",
+        className: "icon-h4",
+        size: 20,
+    });
     els.openingCost.innerHTML = formatMaterialList(treasure.openCost);
     els.nextMaterialCost.innerHTML = formatMaterialList(materialCostForLevel(treasure, enhance));
     els.totalMaterialCost.innerHTML = formatMaterialList(totalMaterialCost(treasure, enhance));
@@ -239,7 +258,7 @@ function showList() {
     els.detailView.classList.add("view-hidden");
     els.listView.classList.remove("view-hidden");
     renderNavbar({
-        links: [{ label: "Relics", href: "#/relics", active: true }],
+        links: defaultNavLinks("Relics"),
     });
     renderList();
 }
@@ -248,7 +267,7 @@ function showDetail() {
     els.listView.classList.add("view-hidden");
     els.detailView.classList.remove("view-hidden");
     renderNavbar({
-        links: [{ label: "Relics", href: "#/relics", active: true }],
+        links: defaultNavLinks("Relics"),
     });
     renderCalculator();
 }
@@ -307,9 +326,16 @@ function renderListContent() {
 }
 
 function renderImageItem(treasure) {
-    const name = escapeHtml(getTreasureName(treasure));
+    const name = getTreasureName(treasure);
     const id = treasure.kindNum;
-    return `<a href="#/relics/${id}" title="${name}"><img src="${treasureImagePath(id)}" alt="${name}" onerror="this.outerHTML='<span class=&quot;artifact-fallback&quot;>${id}</span>'"></a>`;
+    return `<a href="#/relics/${id}" title="${escapeHtml(name)}">${renderRelicIcon(id, {
+        label: name,
+        size: 46,
+    })}</a>`;
+}
+
+function renderRelicIcon(kindNum, options = {}) {
+    return renderAtlasIconById(state.assetAtlases.relics, kindNum, options);
 }
 
 function renderListTable(treasures) {

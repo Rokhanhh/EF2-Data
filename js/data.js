@@ -1,12 +1,14 @@
 import { DATA_PATHS } from "./constants.js";
+import { loadAssetAtlases } from "./asset-atlas.js";
 
 export async function loadRelicData() {
-    const [treasureBook, valueBook, setBook, limitBreakBook, locale] = await Promise.all([
+    const [treasureBook, valueBook, setBook, limitBreakBook, locale, assetAtlases] = await Promise.all([
         loadJson(DATA_PATHS.treasure),
         loadJson(DATA_PATHS.values),
         loadJson(DATA_PATHS.sets),
         loadJson(DATA_PATHS.limitBreak),
         loadJson(DATA_PATHS.locale),
+        loadAssetAtlases(),
     ]);
 
     const treasures = toArrayBook(treasureBook)
@@ -20,6 +22,7 @@ export async function loadRelicData() {
         sets: toArrayBook(setBook).map(normalizeSet),
         limitBreakAccByGrade: buildLimitBreakAccByGrade(toArrayBook(limitBreakBook)),
         locale: locale || {},
+        assetAtlases,
     };
 }
 

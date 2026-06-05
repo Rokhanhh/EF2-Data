@@ -51,7 +51,3 @@ export function escapeHtml(value) {
         .replace(/"/g, "&quot;")
         .replace(/'/g, "&#039;");
 }
-
-export function treasureImagePath(kindNum) {
-    return `images/treasures/UI_T${String(kindNum).padStart(3, "0")}.png`;
-}

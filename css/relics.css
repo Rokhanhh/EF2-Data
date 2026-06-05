@@ -142,10 +142,16 @@ a {
 }
 
 .relic-main-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 58px;
     height: 58px;
-    object-fit: contain;
     flex: 0 0 auto;
+}
+
+.relic-main-icon-sprite {
+    filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, .5));
 }
 
 .relic-title {
@@ -224,27 +230,14 @@ a {
     overflow: visible;
 }
 
-.artifact-icon-fallback {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 48px;
-    height: 48px;
-    margin-right: 4px;
-    border: 3px solid #4B4B4B;
-    background-color: #222;
-    color: #ccc;
-    font-weight: bold;
-    vertical-align: middle;
-}
-
-.artifact-icon-fallback.inactive,
 .artifact-icon.inactive {
     opacity: .3;
 }
 
 .artifact-icon {
     margin-right: 4px;
+    border-radius: 8px;
+    filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, .5));
 }
 
 .artifact-icons a {
@@ -337,20 +330,6 @@ a {
     margin: 0;
 }
 
-.artifact-fallback {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 46px;
-    height: 46px;
-    margin: 0;
-    border: 3px solid #4B4B4B;
-    background-color: #222;
-    color: #ccc;
-    font-weight: bold;
-    vertical-align: middle;
-}
-
 #listView .unit-details {
     background-color: #1e1815;
     color: #f2dfc0;
@@ -389,7 +368,7 @@ a {
     background: transparent;
 }
 
-.artifact-grid.icon-grid .artifact-fallback {
+.artifact-grid.icon-grid .sprite-icon-missing {
     align-self: center;
     justify-self: center;
 }

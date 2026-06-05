@@ -1,0 +1,38 @@
+.sprite-icon {
+    display: inline-block;
+    flex: 0 0 auto;
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.sprite-icon-canvas {
+    position: absolute;
+    display: block;
+    transform-origin: top left;
+}
+
+.sprite-icon-clip {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+}
+
+.sprite-icon-frame {
+    display: block;
+    transform-origin: top left;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.sprite-icon-missing {
+    align-items: center;
+    justify-content: center;
+    min-width: 46px;
+    min-height: 46px;
+    display: inline-flex;
+    border: 3px solid #4B4B4B;
+    background-color: #222;
+    color: #ccc;
+    font-weight: bold;
+}

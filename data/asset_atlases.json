@@ -1,0 +1,35 @@
+{
+    "sources": {
+        "uiEkkorr": {
+            "json": "images/atlases/ui-ekkorr/UI_Ekkorr.json",
+            "image": "images/atlases/ui-ekkorr/UI_Ekkorr.png"
+        },
+        "uiPet": {
+            "json": "images/atlases/ui-pet/UI_PET.json",
+            "image": "images/atlases/ui-pet/UI_PET.png"
+        }
+    },
+    "sets": {
+        "ui": {
+            "source": "uiEkkorr"
+        },
+        "relics": {
+            "source": "uiEkkorr",
+            "framePrefix": "UI_T",
+            "pad": 3
+        },
+        "units": {
+            "source": "uiEkkorr",
+            "framePrefix": "Hero",
+            "pad": 0
+        },
+        "petUi": {
+            "source": "uiPet"
+        },
+        "pets": {
+            "source": "uiPet",
+            "framePrefix": "UI_PET",
+            "pad": 0
+        }
+    }
+}

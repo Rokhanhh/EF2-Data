@@ -1,30 +1,83 @@
-import { renderFooter, renderNavbar } from "./layout.js";
+import { loadAssetAtlases, renderAtlasIconById } from "./asset-atlas.js";
+import { defaultNavLinks, renderFooter, renderNavbar } from "./layout.js";
 import { initRelicsView, renderRelicsRoute } from "./relics-view.js";
 
 (function () {
     "use strict";
 
-    renderNavbar({
-        links: [{ label: "Relics", href: "#/relics", active: true }],
-    });
     renderFooter();
 
-    function normalizeRoute() {
-        const parts = (window.location.hash || "#/relics")
+    function getRouteParts() {
+        return (window.location.hash || "")
             .replace(/^#\/?/, "")
             .split("?")[0]
             .split("/")
             .filter(Boolean);
+    }
 
-        if (parts[0] !== "relics") {
-            window.location.hash = "#/relics";
+    function normalizeRoute() {
+        const parts = getRouteParts();
+        const route = parts[0] || "home";
+
+        if (route === "home") {
+            history.replaceState(null, "", `${window.location.pathname}${window.location.search}`);
+            return true;
         }
+
+        if (route !== "relics") {
+            history.replaceState(null, "", `${window.location.pathname}${window.location.search}`);
+            return false;
+        }
+
+        return true;
+    }
+
+    async function renderHome() {
+        document.getElementById("homeView").classList.remove("view-hidden");
+        document.getElementById("listView").classList.add("view-hidden");
+        document.getElementById("detailView").classList.add("view-hidden");
+        renderNavbar({
+            links: defaultNavLinks("Home"),
+        });
+        await renderHomeShowcase();
     }
 
     async function renderRoute() {
-        normalizeRoute();
-        await initRelicsView();
-        renderRelicsRoute();
+        if (!normalizeRoute()) {
+            await renderHome();
+            return;
+        }
+
+        const parts = getRouteParts();
+        const route = parts[0] || "home";
+
+        if (route === "relics") {
+            document.getElementById("homeView").classList.add("view-hidden");
+            await initRelicsView();
+            renderRelicsRoute();
+            return;
+        }
+
+        await renderHome();
+    }
+
+    async function renderHomeShowcase() {
+        const target = document.getElementById("homeRelicShowcase");
+        if (!target) return;
+
+        const atlases = await loadAssetAtlases();
+        const relicAtlas = atlases.relics;
+        const petAtlas = atlases.pets;
+        const unitAtlas = atlases.units;
+        const iconSize = 72;
+        target.innerHTML = [
+            renderAtlasIconById(relicAtlas, 89, { label: "Relic icon", size: iconSize }),
+            renderAtlasIconById(unitAtlas, 69, { label: "Unit icon", size: iconSize }),
+            renderAtlasIconById(petAtlas, 5, { label: "Pet icon", size: iconSize }),
+            renderAtlasIconById(petAtlas, 14, { label: "Pet icon", size: iconSize }),
+            renderAtlasIconById(relicAtlas, 108, { label: "Relic icon", size: iconSize }),
+            renderAtlasIconById(unitAtlas, 89, { label: "Unit icon", size: iconSize }),
+        ].join("");
     }
 
     async function init() {
