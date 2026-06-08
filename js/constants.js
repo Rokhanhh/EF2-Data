@@ -3,6 +3,8 @@ export const DATA_PATHS = {
     values: "data/treasure_value.json",
     sets: "data/treasure_set.json",
     limitBreak: "data/treasure_limit_break.json",
+    pets: "data/pet.json",
+    petSkills: "data/pet_skill.json",
     locale: "data/locales/en.json",
 };
 

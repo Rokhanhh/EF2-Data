@@ -1,0 +1,369 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin-bottom: 0;
+    padding-top: 50px;
+    background-color: #1e1815;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+a {
+    color: #D1A12A;
+}
+
+.container {
+    max-width: 720px;
+}
+
+.general-heading {
+    margin-top: 0;
+}
+
+.unit-details {
+    margin-top: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.icon-h4 {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-48 {
+    width: 48px;
+    height: 48px;
+}
+
+.relic-navbar.navbar {
+    min-height: 46px;
+    border: 0;
+    border-bottom: 1px solid #5b4b31;
+    background: #241e18;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .35);
+}
+
+.relic-navbar .navbar-collapse {
+    border-color: #5b4b31;
+}
+
+.relic-navbar .navbar-toggle {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-color: #5b4b31;
+    background-color: #3a3327;
+}
+
+.relic-navbar .navbar-toggle:hover,
+.relic-navbar .navbar-toggle:focus {
+    border-color: #d1a12a;
+    background-color: #4a3d2b;
+}
+
+.relic-navbar .navbar-toggle .icon-bar {
+    background-color: #f0c28d;
+}
+
+.relic-nav-links {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.relic-navbar .navbar-nav > li > a {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: #f0c28d;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.relic-navbar .navbar-nav > li > a:hover,
+.relic-navbar .navbar-nav > li > a:focus {
+    color: #ffd98e;
+    background-color: #3a3327;
+}
+
+.relic-navbar .navbar-nav > .active > a,
+.relic-navbar .navbar-nav > .active > a:hover,
+.relic-navbar .navbar-nav > .active > a:focus {
+    color: #fff4b4;
+    background-color: #7d5b12;
+}
+
+.relic-footer {
+    position: static;
+    bottom: auto;
+    margin-top: 0;
+    padding: 16px 0 18px;
+    width: 100%;
+    height: auto;
+    line-height: 1.4;
+    border-top: 1px solid #5b4b31;
+    background-color: #241e18;
+    color: #bfa982;
+    text-align: center;
+    font-size: 12px;
+}
+
+#siteFooter {
+    margin-top: auto;
+    padding-top: 0;
+    min-height: 52px;
+}
+
+.view-hidden {
+    display: none;
+}
+
+.detail-back-link {
+    display: inline-block;
+    margin-bottom: 12px;
+    border-color: #5b4b31;
+    background-color: #3a3327;
+    color: #f0c28d;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.detail-back-link:hover,
+.detail-back-link:focus {
+    border-color: #d1a12a;
+    background-color: #4a3d2b;
+    color: #ffd98e;
+}
+
+.relic-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.relic-main-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 58px;
+    flex: 0 0 auto;
+}
+
+.relic-main-icon-sprite {
+    filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, .5));
+}
+
+.relic-title {
+    margin: 0 0 8px;
+    color: #f0c28d;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.relic-meta {
+    color: #f0c28d;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.relic-panel {
+    margin-bottom: 10px;
+    padding: 12px 14px;
+    background-color: #3a3327;
+    border-radius: 14px;
+    color: #f4ead9;
+    text-align: left;
+}
+
+.relic-panel h4 {
+    margin: 0 0 8px;
+    color: #f0c28d;
+    font-size: 15px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.effect-line {
+    margin: 4px 0;
+}
+
+.loading {
+    color: #888;
+}
+
+.artifact-grid {
+    min-height: 80px;
+}
+
+.artifact-grid.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(11, 52px);
+    justify-content: center;
+    gap: 6px;
+}
+
+.artifact-grid a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border: 0;
+    background: transparent;
+}
+
+.artifact-grid.icon-grid .sprite-icon-missing {
+    align-self: center;
+    justify-self: center;
+}
+
+.relic-book-title {
+    margin: 0 0 12px;
+    color: #f0c28d;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.relic-list-panel {
+    padding: 14px 18px;
+    background-color: #3a3327;
+    border-radius: 14px;
+    text-align: left;
+}
+
+.relic-list-panel.text-list {
+    display: block;
+    max-width: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.relic-list-table {
+    width: 100%;
+    table-layout: fixed;
+    color: #f4ead9;
+    font-size: 13px;
+}
+
+.relic-list-table th {
+    padding: 4px 8px 6px;
+    border-bottom: 2px solid rgba(244, 234, 217, .75);
+    color: #fff4d6;
+    font-weight: 700;
+}
+
+.relic-list-table td {
+    padding: 4px 8px;
+    border-bottom: 1px solid rgba(244, 234, 217, .45);
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.relic-list-table .id-column {
+    width: 44px;
+    text-align: right;
+}
+
+.relic-list-table .set-column {
+    width: 42%;
+    text-overflow: ellipsis;
+}
+
+.relic-list-table .name-column {
+    width: auto;
+    text-overflow: ellipsis;
+}
+
+.relic-list-table a {
+    color: #3fa0ff;
+}
+
+.view-mode-toggle {
+    display: inline-flex;
+    margin-bottom: 14px;
+    border: 1px solid #5b4b31;
+    border-radius: 8px;
+    background-color: #1e1815;
+    overflow: hidden;
+}
+
+.view-mode-btn {
+    padding: 5px 12px;
+    border: 0;
+    border-right: 1px solid #5b4b31;
+    background-color: #3a3327;
+    color: #f0c28d;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.view-mode-btn:first-child {
+    border-radius: 7px 0 0 7px;
+}
+
+.view-mode-btn:last-child {
+    border-right: 0;
+    border-radius: 0 7px 7px 0;
+}
+
+.view-mode-btn.active {
+    background-color: #7d5b12;
+    color: #fff4b4;
+}
+
+.view-mode-btn:hover,
+.view-mode-btn:focus {
+    background-color: #4a3d2b;
+    color: #ffd98e;
+}
+
+.grade-tabs {
+    margin: 10px 0 4px;
+}
+
+.grade-tabs.pagination > li > a {
+    margin: 2px;
+    border: 1px solid #5b4b31;
+    border-radius: 8px;
+    background-color: #3a3327;
+    color: #f0c28d;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.grade-tabs.pagination > li > a:hover,
+.grade-tabs.pagination > li > a:focus {
+    border-color: #d1a12a;
+    background-color: #4a3d2b;
+    color: #ffd98e;
+}
+
+.grade-tabs.pagination > .active > a,
+.grade-tabs.pagination > .active > a:hover,
+.grade-tabs.pagination > .active > a:focus {
+    border-color: #ffd24a;
+    background-color: #7d5b12;
+    color: #fff4b4;
+}
+
+@media (max-width: 640px) {
+    .artifact-grid.icon-grid {
+        grid-template-columns: repeat(auto-fill, 52px);
+    }
+
+    .relic-list-table {
+        font-size: 12px;
+    }
+
+    .relic-list-table .set-column {
+        max-width: 140px;
+    }
+
+    .relic-list-table .name-column {
+        max-width: 150px;
+    }
+}

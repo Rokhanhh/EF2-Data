@@ -1,0 +1,1565 @@
+{
+  "bookName": "PET_SKILL",
+  "data": [
+    {
+      "kindNum": 1,
+      "id": "questGold",
+      "name": "",
+      "sub": "",
+      "type": "SUPPORT",
+      "desc": "퀘스트 골드 획득 증가",
+      "merge": "multi",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 2,
+      "id": "GameSpeed",
+      "name": "",
+      "sub": "",
+      "type": "SUPPORT",
+      "desc": "게임 속도 증가",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 3,
+      "id": "MedalBuff",
+      "name": "",
+      "sub": "",
+      "type": "SUPPORT",
+      "desc": "훈장 버프 증가",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 5,
+      "id": "questDuration",
+      "name": "",
+      "sub": "",
+      "type": "SUPPORT",
+      "desc": "퀘스트 시간 단축",
+      "merge": "multi",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 6,
+      "id": "questOpenGold",
+      "name": "",
+      "sub": "",
+      "type": "SUPPORT",
+      "desc": "퀘스트 오픈 비용 감소",
+      "merge": "multi",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 7,
+      "id": "waveCall",
+      "name": "",
+      "sub": "",
+      "type": "SUPPORT",
+      "desc": "웨이브 콜 시간 단축",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 8,
+      "id": "core",
+      "name": "",
+      "sub": "",
+      "type": "SUPPORT",
+      "desc": "던전 재료 획득량 증가",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 9,
+      "id": "maxLv",
+      "name": "",
+      "sub": "",
+      "type": "SUPPORT",
+      "desc": "영웅 최대 레벨 증가",
+      "merge": "add",
+      "isPercent": "N"
+    },
+    {
+      "kindNum": 10,
+      "id": "plusLv",
+      "name": "",
+      "sub": "",
+      "type": "SUPPORT",
+      "desc": "영웅 레벨 증가",
+      "merge": "add",
+      "isPercent": "N"
+    },
+    {
+      "kindNum": 11,
+      "id": "QLCD",
+      "name": "",
+      "sub": "",
+      "type": "SUPPORT",
+      "desc": "퀘스트 레벨업 비용 감소",
+      "merge": "multi",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 12,
+      "id": "QMLU",
+      "name": "",
+      "sub": "",
+      "type": "SUPPORT",
+      "desc": "퀘스트 최대 레벨 증가",
+      "merge": "multi",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 13,
+      "id": "HUCD",
+      "name": "",
+      "sub": "",
+      "type": "SUPPORT",
+      "desc": "영웅 업그레이드 비용 감소",
+      "merge": "multi",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 14,
+      "id": "SPRITEHU_A",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 모든 병사의 체력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 15,
+      "id": "SPRITEAU_A",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 모든 병사의 공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 16,
+      "id": "SPRITEDU_A",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 모든 병사의 방어력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 17,
+      "id": "SPRITEASU_A",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 모든 병사의 공격속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 18,
+      "id": "SPRITEMSU_A",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 모든 병사의 이동속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 19,
+      "id": "SPRITECPU_A",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 모든 병사의 치명타확률을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 20,
+      "id": "SPRITECDU_A",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 모든 병사의 치명타공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 21,
+      "id": "SPRITEARU_A",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 모든 병사의 공격범위를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 22,
+      "id": "SPRITEHU_H",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 인간 병사의 체력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 23,
+      "id": "SPRITEAU_H",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 인간 병사의 공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 24,
+      "id": "SPRITEDU_H",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 인간 병사의 방어력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 25,
+      "id": "SPRITEASU_H",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 인간 병사의 공격속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 26,
+      "id": "SPRITEMSU_H",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 인간 병사의 이동속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 27,
+      "id": "SPRITECPU_H",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 인간 병사의 치명타확률을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 28,
+      "id": "SPRITECDU_H",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 인간 병사의 치명타공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 29,
+      "id": "SPRITEARU_H",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 인간 병사의 공격범위를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 30,
+      "id": "SPRITEHU_E",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 엘프 병사의 체력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 31,
+      "id": "SPRITEAU_E",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 엘프 병사의 공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 32,
+      "id": "SPRITEDU_E",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 엘프 병사의 방어력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 33,
+      "id": "SPRITEASU_E",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 엘프 병사의 공격속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 34,
+      "id": "SPRITEMSU_E",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 엘프 병사의 이동속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 35,
+      "id": "SPRITECPU_E",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 엘프 병사의 치명타확률을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 36,
+      "id": "SPRITECDU_E",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 엘프 병사의 치명타공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 37,
+      "id": "SPRITEARU_E",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 엘프 병사의 공격범위를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 38,
+      "id": "SPRITEHU_U",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 언데드 병사의 체력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 39,
+      "id": "SPRITEAU_U",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 언데드 병사의 공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 40,
+      "id": "SPRITEDU_U",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 언데드 병사의 방어력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 41,
+      "id": "SPRITEASU_U",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 언데드 병사의 공격속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 42,
+      "id": "SPRITEMSU_U",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 언데드 병사의 이동속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 43,
+      "id": "SPRITECPU_U",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 언데드 병사의 치명타확률을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 44,
+      "id": "SPRITECDU_U",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 언데드 병사의 치명타공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 45,
+      "id": "SPRITEARU_U",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 언데드 병사의 공격범위를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 46,
+      "id": "SPRITEHU_O",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 오크 병사의 체력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 47,
+      "id": "SPRITEAU_O",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 오크 병사의 공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 48,
+      "id": "SPRITEDU_O",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 오크 병사의 방어력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 49,
+      "id": "SPRITEASU_O",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 오크 병사의 공격속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 50,
+      "id": "SPRITEMSU_O",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 오크 병사의 이동속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 51,
+      "id": "SPRITECPU_O",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 오크 병사의 치명타확률을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 52,
+      "id": "SPRITECDU_O",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 오크 병사의 치명타공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 53,
+      "id": "SPRITEARU_O",
+      "name": "",
+      "sub": "",
+      "type": "SPRITE",
+      "desc": "정령의 고원에서 오크 병사의 공격범위를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 54,
+      "id": "DUNGEONHU_A",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 모든 병사의 체력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 55,
+      "id": "DUNGEONAU_A",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 모든 병사의 공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 56,
+      "id": "DUNGEONDU_A",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 모든 병사의 방어력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 57,
+      "id": "DUNGEONASU_A",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 모든 병사의 공격속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 58,
+      "id": "DUNGEONMSU_A",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 모든 병사의 이동속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 59,
+      "id": "DUNGEONCPU_A",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 모든 병사의 치명타확률을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 60,
+      "id": "DUNGEONCDU_A",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 모든 병사의 치명타공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 61,
+      "id": "DUNGEONARU_A",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 모든 병사의 공격범위를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 62,
+      "id": "DUNGEONHU_H",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 인간 병사의 체력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 63,
+      "id": "DUNGEONAU_H",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 인간 병사의 공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 64,
+      "id": "DUNGEONDU_H",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 인간 병사의 방어력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 65,
+      "id": "DUNGEONASU_H",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 인간 병사의 공격속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 66,
+      "id": "DUNGEONMSU_H",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 인간 병사의 이동속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 67,
+      "id": "DUNGEONCPU_H",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 인간 병사의 치명타확률을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 68,
+      "id": "DUNGEONCDU_H",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 인간 병사의 치명타공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 69,
+      "id": "DUNGEONARU_H",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 인간 병사의 공격범위를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 70,
+      "id": "DUNGEONHU_E",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 엘프 병사의 체력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 71,
+      "id": "DUNGEONAU_E",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 엘프 병사의 공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 72,
+      "id": "DUNGEONDU_E",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 엘프 병사의 방어력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 73,
+      "id": "DUNGEONASU_E",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 엘프 병사의 공격속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 74,
+      "id": "DUNGEONMSU_E",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 엘프 병사의 이동속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 75,
+      "id": "DUNGEONCPU_E",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 엘프 병사의 치명타확률을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 76,
+      "id": "DUNGEONCDU_E",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 엘프 병사의 치명타공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 77,
+      "id": "DUNGEONARU_E",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 엘프 병사의 공격범위를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 78,
+      "id": "DUNGEONHU_U",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 언데드 병사의 체력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 79,
+      "id": "DUNGEONAU_U",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 언데드 병사의 공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 80,
+      "id": "DUNGEONDU_U",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 언데드 병사의 방어력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 81,
+      "id": "DUNGEONASU_U",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 언데드 병사의 공격속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 82,
+      "id": "DUNGEONMSU_U",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 언데드 병사의 이동속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 83,
+      "id": "DUNGEONCPU_U",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 언데드 병사의 치명타확률을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 84,
+      "id": "DUNGEONCDU_U",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 언데드 병사의 치명타공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 85,
+      "id": "DUNGEONARU_U",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 언데드 병사의 공격범위를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 86,
+      "id": "DUNGEONHU_O",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 오크 병사의 체력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 87,
+      "id": "DUNGEONAU_O",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 오크 병사의 공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 88,
+      "id": "DUNGEONDU_O",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 오크 병사의 방어력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 89,
+      "id": "DUNGEONASU_O",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 오크 병사의 공격속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 90,
+      "id": "DUNGEONMSU_O",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 오크 병사의 이동속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 91,
+      "id": "DUNGEONCPU_O",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 오크 병사의 치명타확률을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 92,
+      "id": "DUNGEONCDU_O",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 오크 병사의 치명타공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 93,
+      "id": "DUNGEONARU_O",
+      "name": "",
+      "sub": "",
+      "type": "DUNGEON",
+      "desc": "던전에서 오크 병사의 공격범위를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 94,
+      "id": "GUILDPVPHU_A",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 모든 병사의 체력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 95,
+      "id": "GUILDPVPAU_A",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 모든 병사의 공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 96,
+      "id": "GUILDPVPDU_A",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 모든 병사의 방어력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 97,
+      "id": "GUILDPVPASU_A",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 모든 병사의 공격속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 98,
+      "id": "GUILDPVPMSU_A",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 모든 병사의 이동속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 99,
+      "id": "GUILDPVPCPU_A",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 모든 병사의 치명타확률을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 100,
+      "id": "GUILDPVPCDU_A",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 모든 병사의 치명타공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 101,
+      "id": "GUILDPVPARU_A",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 모든 병사의 공격범위를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 102,
+      "id": "GUILDPVPHU_H",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 인간 병사의 체력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 103,
+      "id": "GUILDPVPAU_H",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 인간 병사의 공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 104,
+      "id": "GUILDPVPDU_H",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 인간 병사의 방어력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 105,
+      "id": "GUILDPVPASU_H",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 인간 병사의 공격속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 106,
+      "id": "GUILDPVPMSU_H",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 인간 병사의 이동속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 107,
+      "id": "GUILDPVPCPU_H",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 인간 병사의 치명타확률을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 108,
+      "id": "GUILDPVPCDU_H",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 인간 병사의 치명타공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 109,
+      "id": "GUILDPVPARU_H",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 인간 병사의 공격범위를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 110,
+      "id": "GUILDPVPHU_E",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 엘프 병사의 체력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 111,
+      "id": "GUILDPVPAU_E",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 엘프 병사의 공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 112,
+      "id": "GUILDPVPDU_E",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 엘프 병사의 방어력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 113,
+      "id": "GUILDPVPASU_E",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 엘프 병사의 공격속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 114,
+      "id": "GUILDPVPMSU_E",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 엘프 병사의 이동속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 115,
+      "id": "GUILDPVPCPU_E",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 엘프 병사의 치명타확률을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 116,
+      "id": "GUILDPVPCDU_E",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 엘프 병사의 치명타공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 117,
+      "id": "GUILDPVPARU_E",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 엘프 병사의 공격범위를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 118,
+      "id": "GUILDPVPHU_U",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 언데드 병사의 체력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 119,
+      "id": "GUILDPVPAU_U",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 언데드 병사의 공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 120,
+      "id": "GUILDPVPDU_U",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 언데드 병사의 방어력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 121,
+      "id": "GUILDPVPASU_U",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 언데드 병사의 공격속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 122,
+      "id": "GUILDPVPMSU_U",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 언데드 병사의 이동속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 123,
+      "id": "GUILDPVPCPU_U",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 언데드 병사의 치명타확률을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 124,
+      "id": "GUILDPVPCDU_U",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 언데드 병사의 치명타공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 125,
+      "id": "GUILDPVPARU_U",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 언데드 병사의 공격범위를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 126,
+      "id": "GUILDPVPHU_O",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 오크 병사의 체력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 127,
+      "id": "GUILDPVPAU_O",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 오크 병사의 공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 128,
+      "id": "GUILDPVPDU_O",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 오크 병사의 방어력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 129,
+      "id": "GUILDPVPASU_O",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 오크 병사의 공격속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 130,
+      "id": "GUILDPVPMSU_O",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 오크 병사의 이동속도를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 131,
+      "id": "GUILDPVPCPU_O",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 오크 병사의 치명타확률을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 132,
+      "id": "GUILDPVPCDU_O",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 오크 병사의 치명타공격력을 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 133,
+      "id": "GUILDPVPARU_O",
+      "name": "",
+      "sub": "",
+      "type": "GUILDPVP",
+      "desc": "길드전에서 오크 병사의 공격범위를 증가시킴",
+      "merge": "add",
+      "isPercent": "Y"
+    },
+    {
+      "kindNum": 10001,
+      "id": "master_71",
+      "name": "",
+      "sub": "",
+      "type": "Golem_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10002,
+      "id": "master_74",
+      "name": "",
+      "sub": "",
+      "type": "Ant_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10003,
+      "id": "master_72",
+      "name": "",
+      "sub": "",
+      "type": "DeathHand_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10004,
+      "id": "master_70",
+      "name": "",
+      "sub": "",
+      "type": "OrcBigFoot_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10005,
+      "id": "master_54",
+      "name": "",
+      "sub": "",
+      "type": "Fairy_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10006,
+      "id": "master_77",
+      "name": "",
+      "sub": "",
+      "type": "Bomber_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10007,
+      "id": "master_76",
+      "name": "",
+      "sub": "",
+      "type": "OrcBlizzardMage_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10008,
+      "id": "master_75",
+      "name": "",
+      "sub": "",
+      "type": "GreatMage_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10009,
+      "id": "master_73",
+      "name": "",
+      "sub": "",
+      "type": "WolfWarrior_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10010,
+      "id": "master_60",
+      "name": "",
+      "sub": "",
+      "type": "DeathKnight_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10011,
+      "id": "master_50",
+      "name": "",
+      "sub": "",
+      "type": "OrcWolfRider_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10012,
+      "id": "master_52",
+      "name": "",
+      "sub": "",
+      "type": "Unicorn_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10013,
+      "id": "master_56",
+      "name": "",
+      "sub": "",
+      "type": "Priest_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10014,
+      "id": "master_58",
+      "name": "",
+      "sub": "",
+      "type": "DarkArcher_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10015,
+      "id": "master_78",
+      "name": "",
+      "sub": "",
+      "type": "BigDrumer_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10016,
+      "id": "master_80",
+      "name": "",
+      "sub": "",
+      "type": "Pilot_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10017,
+      "id": "master_88",
+      "name": "",
+      "sub": "",
+      "type": "DarkNinja_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10018,
+      "id": "master_84",
+      "name": "",
+      "sub": "",
+      "type": "TigerRider_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10019,
+      "id": "master_85",
+      "name": "",
+      "sub": "",
+      "type": "SteamPunk_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10020,
+      "id": "master_86",
+      "name": "",
+      "sub": "",
+      "type": "OrcRapterRider_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10023,
+      "id": "master_93",
+      "name": "",
+      "sub": "",
+      "type": "WingKnight_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10024,
+      "id": "master_94",
+      "name": "",
+      "sub": "",
+      "type": "Sylphid_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10025,
+      "id": "master_95",
+      "name": "",
+      "sub": "",
+      "type": "Abyss_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    },
+    {
+      "kindNum": 10026,
+      "id": "master_96",
+      "name": "",
+      "sub": "",
+      "type": "WyvernRider_master",
+      "desc": "+ 체력이 30%이하일 경우, 빙결, 감전 스킬에 면역이 된다. \n+ 모든 병사의 체력과 방어력을 10% 증가시킨다.",
+      "merge": "add",
+      "isPercent": ""
+    }
+  ]
+}

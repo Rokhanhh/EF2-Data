@@ -1,0 +1,36 @@
+#petListView .unit-details,
+#petDetailView .unit-details {
+    background-color: #1e1815;
+    color: #f2dfc0;
+    padding: 0;
+}
+
+.pet-grid.icon-grid {
+    grid-template-columns: repeat(9, 68px);
+    gap: 8px;
+}
+
+.pet-grid a {
+    width: 68px;
+    height: 68px;
+}
+
+.pet-master-skill {
+    margin-top: 8px;
+    line-height: 1.5;
+}
+
+#petSkills .effect-line,
+#petSkills .pet-master-skill {
+    margin-bottom: 8px;
+}
+
+.pet-skill-label {
+    color: #f0c28d;
+}
+
+@media (max-width: 720px) {
+    .pet-grid.icon-grid {
+        grid-template-columns: repeat(4, 68px);
+    }
+}

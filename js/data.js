@@ -26,6 +26,29 @@ export async function loadRelicData() {
     };
 }
 
+export async function loadPetData() {
+    const [petBook, petSkillBook, locale, assetAtlases] = await Promise.all([
+        loadJson(DATA_PATHS.pets),
+        loadJson(DATA_PATHS.petSkills),
+        loadJson(DATA_PATHS.locale),
+        loadAssetAtlases(),
+    ]);
+
+    const pets = toArrayBook(petBook)
+        .map(normalizePet)
+        .sort((a, b) => a.kindNum - b.kindNum);
+    const petSkills = toArrayBook(petSkillBook).map(normalizePetSkill);
+
+    return {
+        pets,
+        petMap: new Map(pets.map((pet) => [pet.kindNum, pet])),
+        petSkills,
+        petSkillMap: new Map(petSkills.map((skill) => [skill.kindNum, skill])),
+        locale: locale || {},
+        assetAtlases,
+    };
+}
+
 function toArrayBook(book) {
     if (Array.isArray(book)) return book;
     if (Array.isArray(book.data)) return book.data;
@@ -74,6 +97,32 @@ function normalizeSet(row) {
         valueList2: parseNestedNumberList(row.valueList2),
         valueList3: parseNestedNumberList(row.valueList3),
         descList: parseNestedList(row.desc || row.descList || ""),
+    };
+}
+
+function normalizePet(row) {
+    return {
+        ...row,
+        kindNum: Number(row.kindNum),
+        tribe: Number(row.tribe || 0),
+        rank: Number(row.rank || 0),
+        skill1: Number(row.skill1 || 0),
+        skill2: Number(row.skill2 || 0),
+        masterSkill: Number(row.masterSkill || 0),
+        couple: Number(row.couple || 0),
+        treasureKindNum: Number(row.treasureKindNum || 0),
+        value1: parseNumberList(row.value1, "|"),
+        value2: parseNumberList(row.value2, "|"),
+        value3: parseNumberList(row.value3, "|"),
+        incGoldLevel: parseNumberList(row.incGoldLevel, "|"),
+    };
+}
+
+function normalizePetSkill(row) {
+    return {
+        ...row,
+        kindNum: Number(row.kindNum),
+        isPercent: row.isPercent === "Y",
     };
 }
 

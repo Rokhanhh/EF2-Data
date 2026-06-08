@@ -1,5 +1,6 @@
 import { loadAssetAtlases, renderAtlasIconById } from "./asset-atlas.js";
 import { defaultNavLinks, renderFooter, renderNavbar } from "./layout.js";
+import { initPetsView, renderPetsRoute } from "./pets-view.js";
 import { initRelicsView, renderRelicsRoute } from "./relics-view.js";
 
 (function () {
@@ -24,7 +25,7 @@ import { initRelicsView, renderRelicsRoute } from "./relics-view.js";
             return true;
         }
 
-        if (route !== "relics") {
+        if (route !== "relics" && route !== "pets") {
             history.replaceState(null, "", `${window.location.pathname}${window.location.search}`);
             return false;
         }
@@ -36,6 +37,8 @@ import { initRelicsView, renderRelicsRoute } from "./relics-view.js";
         document.getElementById("homeView").classList.remove("view-hidden");
         document.getElementById("listView").classList.add("view-hidden");
         document.getElementById("detailView").classList.add("view-hidden");
+        document.getElementById("petListView").classList.add("view-hidden");
+        document.getElementById("petDetailView").classList.add("view-hidden");
         renderNavbar({
             links: defaultNavLinks("Home"),
         });
@@ -53,8 +56,19 @@ import { initRelicsView, renderRelicsRoute } from "./relics-view.js";
 
         if (route === "relics") {
             document.getElementById("homeView").classList.add("view-hidden");
+            document.getElementById("petListView").classList.add("view-hidden");
+            document.getElementById("petDetailView").classList.add("view-hidden");
             await initRelicsView();
             renderRelicsRoute();
+            return;
+        }
+
+        if (route === "pets") {
+            document.getElementById("homeView").classList.add("view-hidden");
+            document.getElementById("listView").classList.add("view-hidden");
+            document.getElementById("detailView").classList.add("view-hidden");
+            await initPetsView();
+            renderPetsRoute();
             return;
         }
 
