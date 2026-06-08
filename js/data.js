@@ -8,7 +8,7 @@ export async function loadRelicData() {
         loadJson(DATA_PATHS.sets),
         loadJson(DATA_PATHS.limitBreak),
         loadJson(DATA_PATHS.locale),
-        loadAssetAtlases(),
+        loadAssetAtlases(undefined, ["ui", "relics"]),
     ]);
 
     const treasures = toArrayBook(treasureBook)
@@ -31,7 +31,7 @@ export async function loadPetData() {
         loadJson(DATA_PATHS.pets),
         loadJson(DATA_PATHS.petSkills),
         loadJson(DATA_PATHS.locale),
-        loadAssetAtlases(),
+        loadAssetAtlases(undefined, ["pets"]),
     ]);
 
     const pets = toArrayBook(petBook)

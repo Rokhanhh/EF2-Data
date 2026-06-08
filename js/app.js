@@ -79,7 +79,7 @@ import { initRelicsView, renderRelicsRoute } from "./relics-view.js";
         const target = document.getElementById("homeRelicShowcase");
         if (!target) return;
 
-        const atlases = await loadAssetAtlases();
+        const atlases = await loadAssetAtlases(undefined, ["relics", "units", "pets"]);
         const relicAtlas = atlases.relics;
         const petAtlas = atlases.pets;
         const unitAtlas = atlases.units;

@@ -230,7 +230,8 @@ function renderPetSkills(pet) {
 
 function renderSkillLine(label, skillId, values) {
     if (!skillId) return "";
-    return `<div class="effect-line"><strong class="pet-skill-label">${escapeHtml(label)}:</strong> ${escapeHtml(getSkillText(skillId))} (${formatValues(values, { percent: true })})</div>`;
+    const skill = state.petSkillMap.get(Number(skillId));
+    return `<div class="effect-line"><strong class="pet-skill-label">${escapeHtml(label)}:</strong> ${escapeHtml(getSkillText(skillId))} (${formatValues(values, { percent: Boolean(skill && skill.isPercent) })})</div>`;
 }
 
 function renderPetIcon(kindNum, options = {}) {
@@ -258,11 +259,18 @@ function formatType(type) {
 
 function formatValues(values, options = {}) {
     const suffix = options.percent ? "%" : "";
-    return values.map((value) => `${formatNumber(value)}${suffix}`).join(", ");
+    return values.map((value) => `${formatPetValue(value)}${suffix}`).join(", ");
 }
 
 function hasNonZeroValue(values) {
     return values.some((value) => Number(value) !== 0);
+}
+
+function formatPetValue(value) {
+    const number = Number(value);
+    if (!Number.isFinite(number)) return String(value);
+    if (Math.abs(number) >= 10000) return formatNumber(number);
+    return Number.isInteger(number) ? String(number) : String(number);
 }
 
 function formatMultiline(value) {

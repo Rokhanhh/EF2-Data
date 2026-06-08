@@ -1,38 +1,57 @@
 import { escapeHtml } from "./utils.js";
 
-let atlasCache;
+let atlasConfigCache;
+const sourceCache = new Map();
+const setCache = {};
 
-export async function loadAssetAtlases(path = "data/asset_atlases.json") {
-    if (atlasCache) return atlasCache;
+export async function loadAssetAtlases(path = "data/asset_atlases.json", requestedSets) {
+    const config = await loadAtlasConfig(path);
+    const setNames = requestedSets || Object.keys(config.sets || {});
+    const missingSetNames = setNames.filter((key) => !setCache[key]);
+
+    await Promise.all(missingSetNames.map(async (key) => {
+        const setConfig = config.sets && config.sets[key];
+        if (!setConfig) return;
+
+        const source = await loadAtlasSource(config.sources && config.sources[setConfig.source]);
+        if (!source) return;
+
+        setCache[key] = {
+            ...source,
+            ...setConfig,
+        };
+    }));
+
+    return setCache;
+}
+
+async function loadAtlasConfig(path) {
+    if (atlasConfigCache) return atlasConfigCache;
 
     const response = await fetch(path);
-    if (!response.ok) return {};
+    if (!response.ok) return { sources: {}, sets: {} };
 
-    const config = await response.json();
-    const sources = config.sources || {};
-    const sourceEntries = await Promise.all(Object.entries(sources).map(async ([key, sourceConfig]) => {
-        const atlasResponse = await fetch(sourceConfig.json);
-        if (!atlasResponse.ok) return [key, null];
+    atlasConfigCache = await response.json();
+    return atlasConfigCache;
+}
+
+async function loadAtlasSource(sourceConfig) {
+    if (!sourceConfig) return null;
+    if (sourceCache.has(sourceConfig.json)) return sourceCache.get(sourceConfig.json);
+
+    const sourcePromise = fetch(sourceConfig.json).then(async (atlasResponse) => {
+        if (!atlasResponse.ok) return null;
 
         const atlas = await atlasResponse.json();
-        return [key, {
+        return {
             ...sourceConfig,
             image: sourceConfig.image || imagePathFromJson(sourceConfig.json, atlas.meta && atlas.meta.image),
             frames: atlas.frames || {},
             size: atlas.meta && atlas.meta.size ? atlas.meta.size : null,
-        }];
-    }));
-    const loadedSources = Object.fromEntries(sourceEntries.filter(([, atlas]) => atlas));
-
-    atlasCache = Object.fromEntries(Object.entries(config.sets || {}).flatMap(([key, setConfig]) => {
-        const source = loadedSources[setConfig.source];
-        if (!source) return [];
-        return [[key, {
-            ...source,
-            ...setConfig,
-        }]];
-    }));
-    return atlasCache;
+        };
+    });
+    sourceCache.set(sourceConfig.json, sourcePromise);
+    return sourcePromise;
 }
 
 export function renderAtlasIcon(atlas, frameName, options = {}) {
