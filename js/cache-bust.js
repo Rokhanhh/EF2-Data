@@ -1,4 +1,4 @@
-export const BUILD_VERSION = "2026-07-01-1";
+export const BUILD_VERSION = "bd6461bee5ce";
 
 export function versionedUrl(path) {
     if (!path) return path;
