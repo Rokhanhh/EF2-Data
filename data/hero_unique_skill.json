@@ -1,0 +1,527 @@
+[
+  {
+    "kindNum": 1,
+    "name": "골드 헌터",
+    "code": "MonsterGold",
+    "value": 10,
+    "desc": "웨이브에서 적을 처치하면 얻는 골드가 10% 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 2,
+    "name": "골드 헌터",
+    "code": "MonsterGold",
+    "value": 20,
+    "desc": "웨이브에서 적을 처치하면 얻는 골드가 20% 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 3,
+    "name": "골드 헌터",
+    "code": "MonsterGold",
+    "value": 30,
+    "desc": "웨이브에서 적을 처치하면 얻는 골드가 30% 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 4,
+    "name": "골드 헌터",
+    "code": "MonsterGold",
+    "value": 40,
+    "desc": "웨이브에서 적을 처치하면 얻는 골드가 40% 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 5,
+    "name": "골드 헌터",
+    "code": "MonsterGold",
+    "value": 50,
+    "desc": "웨이브에서 적을 처치하면 얻는 골드가 50% 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 6,
+    "name": "시작 환생층 증가",
+    "code": "StartWave",
+    "value": 1,
+    "desc": "환생시, 현재 웨이브의 1%에 해당하는 웨이브에서 환생한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 7,
+    "name": "시작 환생층 증가",
+    "code": "StartWave",
+    "value": 2,
+    "desc": "환생시, 현재 웨이브의 2%에 해당하는 웨이브에서 환생한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 8,
+    "name": "시작 환생층 증가",
+    "code": "StartWave",
+    "value": 5,
+    "desc": "환생시, 현재 웨이브의 5%에 해당하는 웨이브에서 환생한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 9,
+    "name": "엘프의 비술",
+    "code": "StageSkip",
+    "value": 1,
+    "desc": "엘프의 비술 발동확률이 1% 증가한다. ( 누적적용됨 )"
+  },
+  {
+    "kindNum": 10,
+    "name": "엘프의 비술",
+    "code": "StageSkip",
+    "value": 2,
+    "desc": "엘프의 비술 발동확률이 2% 증가한다. ( 누적적용됨 )"
+  },
+  {
+    "kindNum": 11,
+    "name": "엘프의 비술",
+    "code": "StageSkip",
+    "value": 5,
+    "desc": "엘프의 비술 발동확률이 5% 증가한다. ( 누적적용됨 )"
+  },
+  {
+    "kindNum": 12,
+    "name": "신의 축복",
+    "code": "GodBless",
+    "value": 1,
+    "desc": "1%의 확률로 10웨이브 마다 2분간 3배속 버프 발동 ( 누적적용됨 )"
+  },
+  {
+    "kindNum": 13,
+    "name": "신의 축복",
+    "code": "GodBless",
+    "value": 2,
+    "desc": "2%의 확률로 10웨이브 마다 2분간 3배속 버프 발동 ( 누적적용됨 )"
+  },
+  {
+    "kindNum": 14,
+    "name": "신의 축복",
+    "code": "GodBless",
+    "value": 5,
+    "desc": "5%의 확률로 10웨이브 마다 2분간 3배속 버프 발동 ( 누적적용됨 )"
+  },
+  {
+    "kindNum": 15,
+    "name": "환생훈장 증가",
+    "code": "MedalBuff",
+    "value": 1,
+    "desc": "환생시 획득하는 훈장이 1% 증가한다."
+  },
+  {
+    "kindNum": 16,
+    "name": "환생훈장 증가",
+    "code": "MedalBuff",
+    "value": 3,
+    "desc": "환생시 획득하는 훈장이 3% 증가한다."
+  },
+  {
+    "kindNum": 17,
+    "name": "환생훈장 증가",
+    "code": "MedalBuff",
+    "value": 5,
+    "desc": "환생시 획득하는 훈장이 5% 증가한다."
+  },
+  {
+    "kindNum": 18,
+    "name": "환생훈장 증가",
+    "code": "MedalBuff",
+    "value": 10,
+    "desc": "환생시 획득하는 훈장이 10% 증가한다."
+  },
+  {
+    "kindNum": 19,
+    "name": "오프라인 속도 증가",
+    "code": "OfflineSpeed",
+    "value": 3,
+    "desc": "오프라인에서 웨이브 클리어 속도를 3% 증가시켜준다."
+  },
+  {
+    "kindNum": 20,
+    "name": "오프라인 속도 증가",
+    "code": "OfflineSpeed",
+    "value": 6,
+    "desc": "오프라인에서 웨이브 클리어 속도를 6% 증가시켜준다."
+  },
+  {
+    "kindNum": 21,
+    "name": "오프라인 속도 증가",
+    "code": "OfflineSpeed",
+    "value": 9,
+    "desc": "오프라인에서 웨이브 클리어 속도를 9% 증가시켜준다."
+  },
+  {
+    "kindNum": 22,
+    "name": "오프라인 속도 증가",
+    "code": "OfflineSpeed",
+    "value": 12,
+    "desc": "오프라인에서 웨이브 클리어 속도를 12% 증가시켜준다."
+  },
+  {
+    "kindNum": 23,
+    "name": "오프라인 속도 증가",
+    "code": "OfflineSpeed",
+    "value": 15,
+    "desc": "오프라인에서 웨이브 클리어 속도를 15% 증가시켜준다."
+  },
+  {
+    "kindNum": 24,
+    "name": "골드 헌터2",
+    "code": "WaveClearGold",
+    "value": 10,
+    "desc": "웨이브 클리어시 획득하는 골드가 10% 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 25,
+    "name": "골드 헌터2",
+    "code": "WaveClearGold",
+    "value": 20,
+    "desc": "웨이브 클리어시 획득하는 골드가 20% 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 26,
+    "name": "골드 헌터2",
+    "code": "WaveClearGold",
+    "value": 30,
+    "desc": "웨이브 클리어시 획득하는 골드가 30% 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 27,
+    "name": "골드 헌터2",
+    "code": "WaveClearGold",
+    "value": 40,
+    "desc": "웨이브 클리어시 획득하는 골드가 40% 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 28,
+    "name": "골드 헌터2",
+    "code": "WaveClearGold",
+    "value": 50,
+    "desc": "웨이브 클리어시 획득하는 골드가 50% 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 29,
+    "name": "게임속도 증가",
+    "code": "GameSpeed",
+    "value": 1,
+    "desc": "게임 기본 속도가 1% 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 30,
+    "name": "게임속도 증가",
+    "code": "GameSpeed",
+    "value": 2,
+    "desc": "게임 기본 속도가 2% 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 31,
+    "name": "게임속도 증가",
+    "code": "GameSpeed",
+    "value": 3,
+    "desc": "게임 기본 속도가 3% 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 32,
+    "name": "게임속도 증가",
+    "code": "GameSpeed",
+    "value": 4,
+    "desc": "게임 기본 속도가 4% 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 33,
+    "name": "게임속도 증가",
+    "code": "GameSpeed",
+    "value": 5,
+    "desc": "게임 기본 속도가 5% 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 34,
+    "name": "웨이브 호출",
+    "code": "waveCall",
+    "value": 1,
+    "desc": "다음 웨이브 호출에 필요한 분노 게이지가 1% 빠르게 충전된다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 35,
+    "name": "웨이브 호출",
+    "code": "waveCall",
+    "value": 2,
+    "desc": "다음 웨이브 호출에 필요한 분노 게이지가 2% 빠르게 충전된다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 36,
+    "name": "웨이브 호출",
+    "code": "waveCall",
+    "value": 3,
+    "desc": "다음 웨이브 호출에 필요한 분노 게이지가 3% 빠르게 충전된다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 37,
+    "name": "웨이브 호출",
+    "code": "waveCall",
+    "value": 4,
+    "desc": "다음 웨이브 호출에 필요한 분노 게이지가 4% 빠르게 충전된다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 38,
+    "name": "웨이브 호출",
+    "code": "waveCall",
+    "value": 5,
+    "desc": "다음 웨이브 호출에 필요한 분노 게이지가 5% 빠르게 충전된다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 39,
+    "name": "최대 레벨 증가",
+    "code": "maxLv",
+    "value": 2,
+    "desc": "병사의 최대 레벨 제한이 2 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 40,
+    "name": "최대 레벨 증가",
+    "code": "maxLv",
+    "value": 4,
+    "desc": "병사의 최대 레벨 제한이 4 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 41,
+    "name": "최대 레벨 증가",
+    "code": "maxLv",
+    "value": 7,
+    "desc": "병사의 최대 레벨 제한이 7 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 42,
+    "name": "최대 레벨 증가",
+    "code": "maxLv",
+    "value": 10,
+    "desc": "병사의 최대 레벨 제한이 10 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 43,
+    "name": "최대 레벨 증가",
+    "code": "maxLv",
+    "value": 20,
+    "desc": "병사의 최대 레벨 제한이 20 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 44,
+    "name": "추가 레벨",
+    "code": "plusLv",
+    "value": 1,
+    "desc": "모든 병사의 현재 레벨이 1 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 45,
+    "name": "추가 레벨",
+    "code": "plusLv",
+    "value": 2,
+    "desc": "모든 병사의 현재 레벨이 2 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 46,
+    "name": "추가 레벨",
+    "code": "plusLv",
+    "value": 3,
+    "desc": "모든 병사의 현재 레벨이 3 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 47,
+    "name": "추가 레벨",
+    "code": "plusLv",
+    "value": 5,
+    "desc": "모든 병사의 현재 레벨이 5 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 48,
+    "name": "추가 레벨",
+    "code": "plusLv",
+    "value": 10,
+    "desc": "모든 병사의 현재 레벨이 10 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 49,
+    "name": "퀘스트 골드 증가",
+    "code": "questGold",
+    "value": 2,
+    "desc": "퀘스트를 통해 획득하는 골드가 2% 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 50,
+    "name": "퀘스트 골드 증가",
+    "code": "questGold",
+    "value": 4,
+    "desc": "퀘스트를 통해 획득하는 골드가 4% 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 51,
+    "name": "퀘스트 골드 증가",
+    "code": "questGold",
+    "value": 6,
+    "desc": "퀘스트를 통해 획득하는 골드가 6% 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 52,
+    "name": "퀘스트 골드 증가",
+    "code": "questGold",
+    "value": 10,
+    "desc": "퀘스트를 통해 획득하는 골드가 10% 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 53,
+    "name": "퀘스트 골드 증가",
+    "code": "questGold",
+    "value": 20,
+    "desc": "퀘스트를 통해 획득하는 골드가 20% 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 54,
+    "name": "던전 재료 증가",
+    "code": "core",
+    "value": 2,
+    "desc": "던전에서 획득하는 재료 보상이 2% 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 55,
+    "name": "던전 재료 증가",
+    "code": "core",
+    "value": 4,
+    "desc": "던전에서 획득하는 재료 보상이 4% 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 56,
+    "name": "던전 재료 증가",
+    "code": "core",
+    "value": 6,
+    "desc": "던전에서 획득하는 재료 보상이 6% 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 57,
+    "name": "던전 재료 증가",
+    "code": "core",
+    "value": 10,
+    "desc": "던전에서 획득하는 재료 보상이 10% 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 58,
+    "name": "던전 재료 증가",
+    "code": "core",
+    "value": 20,
+    "desc": "던전에서 획득하는 재료 보상이 20% 증가한다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 59,
+    "name": "게임속도 증가",
+    "code": "GameSpeed",
+    "value": 7,
+    "desc": "게임 기본 속도가 7% 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 60,
+    "name": "웨이브 호출",
+    "code": "waveCall",
+    "value": 7,
+    "desc": "다음 웨이브 호출에 필요한 분노 게이지가 7% 빠르게 충전된다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 61,
+    "name": "더블 웨이브",
+    "code": "doubleWave",
+    "value": 1,
+    "desc": "웨이브 호출시 1% 확률로 2개 웨이브가 호출된다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 62,
+    "name": "더블 웨이브",
+    "code": "doubleWave",
+    "value": 2,
+    "desc": "웨이브 호출시 2% 확률로 2개 웨이브가 호출된다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 63,
+    "name": "더블 웨이브",
+    "code": "doubleWave",
+    "value": 3,
+    "desc": "웨이브 호출시 3% 확률로 2개 웨이브가 호출된다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 64,
+    "name": "더블 웨이브",
+    "code": "doubleWave",
+    "value": 4,
+    "desc": "웨이브 호출시 4% 확률로 2개 웨이브가 호출된다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 65,
+    "name": "더블 웨이브",
+    "code": "doubleWave",
+    "value": 5,
+    "desc": "웨이브 호출시 5% 확률로 2개 웨이브가 호출된다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 66,
+    "name": "성 레벨업",
+    "code": "castleLevelUp",
+    "value": 3,
+    "desc": "성 레벨이 3 만큼 증가한다 (누적 적용됨)"
+  },
+  {
+    "kindNum": 67,
+    "name": "성 레벨업",
+    "code": "castleLevelUp",
+    "value": 5,
+    "desc": "성 레벨이 5 만큼 증가한다 (누적 적용됨)"
+  },
+  {
+    "kindNum": 68,
+    "name": "성 레벨업",
+    "code": "castleLevelUp",
+    "value": 10,
+    "desc": "성 레벨이 10 만큼 증가한다 (누적 적용됨)"
+  },
+  {
+    "kindNum": 69,
+    "name": "성 레벨업",
+    "code": "castleLevelUp",
+    "value": 20,
+    "desc": "성 레벨이 20 만큼 증가한다 (누적 적용됨)"
+  },
+  {
+    "kindNum": 70,
+    "name": "성 레벨업",
+    "code": "castleLevelUp",
+    "value": 30,
+    "desc": "성 레벨이 30 만큼 증가한다 (누적 적용됨)"
+  },
+  {
+    "kindNum": 71,
+    "name": "오프라인 최대층",
+    "code": "offlineMax",
+    "value": 0.5,
+    "desc": "오프라인으로 진행할 수 있는 최대 웨이브가 0.5% 증가한다."
+  },
+  {
+    "kindNum": 72,
+    "name": "오프라인 최대층",
+    "code": "offlineMax",
+    "value": 1,
+    "desc": "오프라인으로 진행할 수 있는 최대 웨이브가 1% 증가한다."
+  },
+  {
+    "kindNum": 73,
+    "name": "오프라인 최대층",
+    "code": "offlineMax",
+    "value": 2,
+    "desc": "오프라인으로 진행할 수 있는 최대 웨이브가 2% 증가한다."
+  },
+  {
+    "kindNum": 74,
+    "name": "오프라인 최대층",
+    "code": "offlineMax",
+    "value": 3,
+    "desc": "오프라인으로 진행할 수 있는 최대 웨이브가 3% 증가한다."
+  },
+  {
+    "kindNum": 75,
+    "name": "오프라인 최대층",
+    "code": "offlineMax",
+    "value": 4,
+    "desc": "오프라인으로 진행할 수 있는 최대 웨이브가 4% 증가한다."
+  }
+]

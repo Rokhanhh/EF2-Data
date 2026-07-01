@@ -1,0 +1,327 @@
+[
+  {
+    "id": 1,
+    "skillCode": "S_AU",
+    "desc": "자신의 공격력 증가"
+  },
+  {
+    "id": 2,
+    "skillCode": "S_HU",
+    "desc": "자신의 체력 증가"
+  },
+  {
+    "id": 3,
+    "skillCode": "S_DU",
+    "desc": "자신의 방어력 증가"
+  },
+  {
+    "id": 4,
+    "skillCode": "S_ASU",
+    "desc": "자신의 공격속도 증가"
+  },
+  {
+    "id": 5,
+    "skillCode": "S_MSU",
+    "desc": "자신의 이동속도 증가"
+  },
+  {
+    "id": 6,
+    "skillCode": "S_RTD",
+    "desc": "자신의 부활 시간 단축"
+  },
+  {
+    "id": 7,
+    "skillCode": "S_ARU",
+    "desc": "자신의 공격거리 증가"
+  },
+  {
+    "id": 8,
+    "skillCode": "S_CPU",
+    "desc": "자신의 치명타 확률 증가"
+  },
+  {
+    "id": 9,
+    "skillCode": "S_CDU",
+    "desc": "자신의 치명타 데미지 증가"
+  },
+  {
+    "id": 10,
+    "skillCode": "T_AU",
+    "desc": "자기종족 병사의 공격력 증가"
+  },
+  {
+    "id": 11,
+    "skillCode": "T_HU",
+    "desc": "자기종족 병사의 체력 증가"
+  },
+  {
+    "id": 12,
+    "skillCode": "T_DU",
+    "desc": "자기종족 병사의 방어력 증가"
+  },
+  {
+    "id": 13,
+    "skillCode": "T_ASU",
+    "desc": "자기종족 병사의 공격속도 증가"
+  },
+  {
+    "id": 14,
+    "skillCode": "T_MSU",
+    "desc": "자기종족 병사의 이동속도 증가"
+  },
+  {
+    "id": 15,
+    "skillCode": "T_RTD",
+    "desc": "자기종족 병사의 부활 시간 단축"
+  },
+  {
+    "id": 16,
+    "skillCode": "T_ARU",
+    "desc": "자기종족 병사의 공격거리 증가"
+  },
+  {
+    "id": 17,
+    "skillCode": "T_CPU",
+    "desc": "자기종족 병사의 치명타 확률 증가"
+  },
+  {
+    "id": 18,
+    "skillCode": "T_CDU",
+    "desc": "자기종족 병사의 치명타 데미지 증가"
+  },
+  {
+    "id": 19,
+    "skillCode": "R_AU",
+    "desc": "원거리 병사의 공격력 증가"
+  },
+  {
+    "id": 20,
+    "skillCode": "R_HU",
+    "desc": "원거리 병사의 체력 증가"
+  },
+  {
+    "id": 21,
+    "skillCode": "R_DU",
+    "desc": "원거리 병사의 방어력 증가"
+  },
+  {
+    "id": 22,
+    "skillCode": "R_ASU",
+    "desc": "원거리 병사의 공격속도 증가"
+  },
+  {
+    "id": 23,
+    "skillCode": "R_MSU",
+    "desc": "원거리 병사의 이동속도 증가"
+  },
+  {
+    "id": 24,
+    "skillCode": "R_RTD",
+    "desc": "원거리 병사의 부활 시간 단축"
+  },
+  {
+    "id": 25,
+    "skillCode": "R_ARU",
+    "desc": "원거리 병사의 공격거리 증가"
+  },
+  {
+    "id": 26,
+    "skillCode": "R_CPU",
+    "desc": "원거리 병사의 치명타 확률 증가"
+  },
+  {
+    "id": 27,
+    "skillCode": "R_CDU",
+    "desc": "원거리 병사의 치명타 데미지 증가"
+  },
+  {
+    "id": 28,
+    "skillCode": "M_AU",
+    "desc": "근거리 병사의 공격력 증가"
+  },
+  {
+    "id": 29,
+    "skillCode": "M_HU",
+    "desc": "근거리 병사의 체력 증가"
+  },
+  {
+    "id": 30,
+    "skillCode": "M_DU",
+    "desc": "근거리 병사의 방어력 증가"
+  },
+  {
+    "id": 31,
+    "skillCode": "M_ASU",
+    "desc": "근거리 병사의 공격속도 증가"
+  },
+  {
+    "id": 32,
+    "skillCode": "M_MSU",
+    "desc": "근거리 병사의 이동속도 증가"
+  },
+  {
+    "id": 33,
+    "skillCode": "M_RTD",
+    "desc": "근거리 병사의 부활 시간 단축"
+  },
+  {
+    "id": 34,
+    "skillCode": "M_ARU",
+    "desc": "근거리 병사의 공격거리 증가"
+  },
+  {
+    "id": 35,
+    "skillCode": "M_CPU",
+    "desc": "근거리 병사의 치명타 확률 증가"
+  },
+  {
+    "id": 36,
+    "skillCode": "M_CDU",
+    "desc": "근거리 병사의 치명타 데미지 증가"
+  },
+  {
+    "id": 37,
+    "skillCode": "A_AU",
+    "desc": "모든 병사의 공격력 증가"
+  },
+  {
+    "id": 38,
+    "skillCode": "A_HU",
+    "desc": "모든 병사의 체력 증가"
+  },
+  {
+    "id": 39,
+    "skillCode": "A_DU",
+    "desc": "모든 병사의 방어력 증가"
+  },
+  {
+    "id": 40,
+    "skillCode": "A_ASU",
+    "desc": "모든 병사의 공격속도 증가"
+  },
+  {
+    "id": 41,
+    "skillCode": "A_MSU",
+    "desc": "모든 병사의 이동속도 증가"
+  },
+  {
+    "id": 42,
+    "skillCode": "A_RTD",
+    "desc": "모든 병사의 부활 시간 단축"
+  },
+  {
+    "id": 43,
+    "skillCode": "A_ARU",
+    "desc": "모든 병사의 공격거리 증가"
+  },
+  {
+    "id": 44,
+    "skillCode": "A_CPU",
+    "desc": "모든 병사의 치명타 확률 증가"
+  },
+  {
+    "id": 45,
+    "skillCode": "A_CDU",
+    "desc": "모든 병사의 치명타 데미지 증가"
+  },
+  {
+    "id": 46,
+    "skillCode": "-",
+    "desc": "-"
+  },
+  {
+    "id": 47,
+    "skillCode": "-",
+    "desc": "-"
+  },
+  {
+    "id": 48,
+    "skillCode": "-",
+    "desc": "-"
+  },
+  {
+    "id": 49,
+    "skillCode": "-",
+    "desc": "-"
+  },
+  {
+    "id": 50,
+    "skillCode": "-",
+    "desc": "-"
+  },
+  {
+    "id": 51,
+    "skillCode": "-",
+    "desc": "-"
+  },
+  {
+    "id": 52,
+    "skillCode": "-",
+    "desc": "-"
+  },
+  {
+    "id": 53,
+    "skillCode": "M_GCU",
+    "desc": "근거리 방어확률 증가"
+  },
+  {
+    "id": 54,
+    "skillCode": "R_ECU",
+    "desc": "원거리 회피확률 증가"
+  },
+  {
+    "id": 55,
+    "skillCode": "-",
+    "desc": "-"
+  },
+  {
+    "id": 56,
+    "skillCode": "-",
+    "desc": "-"
+  },
+  {
+    "id": 57,
+    "skillCode": "-",
+    "desc": "-"
+  },
+  {
+    "id": 58,
+    "skillCode": "-",
+    "desc": "-"
+  },
+  {
+    "id": 59,
+    "skillCode": "-",
+    "desc": "-"
+  },
+  {
+    "id": 60,
+    "skillCode": "QGGU",
+    "desc": "퀘스트 골드획득 증가"
+  },
+  {
+    "id": 61,
+    "skillCode": "QUCD",
+    "desc": "퀘스트 업그레이드 비용 감소"
+  },
+  {
+    "id": 62,
+    "skillCode": "BGGU",
+    "desc": "전투 시 획득하는 골드량 증가"
+  },
+  {
+    "id": 63,
+    "skillCode": "SUCD",
+    "desc": "병사 업그레이드 비용 감소"
+  },
+  {
+    "id": 64,
+    "skillCode": "QCTD",
+    "desc": "퀘스트 완료시간 감소"
+  },
+  {
+    "id": 65,
+    "skillCode": "TAU",
+    "desc": "공중 유닛이 자신을 공격하게 함"
+  }
+]
