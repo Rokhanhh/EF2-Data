@@ -1,7 +1,7 @@
-import { renderAtlasIcon, renderAtlasIconById } from "./asset-atlas.js";
-import { loadUnitData } from "./data.js";
-import { defaultNavLinks, renderNavbar } from "./layout.js";
-import { escapeHtml, formatNumber } from "./utils.js";
+import { renderAtlasIcon, renderAtlasIconById } from "./asset-atlas.js?v=2026-07-01-1";
+import { loadUnitData } from "./data.js?v=2026-07-01-1";
+import { defaultNavLinks, renderNavbar } from "./layout.js?v=2026-07-01-1";
+import { escapeHtml, formatNumber } from "./utils.js?v=2026-07-01-1";
 
 const TRIBES = [
     { id: 1, label: "Human" },

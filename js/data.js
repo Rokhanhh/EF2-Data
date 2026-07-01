@@ -1,5 +1,6 @@
-import { DATA_PATHS } from "./constants.js";
-import { loadAssetAtlases } from "./asset-atlas.js";
+import { versionedUrl } from "./cache-bust.js?v=2026-07-01-1";
+import { DATA_PATHS } from "./constants.js?v=2026-07-01-1";
+import { loadAssetAtlases } from "./asset-atlas.js?v=2026-07-01-1";
 
 export async function loadRelicData() {
     const [treasureBook, valueBook, setBook, limitBreakBook, locale, assetAtlases] = await Promise.all([
@@ -89,7 +90,7 @@ function toArrayBook(book) {
 }
 
 async function loadJson(path) {
-    const response = await fetch(path);
+    const response = await fetch(versionedUrl(path));
     if (!response.ok) throw new Error(`Could not load ${path}`);
     return response.json();
 }

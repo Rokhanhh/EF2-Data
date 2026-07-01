@@ -1,8 +1,8 @@
-import { loadAssetAtlases, renderAtlasIconById } from "./asset-atlas.js";
-import { defaultNavLinks, renderFooter, renderNavbar } from "./layout.js";
-import { initPetsView, renderPetsRoute } from "./pets-view.js";
-import { initRelicsView, renderRelicsRoute } from "./relics-view.js";
-import { initUnitsView, renderUnitsRoute } from "./units-view.js";
+import { loadAssetAtlases, renderAtlasIconById } from "./asset-atlas.js?v=2026-07-01-1";
+import { defaultNavLinks, renderFooter, renderNavbar } from "./layout.js?v=2026-07-01-1";
+import { initPetsView, renderPetsRoute } from "./pets-view.js?v=2026-07-01-1";
+import { initRelicsView, renderRelicsRoute } from "./relics-view.js?v=2026-07-01-1";
+import { initUnitsView, renderUnitsRoute } from "./units-view.js?v=2026-07-01-1";
 
 (function () {
     "use strict";

@@ -1,4 +1,5 @@
-import { escapeHtml } from "./utils.js";
+import { versionedUrl } from "./cache-bust.js?v=2026-07-01-1";
+import { escapeHtml } from "./utils.js?v=2026-07-01-1";
 
 let atlasConfigCache;
 const sourceCache = new Map();
@@ -28,7 +29,7 @@ export async function loadAssetAtlases(path = "data/asset_atlases.json", request
 async function loadAtlasConfig(path) {
     if (atlasConfigCache) return atlasConfigCache;
 
-    const response = await fetch(path);
+    const response = await fetch(versionedUrl(path));
     if (!response.ok) return { sources: {}, sets: {} };
 
     atlasConfigCache = await response.json();
@@ -39,13 +40,14 @@ async function loadAtlasSource(sourceConfig) {
     if (!sourceConfig) return null;
     if (sourceCache.has(sourceConfig.json)) return sourceCache.get(sourceConfig.json);
 
-    const sourcePromise = fetch(sourceConfig.json).then(async (atlasResponse) => {
+    const sourcePromise = fetch(versionedUrl(sourceConfig.json)).then(async (atlasResponse) => {
         if (!atlasResponse.ok) return null;
 
         const atlas = await atlasResponse.json();
+        const imagePath = sourceConfig.image || imagePathFromJson(sourceConfig.json, atlas.meta && atlas.meta.image);
         return {
             ...sourceConfig,
-            image: sourceConfig.image || imagePathFromJson(sourceConfig.json, atlas.meta && atlas.meta.image),
+            image: versionedUrl(imagePath),
             frames: atlas.frames || {},
             size: atlas.meta && atlas.meta.size ? atlas.meta.size : null,
         };
