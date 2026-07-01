@@ -57,6 +57,15 @@
 
 .artifact-icons a {
     display: inline-block;
+    outline: 0 !important;
+}
+
+.artifact-icons a:focus,
+.artifact-icons a:active {
+    outline: 0 !important;
+    outline-offset: 0;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
 }
 
 .calculator-control .input-group {

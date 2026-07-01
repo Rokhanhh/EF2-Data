@@ -48,6 +48,7 @@ export function renderFooter(options = {}) {
 export function defaultNavLinks(activeLabel = "") {
     return [
         { label: "Home", href: "./" },
+        { label: "Units", href: "#/units" },
         { label: "Relics", href: "#/relics" },
         { label: "Pets", href: "#/pets" },
     ].map((link) => ({ ...link, active: link.label === activeLabel }));

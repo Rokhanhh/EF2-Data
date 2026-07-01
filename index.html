@@ -11,6 +11,7 @@
     <link href="css/sprites.css" rel="stylesheet">
     <link href="css/global.css" rel="stylesheet">
     <link href="css/relics.css" rel="stylesheet">
+    <link href="css/units.css" rel="stylesheet">
     <link href="css/pets.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
 </head>
@@ -173,6 +174,41 @@
                     </tr>
                 </table>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container view-hidden" id="unitListView">
+        <div class="row unit-details">
+            <div class="col-md-12 text-center">
+                <h2 class="general-heading relic-book-title">Unit Book</h2>
+            </div>
+
+            <div class="col-md-12 text-center">
+                <ul class="pagination pagination-sm grade-tabs unit-tribe-tabs" id="unitTribeTabs"></ul>
+            </div>
+
+            <div class="col-md-12">
+                <div class="relic-list-panel artifact-grid unit-grid" id="unitContent">Loading units...</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container view-hidden" id="unitDetailView">
+        <div class="row unit-details">
+            <div class="col-md-12 text-left">
+                <a class="btn btn-default detail-back-link" id="unitBackLink" href="#/units">Back to Unit List</a>
+                <div class="relic-header">
+                    <span class="relic-main-icon" id="unitMainIcon"></span>
+                    <div>
+                        <h3 class="relic-title" id="unitTitle">Loading...</h3>
+                        <div class="relic-meta" id="unitMeta"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 text-left">
+                <div id="unitGameDetail"></div>
             </div>
         </div>
     </div>

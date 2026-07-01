@@ -7,6 +7,8 @@ const state = {
     pets: [],
     petMap: new Map(),
     petSkillMap: new Map(),
+    units: [],
+    unitMap: new Map(),
     locale: {},
     assetAtlases: {},
     selectedKindNum: 1,
@@ -64,7 +66,8 @@ function getPetName(pet) {
 
 function getUnitName(kindNum) {
     if (kindNum <= 0) return "";
-    return text(`UNIT_NAME_${kindNum}`, `Unit ${kindNum}`);
+    const unit = state.unitMap.get(Number(kindNum));
+    return text(`UNIT_NAME_${kindNum}`, unit && unit.name ? unit.name : `Unit ${kindNum}`);
 }
 
 function getSkillText(skillId) {
@@ -206,8 +209,43 @@ function renderDetail() {
 function renderPetInfo(pet) {
     return [
         `<div class="effect-line">+ Pet Points : ${formatValues(pet.incGoldLevel)}</div>`,
-        pet.couple > 0 ? `<div class="effect-line">+ Hero Couple : ${escapeHtml(getUnitName(pet.couple))}</div>` : "",
+        pet.couple > 0 ? `<div class="effect-line">+ Couple Heroes</div>${renderHeroCoupleLink(pet.couple)}` : "",
     ].filter(Boolean).join("");
+}
+
+function renderHeroCoupleLink(kindNum) {
+    const unit = state.unitMap.get(Number(kindNum));
+    if (!unit) return "";
+    const name = getUnitName(kindNum);
+    return `
+        <a class="pet-hero-couple-link" href="#/units/${unit.kindNum}" title="${escapeHtml(name)}">
+            ${renderUnitPortrait(unit)}
+        </a>
+    `;
+}
+
+function renderUnitPortrait(unit) {
+    const grade = Math.min(Math.max(Number(unit.grade) || 1, 1), 7);
+    const iconFrame = getUnitIconFrameName(unit.kindNum);
+    const name = getUnitName(unit.kindNum);
+    return `
+        <span class="pet-couple-unit-portrait" aria-label="${escapeHtml(name)}">
+            <span class="pet-couple-unit-layer">${renderAtlasSprite(`HeroFrame${grade}`, {
+                label: `Grade ${grade} frame`,
+                width: 92,
+            })}</span>
+            <span class="pet-couple-unit-crop">
+                <span class="pet-couple-unit-hero">${renderAtlasSprite(iconFrame, {
+                    label: name,
+                    width: 78,
+                })}</span>
+            </span>
+            <span class="pet-couple-unit-layer">${renderAtlasSprite(`HeroCover${grade}`, {
+                label: `Grade ${grade} cover`,
+                width: 92,
+            })}</span>
+        </span>
+    `;
 }
 
 function renderPetSkills(pet) {
@@ -236,6 +274,53 @@ function renderSkillLine(label, skillId, values) {
 
 function renderPetIcon(kindNum, options = {}) {
     return renderAtlasIconById(state.assetAtlases.pets, kindNum, options);
+}
+
+function getUnitIconFrameName(kindNum, visited = new Set()) {
+    const frameName = `Hero${kindNum}`;
+    if (state.assetAtlases.units && state.assetAtlases.units.frames && state.assetAtlases.units.frames[frameName]) return frameName;
+    if (visited.has(kindNum)) return frameName;
+    visited.add(kindNum);
+    const previousUnit = state.units.find((unit) => unit.evolKindNum === kindNum);
+    if (previousUnit) return getUnitIconFrameName(previousUnit.kindNum, visited);
+    return frameName;
+}
+
+function renderAtlasSprite(frameName, options = {}) {
+    const atlas = state.assetAtlases.units;
+    const label = options.label || frameName;
+    const sprite = atlas && atlas.frames ? atlas.frames[frameName] : null;
+    const width = options.width || 92;
+    if (!sprite || !atlas.size) {
+        return `<span class="sprite-icon sprite-icon-missing" role="img" aria-label="${escapeHtml(label)}" style="width:${width}px;height:${width}px">${escapeHtml(options.missingText || "?")}</span>`;
+    }
+
+    const frame = sprite.frame;
+    const sourceSize = sprite.sourceSize || { w: frame.w, h: frame.h };
+    const sourceOffset = sprite.spriteSourceSize || { x: 0, y: 0 };
+    const scale = width / sourceSize.w;
+    const height = sourceSize.h * scale;
+    const rotated = Boolean(sprite.rotated);
+    const clipWidth = rotated ? sourceOffset.w : frame.w;
+    const clipHeight = rotated ? sourceOffset.h : frame.h;
+    const packedWidth = rotated ? frame.h : frame.w;
+    const packedHeight = rotated ? frame.w : frame.h;
+    const outerStyle = `width:${formatCssNumber(width)}px;height:${formatCssNumber(height)}px`;
+    const canvasStyle = `width:${sourceSize.w}px;height:${sourceSize.h}px;transform:scale(${formatCssNumber(scale)})`;
+    const clipStyle = `left:${sourceOffset.x}px;top:${sourceOffset.y}px;width:${clipWidth}px;height:${clipHeight}px`;
+    const imageStyle = [
+        `width:${packedWidth}px`,
+        `height:${packedHeight}px`,
+        `background-image:url('${atlas.image}')`,
+        `background-position:${-frame.x}px ${-frame.y}px`,
+        rotated ? `transform:translateY(${clipHeight}px) rotate(-90deg)` : "",
+    ].filter(Boolean).join(";");
+
+    return `<span class="sprite-icon" role="img" aria-label="${escapeHtml(label)}" style="${outerStyle}"><span class="sprite-icon-canvas" style="${canvasStyle}"><span class="sprite-icon-clip" style="${clipStyle}"><span class="sprite-icon-frame" style="${imageStyle}"></span></span></span></span>`;
+}
+
+function formatCssNumber(value) {
+    return Number(value.toFixed(4));
 }
 
 function writeListRoute() {

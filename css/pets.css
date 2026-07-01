@@ -25,6 +25,59 @@
     margin-bottom: 8px;
 }
 
+.pet-hero-couple-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 4px 0 8px 16px;
+    color: #f2dfc0;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.pet-hero-couple-link:hover,
+.pet-hero-couple-link:focus {
+    color: #ffd36b;
+    text-decoration: none;
+}
+
+.pet-hero-couple-link:focus,
+.pet-hero-couple-link:active {
+    outline: 0;
+}
+
+.pet-couple-unit-portrait {
+    position: relative;
+    display: block;
+    width: 92px;
+    height: 52px;
+    flex: 0 0 92px;
+    filter: drop-shadow(1px 2px 2px rgba(0, 0, 0, .5));
+}
+
+.pet-couple-unit-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.pet-couple-unit-crop {
+    position: absolute;
+    left: 3px;
+    top: 4px;
+    width: 70px;
+    height: 44px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 86% 0, 100% 50%, 86% 100%, 0 100%);
+}
+
+.pet-couple-unit-hero {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    display: block;
+}
+
 .pet-skill-label {
     color: #f0c28d;
 }

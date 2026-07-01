@@ -213,6 +213,15 @@ a {
     height: 52px;
     border: 0;
     background: transparent;
+    outline: 0;
+}
+
+.artifact-grid a:focus,
+.artifact-grid a:active {
+    outline: 0 !important;
+    outline-offset: 0;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
 }
 
 .artifact-grid.icon-grid .sprite-icon-missing {
@@ -340,6 +349,10 @@ a {
     border-color: #d1a12a;
     background-color: #4a3d2b;
     color: #ffd98e;
+    outline: 0 !important;
+    outline-offset: 0;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
 }
 
 .grade-tabs.pagination > .active > a,

@@ -27,23 +27,55 @@ export async function loadRelicData() {
 }
 
 export async function loadPetData() {
-    const [petBook, petSkillBook, locale, assetAtlases] = await Promise.all([
+    const [petBook, petSkillBook, unitBook, locale, assetAtlases] = await Promise.all([
         loadJson(DATA_PATHS.pets),
         loadJson(DATA_PATHS.petSkills),
+        loadJson(DATA_PATHS.units),
         loadJson(DATA_PATHS.locale),
-        loadAssetAtlases(undefined, ["pets"]),
+        loadAssetAtlases(undefined, ["pets", "units"]),
     ]);
 
     const pets = toArrayBook(petBook)
         .map(normalizePet)
         .sort((a, b) => a.kindNum - b.kindNum);
     const petSkills = toArrayBook(petSkillBook).map(normalizePetSkill);
+    const units = toArrayBook(unitBook)
+        .map(normalizeUnit)
+        .filter((unit) => unit.tribe >= 1 && unit.tribe <= 4);
 
     return {
         pets,
         petMap: new Map(pets.map((pet) => [pet.kindNum, pet])),
         petSkills,
         petSkillMap: new Map(petSkills.map((skill) => [skill.kindNum, skill])),
+        units,
+        unitMap: new Map(units.map((unit) => [unit.kindNum, unit])),
+        locale: locale || {},
+        assetAtlases,
+    };
+}
+
+export async function loadUnitData() {
+    const [unitBook, petBook, goldSkillBook, uniqueSkillBook, locale, assetAtlases] = await Promise.all([
+        loadJson(DATA_PATHS.units),
+        loadJson(DATA_PATHS.pets),
+        loadJson(DATA_PATHS.heroGoldSkills),
+        loadJson(DATA_PATHS.heroUniqueSkills),
+        loadJson(DATA_PATHS.locale),
+        loadAssetAtlases(undefined, ["units", "pets"]),
+    ]);
+
+    const units = toArrayBook(unitBook)
+        .map(normalizeUnit)
+        .filter((unit) => unit.tribe >= 1 && unit.tribe <= 4)
+        .sort((a, b) => a.tribe - b.tribe || b.grade - a.grade || b.kindNum - a.kindNum);
+
+    return {
+        units,
+        unitMap: new Map(units.map((unit) => [unit.kindNum, unit])),
+        petByCoupleMap: new Map(toArrayBook(petBook).map(normalizePet).filter((pet) => pet.couple > 0).map((pet) => [pet.couple, pet])),
+        heroGoldSkillMap: new Map(toArrayBook(goldSkillBook).map((skill) => [Number(skill.id), normalizeHeroGoldSkill(skill)])),
+        heroUniqueSkillMap: new Map(toArrayBook(uniqueSkillBook).map((skill) => [Number(skill.kindNum), normalizeHeroUniqueSkill(skill)])),
         locale: locale || {},
         assetAtlases,
     };
@@ -52,6 +84,7 @@ export async function loadPetData() {
 function toArrayBook(book) {
     if (Array.isArray(book)) return book;
     if (Array.isArray(book.data)) return book.data;
+    if (Array.isArray(book.value)) return book.value;
     return [];
 }
 
@@ -123,6 +156,49 @@ function normalizePetSkill(row) {
         ...row,
         kindNum: Number(row.kindNum),
         isPercent: row.isPercent === "Y",
+    };
+}
+
+function normalizeUnit(row) {
+    return {
+        ...row,
+        kindNum: Number(row.kindNum),
+        base: Number(row.base || 0),
+        tribe: Number(row.tribe || 0),
+        grade: Number(row.grade || 0),
+        evolStage: Number(row.evolStage || 0),
+        evolKindNum: Number(row.evolKindNum || 0),
+        atkDmg: Number(row.atkDmg || 0),
+        hp: Number(row.hp || 0),
+        phyDef: Number(row.phyDef || 0),
+        magDef: Number(row.magDef || 0),
+        atkSpd: Number(row.atkSpd || 0),
+        moveSpd: Number(row.moveSpd || 0),
+        atkRange: Number(row.atkRange || 0),
+        reviveTime: Number(row.reviveTime || 0),
+        recovery: Number(row.recovery || 0),
+        uniqueSkill: Number(row.uniqueSkill || 0),
+        trans: Number(row.trans || 0),
+        goldBuffs: parseNumberList(row.goldBuffs, "|"),
+        goldBuffValues: parseNumberList(row.goldBuffValues, "|"),
+        material1: parseNumberList(row.material1, "|").filter((id) => id > 0),
+        material2: parseNumberList(row.material2, "|").filter((id) => id > 0),
+        material3: parseNumberList(row.material3, "|").filter((id) => id > 0),
+    };
+}
+
+function normalizeHeroGoldSkill(row) {
+    return {
+        ...row,
+        id: Number(row.id),
+    };
+}
+
+function normalizeHeroUniqueSkill(row) {
+    return {
+        ...row,
+        kindNum: Number(row.kindNum),
+        value: Number(row.value || 0),
     };
 }
 

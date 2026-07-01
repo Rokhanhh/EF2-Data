@@ -2,6 +2,7 @@ import { loadAssetAtlases, renderAtlasIconById } from "./asset-atlas.js";
 import { defaultNavLinks, renderFooter, renderNavbar } from "./layout.js";
 import { initPetsView, renderPetsRoute } from "./pets-view.js";
 import { initRelicsView, renderRelicsRoute } from "./relics-view.js";
+import { initUnitsView, renderUnitsRoute } from "./units-view.js";
 
 (function () {
     "use strict";
@@ -25,7 +26,7 @@ import { initRelicsView, renderRelicsRoute } from "./relics-view.js";
             return true;
         }
 
-        if (route !== "relics" && route !== "pets") {
+        if (route !== "relics" && route !== "pets" && route !== "units") {
             history.replaceState(null, "", `${window.location.pathname}${window.location.search}`);
             return false;
         }
@@ -37,6 +38,8 @@ import { initRelicsView, renderRelicsRoute } from "./relics-view.js";
         document.getElementById("homeView").classList.remove("view-hidden");
         document.getElementById("listView").classList.add("view-hidden");
         document.getElementById("detailView").classList.add("view-hidden");
+        document.getElementById("unitListView").classList.add("view-hidden");
+        document.getElementById("unitDetailView").classList.add("view-hidden");
         document.getElementById("petListView").classList.add("view-hidden");
         document.getElementById("petDetailView").classList.add("view-hidden");
         renderNavbar({
@@ -56,6 +59,8 @@ import { initRelicsView, renderRelicsRoute } from "./relics-view.js";
 
         if (route === "relics") {
             document.getElementById("homeView").classList.add("view-hidden");
+            document.getElementById("unitListView").classList.add("view-hidden");
+            document.getElementById("unitDetailView").classList.add("view-hidden");
             document.getElementById("petListView").classList.add("view-hidden");
             document.getElementById("petDetailView").classList.add("view-hidden");
             await initRelicsView();
@@ -67,8 +72,21 @@ import { initRelicsView, renderRelicsRoute } from "./relics-view.js";
             document.getElementById("homeView").classList.add("view-hidden");
             document.getElementById("listView").classList.add("view-hidden");
             document.getElementById("detailView").classList.add("view-hidden");
+            document.getElementById("unitListView").classList.add("view-hidden");
+            document.getElementById("unitDetailView").classList.add("view-hidden");
             await initPetsView();
             renderPetsRoute();
+            return;
+        }
+
+        if (route === "units") {
+            document.getElementById("homeView").classList.add("view-hidden");
+            document.getElementById("listView").classList.add("view-hidden");
+            document.getElementById("detailView").classList.add("view-hidden");
+            document.getElementById("petListView").classList.add("view-hidden");
+            document.getElementById("petDetailView").classList.add("view-hidden");
+            await initUnitsView();
+            renderUnitsRoute();
             return;
         }
 
