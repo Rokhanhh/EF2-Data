@@ -1,8 +1,8 @@
-import { loadAssetAtlases, renderAtlasIconById } from "./asset-atlas.js?v=bd6461bee5ce";
-import { defaultNavLinks, renderFooter, renderNavbar } from "./layout.js?v=bd6461bee5ce";
-import { initPetsView, renderPetsRoute } from "./pets-view.js?v=bd6461bee5ce";
-import { initRelicsView, renderRelicsRoute } from "./relics-view.js?v=bd6461bee5ce";
-import { initUnitsView, renderUnitsRoute } from "./units-view.js?v=bd6461bee5ce";
+import { loadAssetAtlases, renderAtlasIconById } from "./asset-atlas.js?v=4b6405f5d395";
+import { defaultNavLinks, renderFooter, renderNavbar } from "./layout.js?v=4b6405f5d395";
+import { initPetsView, renderPetsRoute } from "./pets-view.js?v=4b6405f5d395";
+import { initRelicsView, renderRelicsRoute } from "./relics-view.js?v=4b6405f5d395";
+import { initUnitsView, renderUnitsRoute } from "./units-view.js?v=4b6405f5d395";
 
 (function () {
     "use strict";

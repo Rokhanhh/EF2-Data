@@ -1,5 +1,5 @@
-import { SKILL_LABELS, TARGET_LABELS } from "./constants.js?v=bd6461bee5ce";
-import { clamp } from "./utils.js?v=bd6461bee5ce";
+import { SKILL_LABELS, TARGET_LABELS } from "./constants.js?v=4b6405f5d395";
+import { clamp } from "./utils.js?v=4b6405f5d395";
 
 export function getAbilityId(treasure, skillIndex, trans) {
     if (skillIndex === 1) {
