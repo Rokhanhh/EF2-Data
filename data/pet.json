@@ -559,5 +559,39 @@
     "couple": -1,
     "incGoldLevel": "3|6|9|12|15",
     "treasureKindNum": 0
+  },
+  {
+    "kindNum": 1007,
+    "className": "SlimeSpring",
+    "name": "그린",
+    "tribe": 1,
+    "type": "ground",
+    "rank": 4,
+    "skill1": 2,
+    "value1": "4|5|6|7|8",
+    "skill2": 3,
+    "value2": "0|0|10|20|30",
+    "value3": "0|0|0|0|60",
+    "masterSkill": 3,
+    "couple": -1,
+    "incGoldLevel": "3|6|9|12|15",
+    "treasureKindNum": 0
+  },
+  {
+    "kindNum": 1008,
+    "className": "SlimeSummer",
+    "name": "블루",
+    "tribe": 2,
+    "type": "wind",
+    "rank": 4,
+    "skill1": 3,
+    "value1": "10|20|30|40|50",
+    "skill2": 2,
+    "value2": "0|0|2|3|4",
+    "value3": "0|0|0|0|60",
+    "masterSkill": 3,
+    "couple": -1,
+    "incGoldLevel": "3|6|9|12|15",
+    "treasureKindNum": 0
   }
 ]
