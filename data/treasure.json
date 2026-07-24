@@ -21,9 +21,9 @@
     "showDesc": "Y",
     "sortId": 1,
     "skillIcon1": "2,13,25",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 2,
@@ -47,9 +47,9 @@
     "showDesc": "Y",
     "sortId": 2,
     "skillIcon1": "21,22,25",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 3,
@@ -73,9 +73,9 @@
     "showDesc": "Y",
     "sortId": 3,
     "skillIcon1": "1,12,25",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 4,
@@ -99,9 +99,9 @@
     "showDesc": "Y",
     "sortId": 4,
     "skillIcon1": "21,27,22,26",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 5,
@@ -125,9 +125,9 @@
     "showDesc": "Y",
     "sortId": 5,
     "skillIcon1": "4,14,25",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 6,
@@ -151,9 +151,9 @@
     "showDesc": "Y",
     "sortId": 6,
     "skillIcon1": "21,24,22,26",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 7,
@@ -177,9 +177,9 @@
     "showDesc": "Y",
     "sortId": 7,
     "skillIcon1": "3,18,26",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 8,
@@ -203,9 +203,9 @@
     "showDesc": "Y",
     "sortId": 8,
     "skillIcon1": "5,24,22,26",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 9,
@@ -229,9 +229,9 @@
     "showDesc": "Y",
     "sortId": 9,
     "skillIcon1": "21,23,26",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 10,
@@ -255,9 +255,9 @@
     "showDesc": "Y",
     "sortId": 10,
     "skillIcon1": "21,22,25",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 11,
@@ -281,9 +281,9 @@
     "showDesc": "Y",
     "sortId": 11,
     "skillIcon1": "21,22,25",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 12,
@@ -307,9 +307,9 @@
     "showDesc": "Y",
     "sortId": 12,
     "skillIcon1": "21,27,22,26",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 13,
@@ -333,9 +333,9 @@
     "showDesc": "Y",
     "sortId": 13,
     "skillIcon1": "1,2,13,25",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 14,
@@ -359,9 +359,9 @@
     "showDesc": "Y",
     "sortId": 14,
     "skillIcon1": "21,22,25",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 15,
@@ -385,9 +385,9 @@
     "showDesc": "Y",
     "sortId": 15,
     "skillIcon1": "1,3,12,25",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 16,
@@ -411,9 +411,9 @@
     "showDesc": "Y",
     "sortId": 16,
     "skillIcon1": "21,27,22,26",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 17,
@@ -437,9 +437,9 @@
     "showDesc": "Y",
     "sortId": 17,
     "skillIcon1": "2,4,14,25",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 18,
@@ -463,9 +463,9 @@
     "showDesc": "Y",
     "sortId": 18,
     "skillIcon1": "21,24,22,26",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 19,
@@ -489,9 +489,9 @@
     "showDesc": "Y",
     "sortId": 19,
     "skillIcon1": "3,4,18,26",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 20,
@@ -515,9 +515,9 @@
     "showDesc": "Y",
     "sortId": 20,
     "skillIcon1": "5,24,22,26",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 21,
@@ -541,9 +541,9 @@
     "showDesc": "Y",
     "sortId": 21,
     "skillIcon1": "21,23,26",
-    "skillIcon2": null,
+    "skillIcon2": "",
     "gacha": "N",
-    "SKILLCODE2": null
+    "SKILLCODE2": ""
   },
   {
     "kindNum": 22,
@@ -3118,5 +3118,161 @@
     "skillIcon2": "21,27,22,26",
     "gacha": "N",
     "SKILLCODE2": "questOpenGold_A"
+  },
+  {
+    "kindNum": 121,
+    "grade": 7,
+    "name": "태만의 정수",
+    "maxLv": 20,
+    "desc": "휴먼 공격력 증가|퀘스트 골드획득 증가",
+    "openCost": "5000000000|0|0|5000000000",
+    "skillCode": "damage_H",
+    "ability1": 160,
+    "ability11": 193,
+    "ability12": 302,
+    "ability13": 378,
+    "skillCode2": "",
+    "ability2": 159,
+    "ability21": 191,
+    "ability22": 301,
+    "ability23": 377,
+    "upCost": 0.2,
+    "shop": 0,
+    "showDesc": "N",
+    "sortId": 121,
+    "skillIcon1": "1,12,25",
+    "skillIcon2": "21,22,25",
+    "gacha": "N",
+    "SKILLCODE2": "questGoldGain_A"
+  },
+  {
+    "kindNum": 122,
+    "grade": 7,
+    "name": "나태의 정수",
+    "maxLv": 20,
+    "desc": "엘프 공격력 증가|퀘스트 시간단축",
+    "openCost": "0|5000000000|0|5000000000",
+    "skillCode": "damage_E",
+    "ability1": 160,
+    "ability11": 193,
+    "ability12": 302,
+    "ability13": 378,
+    "skillCode2": "",
+    "ability2": 163,
+    "ability21": 199,
+    "ability22": 305,
+    "ability23": 381,
+    "upCost": 0.2,
+    "shop": 0,
+    "showDesc": "N",
+    "sortId": 122,
+    "skillIcon1": "2,12,25",
+    "skillIcon2": "21,23,26",
+    "gacha": "N",
+    "SKILLCODE2": "questCompleteTime_A"
+  },
+  {
+    "kindNum": 123,
+    "grade": 7,
+    "name": "교만의 정수",
+    "maxLv": 20,
+    "desc": "언데드 공격력 증가|퀘스트 오픈골드 감소",
+    "openCost": "0|5000000000|5000000000|0",
+    "skillCode": "damage_U",
+    "ability1": 160,
+    "ability11": 193,
+    "ability12": 302,
+    "ability13": 378,
+    "skillCode2": "",
+    "ability2": 160,
+    "ability21": 236,
+    "ability22": 324,
+    "ability23": 400,
+    "upCost": 0.2,
+    "shop": 0,
+    "showDesc": "N",
+    "sortId": 123,
+    "skillIcon1": "3,12,25",
+    "skillIcon2": "21,27,22,26",
+    "gacha": "N",
+    "SKILLCODE2": "questOpenGold_A"
+  },
+  {
+    "kindNum": 124,
+    "grade": 7,
+    "name": "벨리알의 해머",
+    "maxLv": 20,
+    "desc": "오크 공격력 증가|병사 업그레이드 비용감소",
+    "openCost": "5000000000|0|5000000000|0",
+    "skillCode": "damage_O",
+    "ability1": 160,
+    "ability11": 193,
+    "ability12": 302,
+    "ability13": 378,
+    "skillCode2": "",
+    "ability2": 161,
+    "ability21": 238,
+    "ability22": 325,
+    "ability23": 401,
+    "upCost": 0.2,
+    "shop": 0,
+    "showDesc": "N",
+    "sortId": 124,
+    "skillIcon1": "4,12,25",
+    "skillIcon2": "5,24,22,26",
+    "gacha": "N",
+    "SKILLCODE2": "unitUpgradeGold_A"
+  },
+  {
+    "kindNum": 125,
+    "grade": 7,
+    "name": "대지용의 뿔",
+    "maxLv": 20,
+    "desc": "공격력 증가|체력 증가",
+    "openCost": "0|0|5000000000|5000000000",
+    "skillCode": "damage_A",
+    "ability1": 162,
+    "ability11": 197,
+    "ability12": 304,
+    "ability13": 380,
+    "skillCode2": "",
+    "ability2": 172,
+    "ability21": 217,
+    "ability22": 314,
+    "ability23": 390,
+    "upCost": 0.2,
+    "shop": 0,
+    "showDesc": "N",
+    "sortId": 125,
+    "skillIcon1": "5,12,25",
+    "skillIcon2": "5,13,25",
+    "gacha": "N",
+    "SKILLCODE2": "hp_A"
+  },
+  {
+    "kindNum": 126,
+    "grade": 7,
+    "name": "신성한 모래",
+    "maxLv": 20,
+    "desc": "아군타워 체력 증가|퀘스트 업그레이드 비용감소",
+    "openCost": "5000000000|5000000000|0|0",
+    "skillCode": "ourTowerHp_A",
+    "ability1": 178,
+    "ability11": 228,
+    "ability12": 320,
+    "ability13": 396,
+    "skillCode2": "",
+    "ability2": 161,
+    "ability21": 238,
+    "ability22": 325,
+    "ability23": 401,
+    "upCost": 0.2,
+    "shop": 0,
+    "showDesc": "N",
+    "sortId": 126,
+    "skillIcon1": "11,13,25",
+    "skillIcon2": "21,24,22,26",
+    "gacha": "N",
+    "SKILLCODE2": "questUpgradeGold_A"
   }
 ]
