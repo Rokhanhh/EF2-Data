@@ -1,4 +1,4 @@
-export const BUILD_VERSION = "4b6405f5d395";
+export const BUILD_VERSION = "e22043af5efd";
 
 export function versionedUrl(path) {
     if (!path) return path;
