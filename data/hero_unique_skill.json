@@ -523,5 +523,145 @@
     "code": "offlineMax",
     "value": 4,
     "desc": "오프라인으로 진행할 수 있는 최대 웨이브가 4% 증가한다."
+  },
+  {
+    "kindNum": 76,
+    "name": "인간의 비술 버프",
+    "code": "humanSecretGoldUp",
+    "value": 25,
+    "desc": "인간의 비슬이 발동할때마다, 획득골드가 25% 증가합니다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 77,
+    "name": "인간의 비술 버프",
+    "code": "humanSecretGoldUp",
+    "value": 50,
+    "desc": "인간의 비슬이 발동할때마다, 획득골드가 50% 증가합니다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 78,
+    "name": "인간의 비술 버프",
+    "code": "humanSecretGoldUp",
+    "value": 100,
+    "desc": "인간의 비슬이 발동할때마다, 획득골드가 100% 증가합니다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 79,
+    "name": "인간의 비술 버프",
+    "code": "humanSecretGoldUp",
+    "value": 200,
+    "desc": "인간의 비슬이 발동할때마다, 획득골드가 200% 증가합니다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 80,
+    "name": "인간의 비술 버프",
+    "code": "humanSecretGoldUp",
+    "value": 300,
+    "desc": "인간의 비슬이 발동할때마다, 획득골드가 300% 증가합니다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 81,
+    "name": "생명의 맹약",
+    "code": "pactOfLife",
+    "value": 5,
+    "desc": "인간과 엘프 영웅의 레벨이 5 증가한다."
+  },
+  {
+    "kindNum": 82,
+    "name": "생명의 맹약",
+    "code": "pactOfLife",
+    "value": 10,
+    "desc": "인간과 엘프 영웅의 레벨이 10 증가한다."
+  },
+  {
+    "kindNum": 83,
+    "name": "생명의 맹약",
+    "code": "pactOfLife",
+    "value": 15,
+    "desc": "인간과 엘프 영웅의 레벨이 15 증가한다."
+  },
+  {
+    "kindNum": 84,
+    "name": "생명의 맹약",
+    "code": "pactOfLife",
+    "value": 20,
+    "desc": "인간과 엘프 영웅의 레벨이 20 증가한다."
+  },
+  {
+    "kindNum": 85,
+    "name": "생명의 맹약",
+    "code": "pactOfLife",
+    "value": 30,
+    "desc": "인간과 엘프 영웅의 레벨이 30 증가한다."
+  },
+  {
+    "kindNum": 86,
+    "name": "야생의 맹약",
+    "code": "packOfWild",
+    "value": 5,
+    "desc": "오크와 언데드 영웅의 레벨이 5 증가한다."
+  },
+  {
+    "kindNum": 87,
+    "name": "야생의 맹약",
+    "code": "packOfWild",
+    "value": 10,
+    "desc": "오크와 언데드 영웅의 레벨이 10 증가한다."
+  },
+  {
+    "kindNum": 88,
+    "name": "야생의 맹약",
+    "code": "packOfWild",
+    "value": 15,
+    "desc": "오크와 언데드 영웅의 레벨이 15 증가한다."
+  },
+  {
+    "kindNum": 89,
+    "name": "야생의 맹약",
+    "code": "packOfWild",
+    "value": 20,
+    "desc": "오크와 언데드 영웅의 레벨이 20 증가한다."
+  },
+  {
+    "kindNum": 90,
+    "name": "야생의 맹약",
+    "code": "packOfWild",
+    "value": 30,
+    "desc": "오크와 언데드 영웅의 레벨이 30 증가한다."
+  },
+  {
+    "kindNum": 91,
+    "name": "황혼의 부름",
+    "code": "callOfDawn",
+    "value": 1,
+    "desc": "황혼의 부름이 1% 빠르게 충전된다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 92,
+    "name": "황혼의 부름",
+    "code": "callOfDawn",
+    "value": 2,
+    "desc": "황혼의 부름이 2% 빠르게 충전된다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 93,
+    "name": "황혼의 부름",
+    "code": "callOfDawn",
+    "value": 3,
+    "desc": "황혼의 부름이 3% 빠르게 충전된다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 94,
+    "name": "황혼의 부름",
+    "code": "callOfDawn",
+    "value": 4,
+    "desc": "황혼의 부름이 4% 빠르게 충전된다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 95,
+    "name": "황혼의 부름",
+    "code": "callOfDawn",
+    "value": 5,
+    "desc": "황혼의 부름이 5% 빠르게 충전된다. (누적 적용됨)"
   }
 ]

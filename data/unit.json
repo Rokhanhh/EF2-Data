@@ -45,7 +45,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "stun"
   },
   {
     "kindNum": 2,
@@ -93,7 +94,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "knockback"
   },
   {
     "kindNum": 3,
@@ -141,7 +143,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "stun"
   },
   {
     "kindNum": 4,
@@ -189,7 +192,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "stun"
   },
   {
     "kindNum": 5,
@@ -237,7 +241,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "stun"
   },
   {
     "kindNum": 6,
@@ -285,7 +290,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 7,
@@ -333,7 +339,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "silence"
   },
   {
     "kindNum": 8,
@@ -381,7 +388,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 9,
@@ -429,7 +437,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "poison"
   },
   {
     "kindNum": 10,
@@ -477,7 +486,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "knockback"
   },
   {
     "kindNum": 11,
@@ -525,7 +535,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "knockback|poison"
   },
   {
     "kindNum": 12,
@@ -573,7 +584,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "binding"
   },
   {
     "kindNum": 13,
@@ -621,7 +633,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "stun"
   },
   {
     "kindNum": 14,
@@ -669,7 +682,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "binding|shock"
   },
   {
     "kindNum": 15,
@@ -717,7 +731,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "curse"
   },
   {
     "kindNum": 16,
@@ -765,7 +780,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 17,
@@ -813,7 +829,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "stun"
   },
   {
     "kindNum": 18,
@@ -861,7 +878,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "curse"
   },
   {
     "kindNum": 19,
@@ -909,7 +927,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "blow"
   },
   {
     "kindNum": 20,
@@ -957,7 +976,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "freeze"
   },
   {
     "kindNum": 21,
@@ -1005,7 +1025,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "freeze"
   },
   {
     "kindNum": 22,
@@ -1053,7 +1074,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "poison"
   },
   {
     "kindNum": 23,
@@ -1101,7 +1123,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 24,
@@ -1149,7 +1172,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 25,
@@ -1197,7 +1221,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 26,
@@ -1245,7 +1270,8 @@
     "trans": 3,
     "material1": "32|1|19",
     "material2": "32|38|1|13|19",
-    "material3": "32|38|26|1|19"
+    "material3": "32|38|26|1|19",
+    "raidCc": "stun"
   },
   {
     "kindNum": 27,
@@ -1293,7 +1319,8 @@
     "trans": 3,
     "material1": "33|38|2",
     "material2": "33|39|38|2|19",
-    "material3": "33|39|27|38|2"
+    "material3": "33|39|27|38|2",
+    "raidCc": "knockback"
   },
   {
     "kindNum": 28,
@@ -1341,7 +1368,8 @@
     "trans": 3,
     "material1": "34|4|38",
     "material2": "35|41|39|5|38",
-    "material3": "28|36|42|39|4"
+    "material3": "28|36|42|39|4",
+    "raidCc": "stun"
   },
   {
     "kindNum": 29,
@@ -1389,7 +1417,8 @@
     "trans": 3,
     "material1": "35|4|38",
     "material2": "36|42|39|4|38",
-    "material3": "29|34|40|39|4"
+    "material3": "29|34|40|39|4",
+    "raidCc": "stun"
   },
   {
     "kindNum": 30,
@@ -1437,7 +1466,8 @@
     "trans": 3,
     "material1": "36|5|38",
     "material2": "34|40|39|5|38",
-    "material3": "30|35|41|39|5"
+    "material3": "30|35|41|39|5",
+    "raidCc": "stun"
   },
   {
     "kindNum": 31,
@@ -1485,7 +1515,8 @@
     "trans": 3,
     "material1": "37|6|39",
     "material2": "37|43|40|6|39",
-    "material3": "31|37|42|41|6"
+    "material3": "31|37|42|41|6",
+    "raidCc": ""
   },
   {
     "kindNum": 32,
@@ -1533,7 +1564,8 @@
     "trans": 3,
     "material1": "38|7|1",
     "material2": "38|44|7|19|1",
-    "material3": "38|44|32|7|1"
+    "material3": "38|44|32|7|1",
+    "raidCc": "silence"
   },
   {
     "kindNum": 33,
@@ -1581,7 +1613,8 @@
     "trans": 3,
     "material1": "39|44|8",
     "material2": "39|45|44|8|1",
-    "material3": "39|45|33|44|8"
+    "material3": "39|45|33|44|8",
+    "raidCc": ""
   },
   {
     "kindNum": 34,
@@ -1629,7 +1662,8 @@
     "trans": 3,
     "material1": "40|10|44",
     "material2": "41|47|45|10|44",
-    "material3": "34|42|46|45|11"
+    "material3": "34|42|46|45|11",
+    "raidCc": "poison"
   },
   {
     "kindNum": 35,
@@ -1677,7 +1711,8 @@
     "trans": 3,
     "material1": "41|10|44",
     "material2": "42|49|45|10|44",
-    "material3": "35|40|47|45|10"
+    "material3": "35|40|47|45|10",
+    "raidCc": "knockback"
   },
   {
     "kindNum": 36,
@@ -1725,7 +1760,8 @@
     "trans": 3,
     "material1": "42|11|44",
     "material2": "40|46|45|11|44",
-    "material3": "36|41|49|45|11"
+    "material3": "36|41|49|45|11",
+    "raidCc": "knockback|poison"
   },
   {
     "kindNum": 37,
@@ -1773,7 +1809,8 @@
     "trans": 3,
     "material1": "43|12|45",
     "material2": "43|48|47|12|45",
-    "material3": "37|43|48|46|12"
+    "material3": "37|43|48|46|12",
+    "raidCc": "binding"
   },
   {
     "kindNum": 38,
@@ -1821,7 +1858,8 @@
     "trans": 3,
     "material1": "44|13|7",
     "material2": "44|26|13|1|7",
-    "material3": "44|26|38|13|7"
+    "material3": "44|26|38|13|7",
+    "raidCc": "stun"
   },
   {
     "kindNum": 39,
@@ -1869,7 +1907,8 @@
     "trans": 3,
     "material1": "45|26|7",
     "material2": "45|27|26|14|7",
-    "material3": "45|27|39|26|14"
+    "material3": "45|27|39|26|14",
+    "raidCc": "binding|shock"
   },
   {
     "kindNum": 40,
@@ -1917,7 +1956,8 @@
     "trans": 3,
     "material1": "46|16|26",
     "material2": "47|29|27|17|26",
-    "material3": "40|49|30|27|16"
+    "material3": "40|49|30|27|16",
+    "raidCc": "curse"
   },
   {
     "kindNum": 41,
@@ -1965,7 +2005,8 @@
     "trans": 3,
     "material1": "49|16|26",
     "material2": "46|28|27|16|26",
-    "material3": "41|47|29|27|16"
+    "material3": "41|47|29|27|16",
+    "raidCc": ""
   },
   {
     "kindNum": 42,
@@ -2013,7 +2054,8 @@
     "trans": 3,
     "material1": "47|17|26",
     "material2": "49|30|27|17|26",
-    "material3": "42|46|28|27|17"
+    "material3": "42|46|28|27|17",
+    "raidCc": "stun"
   },
   {
     "kindNum": 43,
@@ -2061,7 +2103,8 @@
     "trans": 3,
     "material1": "48|18|27",
     "material2": "48|31|30|18|27",
-    "material3": "43|48|31|29|18"
+    "material3": "43|48|31|29|18",
+    "raidCc": "curse"
   },
   {
     "kindNum": 44,
@@ -2109,7 +2152,8 @@
     "trans": 3,
     "material1": "26|19|13",
     "material2": "26|32|19|7|13",
-    "material3": "26|32|44|19|13"
+    "material3": "26|32|44|19|13",
+    "raidCc": "blow"
   },
   {
     "kindNum": 45,
@@ -2157,7 +2201,8 @@
     "trans": 3,
     "material1": "27|32|13",
     "material2": "27|33|32|20|13",
-    "material3": "27|33|45|32|20"
+    "material3": "27|33|45|32|20",
+    "raidCc": "freeze"
   },
   {
     "kindNum": 46,
@@ -2205,7 +2250,8 @@
     "trans": 3,
     "material1": "29|22|32",
     "material2": "30|35|33|24|32",
-    "material3": "46|28|36|33|24"
+    "material3": "46|28|36|33|24",
+    "raidCc": "freeze"
   },
   {
     "kindNum": 47,
@@ -2253,7 +2299,8 @@
     "trans": 3,
     "material1": "30|22|32",
     "material2": "28|34|33|22|32",
-    "material3": "47|29|34|33|22"
+    "material3": "47|29|34|33|22",
+    "raidCc": "poison"
   },
   {
     "kindNum": 48,
@@ -2301,7 +2348,8 @@
     "trans": 3,
     "material1": "31|23|33",
     "material2": "31|37|34|23|33",
-    "material3": "48|31|37|35|23"
+    "material3": "48|31|37|35|23",
+    "raidCc": ""
   },
   {
     "kindNum": 49,
@@ -2349,7 +2397,8 @@
     "trans": 3,
     "material1": "28|24|32",
     "material2": "29|36|33|24|32",
-    "material3": "49|30|35|33|24"
+    "material3": "49|30|35|33|24",
+    "raidCc": ""
   },
   {
     "kindNum": 50,
@@ -2397,7 +2446,8 @@
     "trans": 3,
     "material1": "80|25|35",
     "material2": "75|52|37|25|34",
-    "material3": "50|71|74|37|25"
+    "material3": "50|71|74|37|25",
+    "raidCc": ""
   },
   {
     "kindNum": 51,
@@ -2445,7 +2495,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 52,
@@ -2493,7 +2544,8 @@
     "trans": 3,
     "material1": "72|51|46",
     "material2": "60|70|48|51|47",
-    "material3": "52|77|76|48|51"
+    "material3": "52|77|76|48|51",
+    "raidCc": ""
   },
   {
     "kindNum": 53,
@@ -2541,7 +2593,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 54,
@@ -2589,7 +2642,8 @@
     "trans": 3,
     "material1": "60|74|46",
     "material2": "72|50|52|48|47",
-    "material3": "73|77|76|48|37"
+    "material3": "73|77|76|48|37",
+    "raidCc": ""
   },
   {
     "kindNum": 55,
@@ -2637,7 +2691,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 56,
@@ -2685,7 +2740,8 @@
     "trans": 3,
     "material1": "73|80|41",
     "material2": "74|72|71|43|40",
-    "material3": "75|52|60|43|31"
+    "material3": "75|52|60|43|31",
+    "raidCc": ""
   },
   {
     "kindNum": 57,
@@ -2733,7 +2789,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "silence"
   },
   {
     "kindNum": 58,
@@ -2781,7 +2838,8 @@
     "trans": 3,
     "material1": "50|77|30",
     "material2": "70|71|72|31|29",
-    "material3": "60|76|75|31|43"
+    "material3": "60|76|75|31|43",
+    "raidCc": "silence"
   },
   {
     "kindNum": 59,
@@ -2829,7 +2887,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "curse"
   },
   {
     "kindNum": 60,
@@ -2877,7 +2936,8 @@
     "trans": 3,
     "material1": "50|59|29",
     "material2": "70|71|31|59|30",
-    "material3": "60|76|75|31|59"
+    "material3": "60|76|75|31|59",
+    "raidCc": "curse"
   },
   {
     "kindNum": 61,
@@ -2925,7 +2985,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "freeze"
   },
   {
     "kindNum": 62,
@@ -2973,7 +3034,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "stun"
   },
   {
     "kindNum": 63,
@@ -3021,7 +3083,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "blow|knockback"
   },
   {
     "kindNum": 64,
@@ -3069,7 +3132,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "knockback"
   },
   {
     "kindNum": 65,
@@ -3117,7 +3181,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "blow|stun"
   },
   {
     "kindNum": 66,
@@ -3165,7 +3230,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "blow|stun"
   },
   {
     "kindNum": 67,
@@ -3213,7 +3279,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "freeze"
   },
   {
     "kindNum": 68,
@@ -3261,7 +3328,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "blow"
   },
   {
     "kindNum": 69,
@@ -3309,7 +3377,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 70,
@@ -3357,7 +3426,8 @@
     "trans": 3,
     "material1": "71|61|36",
     "material2": "80|74|37|61|35",
-    "material3": "70|75|73|37|61"
+    "material3": "70|75|73|37|61",
+    "raidCc": "freeze"
   },
   {
     "kindNum": 71,
@@ -3405,7 +3475,8 @@
     "trans": 3,
     "material1": "52|62|41",
     "material2": "73|60|43|62|42",
-    "material3": "71|74|72|43|62"
+    "material3": "71|74|72|43|62",
+    "raidCc": "stun"
   },
   {
     "kindNum": 72,
@@ -3453,7 +3524,8 @@
     "trans": 3,
     "material1": "70|63|30",
     "material2": "76|80|31|63|28",
-    "material3": "72|50|71|31|63"
+    "material3": "72|50|71|31|63",
+    "raidCc": "blow|knockback"
   },
   {
     "kindNum": 73,
@@ -3501,7 +3573,8 @@
     "trans": 3,
     "material1": "77|64|49",
     "material2": "72|76|48|64|46",
-    "material3": "73|60|50|48|64"
+    "material3": "73|60|50|48|64",
+    "raidCc": "knockback"
   },
   {
     "kindNum": 74,
@@ -3549,7 +3622,8 @@
     "trans": 3,
     "material1": "60|65|47",
     "material2": "77|50|48|65|49",
-    "material3": "74|72|70|48|65"
+    "material3": "74|72|70|48|65",
+    "raidCc": "blow|stun"
   },
   {
     "kindNum": 75,
@@ -3597,7 +3671,8 @@
     "trans": 3,
     "material1": "73|66|42",
     "material2": "74|77|43|66|40",
-    "material3": "75|52|60|43|66"
+    "material3": "75|52|60|43|66",
+    "raidCc": "blow|stun"
   },
   {
     "kindNum": 76,
@@ -3645,7 +3720,8 @@
     "trans": 3,
     "material1": "75|67|34",
     "material2": "71|73|37|67|36",
-    "material3": "76|80|52|37|67"
+    "material3": "76|80|52|37|67",
+    "raidCc": "freeze"
   },
   {
     "kindNum": 77,
@@ -3693,7 +3769,8 @@
     "trans": 3,
     "material1": "76|68|28",
     "material2": "50|75|31|68|29",
-    "material3": "77|70|80|31|68"
+    "material3": "77|70|80|31|68",
+    "raidCc": "blow"
   },
   {
     "kindNum": 78,
@@ -3741,7 +3818,8 @@
     "trans": 3,
     "material1": "71|70|35",
     "material2": "80|73|50|37|36",
-    "material3": "76|75|74|37|49"
+    "material3": "76|75|74|37|49",
+    "raidCc": ""
   },
   {
     "kindNum": 79,
@@ -3789,7 +3867,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "stun"
   },
   {
     "kindNum": 80,
@@ -3837,7 +3916,8 @@
     "trans": 3,
     "material1": "73|75|41",
     "material2": "74|77|80|43|42",
-    "material3": "71|52|60|43|31"
+    "material3": "71|52|60|43|31",
+    "raidCc": "stun"
   },
   {
     "kindNum": 81,
@@ -3885,7 +3965,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "knockback|shock"
   },
   {
     "kindNum": 82,
@@ -3933,7 +4014,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "stun"
   },
   {
     "kindNum": 83,
@@ -3981,7 +4063,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "freeze|knockback"
   },
   {
     "kindNum": 84,
@@ -4029,7 +4112,8 @@
     "trans": 3,
     "material1": "72|74|49",
     "material2": "60|76|73|48|46",
-    "material3": "52|77|70|48|37"
+    "material3": "52|77|70|48|37",
+    "raidCc": "knockback|shock"
   },
   {
     "kindNum": 85,
@@ -4077,7 +4161,8 @@
     "trans": 3,
     "material1": "52|71|40",
     "material2": "73|60|75|43|41",
-    "material3": "71|74|72|43|31"
+    "material3": "71|74|72|43|31",
+    "raidCc": "stun"
   },
   {
     "kindNum": 86,
@@ -4125,7 +4210,8 @@
     "trans": 3,
     "material1": "80|76|34",
     "material2": "75|74|70|37|36",
-    "material3": "50|71|73|37|48"
+    "material3": "50|71|73|37|48",
+    "raidCc": "freeze|knockback"
   },
   {
     "kindNum": 87,
@@ -4173,7 +4259,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "blow|stun"
   },
   {
     "kindNum": 88,
@@ -4221,7 +4308,8 @@
     "trans": 3,
     "material1": "50|72|30",
     "material2": "76|80|60|31|29",
-    "material3": "77|70|75|31|43"
+    "material3": "77|70|75|31|43",
+    "raidCc": "blow|stun"
   },
   {
     "kindNum": 89,
@@ -4269,7 +4357,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "knockback|stun"
   },
   {
     "kindNum": 90,
@@ -4317,7 +4406,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "binding|knockback"
   },
   {
     "kindNum": 91,
@@ -4365,7 +4455,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "shock"
   },
   {
     "kindNum": 92,
@@ -4413,7 +4504,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": "freeze"
   },
   {
     "kindNum": 93,
@@ -4461,7 +4553,8 @@
     "trans": 3,
     "material1": "74|80|42",
     "material2": "52|77|75|43|41",
-    "material3": "71|73|72|43|31"
+    "material3": "71|73|72|43|31",
+    "raidCc": "knockback|stun"
   },
   {
     "kindNum": 94,
@@ -4509,7 +4602,8 @@
     "trans": 3,
     "material1": "77|52|49",
     "material2": "60|76|74|48|47",
-    "material3": "73|72|50|48|37"
+    "material3": "73|72|50|48|37",
+    "raidCc": "binding|knockback"
   },
   {
     "kindNum": 95,
@@ -4557,7 +4651,8 @@
     "trans": 3,
     "material1": "76|60|29",
     "material2": "50|80|77|31|30",
-    "material3": "72|70|71|31|43"
+    "material3": "72|70|71|31|43",
+    "raidCc": "shock"
   },
   {
     "kindNum": 96,
@@ -4605,7 +4700,400 @@
     "trans": 3,
     "material1": "75|70|36",
     "material2": "80|73|50|37|34",
-    "material3": "76|71|52|37|48"
+    "material3": "76|71|52|37|48",
+    "raidCc": "freeze"
+  },
+  {
+    "kindNum": 97,
+    "base": 97,
+    "className": "Aladin1",
+    "name": "알라딘",
+    "tribe": 1,
+    "grade": 5,
+    "evolStage": 0,
+    "evolKindNum": 101,
+    "dmgType": "P",
+    "isAir": "N",
+    "unitType": "range",
+    "numBlock": 2,
+    "food": 1,
+    "atkDmg": 45,
+    "def": 1,
+    "phyDef": 3.4,
+    "magDef": 2.9,
+    "hp": 250,
+    "atkSpd": 110,
+    "moveSpd": 1.4,
+    "atkRange": 145,
+    "recovery": 12.5,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 600,
+    "cloaking": "N",
+    "detect": "N",
+    "sex": "M",
+    "canPurchase": "Y",
+    "honor": 4,
+    "nAtk": "금으로 된 큰 코인을 던져서 적을 공격함 ( 원거리,공중가능 )",
+    "sAtk": "요술램프의 지니를 소환해서 전면에 있는 적들을 뒤로 밀쳐내고, 스턴을 줌 ( 넉백공격 )",
+    "goldBuffs": "60|63|60|61|60|64|60|61|60|63|60|60|60",
+    "goldBuffValues": "300|100|300|100|300|50|300|200|300|100|1000|1500|2000",
+    "uniqueSkill": 76,
+    "desc": "AA",
+    "stunImmune": "N",
+    "freezeImmune": "N",
+    "blowImmune": "N",
+    "knockImmune": "N",
+    "weight": 2,
+    "trans": 0,
+    "material1": 0,
+    "material2": 0,
+    "material3": 0,
+    "raidCc": "knockback"
+  },
+  {
+    "kindNum": 98,
+    "base": 98,
+    "className": "Druid1",
+    "name": "드루이드",
+    "tribe": 2,
+    "grade": 5,
+    "evolStage": 0,
+    "evolKindNum": 102,
+    "dmgType": "M",
+    "isAir": "N",
+    "unitType": "range",
+    "numBlock": 2,
+    "food": 1,
+    "atkDmg": 43,
+    "def": 1,
+    "phyDef": 2.6,
+    "magDef": 3,
+    "hp": 220,
+    "atkSpd": 100,
+    "moveSpd": 1.3,
+    "atkRange": 150,
+    "recovery": 11,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 600,
+    "cloaking": "N",
+    "detect": "N",
+    "sex": "F",
+    "canPurchase": "Y",
+    "honor": 4,
+    "nAtk": "다수의 적을 느리게 하고, 데미지를 주는 넝쿨을 소환한다. ( 네발로 걷는 유닛은 두발로 걷는 유닛에 비해 더 느려진다. )",
+    "sAtk": "바람 드릴을 만들어, 앞에 위치한 적에게 데미지를 주고, 뒤로 밀쳐낸다.",
+    "goldBuffs": "1|60|2|9|14|1|13|9|11|18|18|10|10",
+    "goldBuffValues": "23|24|46|60|2|23|1|60|100|50|300|400|2000",
+    "uniqueSkill": 82,
+    "desc": "AA",
+    "stunImmune": "N",
+    "freezeImmune": "N",
+    "blowImmune": "N",
+    "knockImmune": "N",
+    "weight": 2,
+    "trans": 0,
+    "material1": 0,
+    "material2": 0,
+    "material3": 0,
+    "raidCc": "binding|poison|stun"
+  },
+  {
+    "kindNum": 99,
+    "base": 99,
+    "className": "Succubus1",
+    "name": "서큐버스",
+    "tribe": 3,
+    "grade": 5,
+    "evolStage": 0,
+    "evolKindNum": 103,
+    "dmgType": "M",
+    "isAir": "Y",
+    "unitType": "range",
+    "numBlock": 2,
+    "food": 1,
+    "atkDmg": 58,
+    "def": 1,
+    "phyDef": 2.4,
+    "magDef": 3.3,
+    "hp": 230,
+    "atkSpd": 125,
+    "moveSpd": 1.45,
+    "atkRange": 150,
+    "recovery": 11.5,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 600,
+    "cloaking": "N",
+    "detect": "N",
+    "sex": "F",
+    "canPurchase": "Y",
+    "honor": 4,
+    "nAtk": "어둠의 기운을 담은 블레이드를 날려, 적을 뒤로 밀쳐냄",
+    "sAtk": "하트를 날려서 일정 범위안에 있는 적군 남성 병사들을 현혹시키고, 아군 남성병사에게는 광기의 버프( 이속과 공속이 증가하고, 적의 슬로우 스킬을 무시 )를 준다.",
+    "goldBuffs": "2|60|1|54|9|14|13|9|22|7|19|19|27",
+    "goldBuffValues": "46|24|23|2|60|1|1|60|1|3|250|500|2400",
+    "uniqueSkill": 92,
+    "desc": "AA",
+    "stunImmune": "N",
+    "freezeImmune": "N",
+    "blowImmune": "N",
+    "knockImmune": "N",
+    "weight": 2,
+    "trans": 0,
+    "material1": 0,
+    "material2": 0,
+    "material3": 0,
+    "raidCc": "knockback|charm"
+  },
+  {
+    "kindNum": 100,
+    "base": 100,
+    "className": "BladeMaster1",
+    "name": "블레이드 마스터",
+    "tribe": 4,
+    "grade": 5,
+    "evolStage": 0,
+    "evolKindNum": 104,
+    "dmgType": "P",
+    "isAir": "N",
+    "unitType": "melee",
+    "numBlock": 4,
+    "food": 1,
+    "atkDmg": 46,
+    "def": 2,
+    "phyDef": 3.8,
+    "magDef": 3.8,
+    "hp": 360,
+    "atkSpd": 120,
+    "moveSpd": 1.6,
+    "atkRange": 45,
+    "recovery": 28.8,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 600,
+    "cloaking": "N",
+    "detect": "N",
+    "sex": "M",
+    "canPurchase": "Y",
+    "honor": 4,
+    "nAtk": "동시에 여러 마리의 적들을 효과적으로 공격한다.",
+    "sAtk": "거대한 원형 검기를 날려 적들을 공격하고, 적 수정 가까이 이동한다.",
+    "goldBuffs": "18|10|14|4|8|14|18|36|36|18|10|36|10",
+    "goldBuffValues": "40|20|1|5|2|1|40|40|40|100|400|500|3000",
+    "uniqueSkill": 87,
+    "desc": "AA",
+    "stunImmune": "N",
+    "freezeImmune": "N",
+    "blowImmune": "N",
+    "knockImmune": "N",
+    "weight": 3,
+    "trans": 0,
+    "material1": 0,
+    "material2": 0,
+    "material3": 0,
+    "raidCc": "knockback"
+  },
+  {
+    "kindNum": 101,
+    "base": 97,
+    "className": "Aladin1",
+    "name": "알라딘Ⅱ",
+    "tribe": 1,
+    "grade": 6,
+    "evolStage": 1,
+    "evolKindNum": -1,
+    "dmgType": "P",
+    "isAir": "N",
+    "unitType": "range",
+    "numBlock": 4,
+    "food": 1,
+    "atkDmg": 54,
+    "def": 1,
+    "phyDef": 4.08,
+    "magDef": 3.48,
+    "hp": 300,
+    "atkSpd": 110,
+    "moveSpd": 1.4,
+    "atkRange": 145,
+    "recovery": 12.5,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 600,
+    "cloaking": "N",
+    "detect": "N",
+    "sex": "M",
+    "canPurchase": "N",
+    "honor": 4,
+    "nAtk": "금으로 된 큰 코인을 던져서 적을 공격함 ( 원거리,공중가능 )",
+    "sAtk": "요술램프의 지니를 소환해서 전면에 있는 적들을 뒤로 밀쳐내고, 스턴을 줌 ( 넉백공격 )",
+    "goldBuffs": "60|63|60|61|60|64|60|61|60|63|60|60|60|60|60|63|60|60",
+    "goldBuffValues": "600|200|600|200|600|100|600|300|600|300|2000|2500|3000|10000|30000|3000|300000|900000",
+    "uniqueSkill": 78,
+    "desc": "AA",
+    "stunImmune": "N",
+    "freezeImmune": "N",
+    "blowImmune": "N",
+    "knockImmune": "Y",
+    "weight": 2,
+    "trans": 3,
+    "material1": "73|75|41",
+    "material2": "52|77|80|43|42",
+    "material3": "71|74|60|43|31",
+    "raidCc": "knockback"
+  },
+  {
+    "kindNum": 102,
+    "base": 98,
+    "className": "Druid1",
+    "name": "드루이드Ⅱ",
+    "tribe": 2,
+    "grade": 6,
+    "evolStage": 1,
+    "evolKindNum": -1,
+    "dmgType": "M",
+    "isAir": "N",
+    "unitType": "range",
+    "numBlock": 4,
+    "food": 1,
+    "atkDmg": 51.6,
+    "def": 1,
+    "phyDef": 3.12,
+    "magDef": 3.5999999999999996,
+    "hp": 264,
+    "atkSpd": 100,
+    "moveSpd": 1.3,
+    "atkRange": 150,
+    "recovery": 11,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 600,
+    "cloaking": "N",
+    "detect": "N",
+    "sex": "F",
+    "canPurchase": "N",
+    "honor": 4,
+    "nAtk": "다수의 적을 느리게 하고, 데미지를 주는 넝쿨을 소환한다. ( 네발로 걷는 유닛은 두발로 걷는 유닛에 비해 더 느려진다. )",
+    "sAtk": "바람 드릴을 만들어, 앞에 위치한 적에게 데미지를 주고, 뒤로 밀쳐낸다.",
+    "goldBuffs": "1|60|2|9|14|1|13|9|11|18|18|10|10|10|18|8|18|10",
+    "goldBuffValues": "31|28|61|95|4|31|2|95|200|100|500|800|4000|43000|80000|30|740000|4100000",
+    "uniqueSkill": 85,
+    "desc": "AA",
+    "stunImmune": "N",
+    "freezeImmune": "N",
+    "blowImmune": "Y",
+    "knockImmune": "N",
+    "weight": 2,
+    "trans": 3,
+    "material1": "60|73|47",
+    "material2": "72|70|74|48|49",
+    "material3": "52|77|50|48|37",
+    "raidCc": "binding|poison|stun"
+  },
+  {
+    "kindNum": 103,
+    "base": 99,
+    "className": "Succubus1",
+    "name": "서큐버스Ⅱ",
+    "tribe": 3,
+    "grade": 6,
+    "evolStage": 1,
+    "evolKindNum": -1,
+    "dmgType": "M",
+    "isAir": "Y",
+    "unitType": "range",
+    "numBlock": 4,
+    "food": 1,
+    "atkDmg": 69.6,
+    "def": 1,
+    "phyDef": 2.88,
+    "magDef": 3.9599999999999995,
+    "hp": 276,
+    "atkSpd": 125,
+    "moveSpd": 1.45,
+    "atkRange": 150,
+    "recovery": 11.5,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 600,
+    "cloaking": "N",
+    "detect": "N",
+    "sex": "F",
+    "canPurchase": "N",
+    "honor": 4,
+    "nAtk": "어둠의 기운을 담은 블레이드를 날려, 적을 뒤로 밀쳐냄",
+    "sAtk": "하트를 날려서 일정 범위안에 있는 적군 남성 병사들을 현혹시키고, 아군 남성병사에게는 광기의 버프( 이속과 공속이 증가하고, 적의 슬로우 스킬을 무시 )를 준다.",
+    "goldBuffs": "2|60|1|54|9|14|13|9|22|7|14|19|27|19|19|19|19|19",
+    "goldBuffValues": "61|28|31|5|95|2|2|95|2|6|2|1000|4800|44000|126000|380000|1100000|3420000",
+    "uniqueSkill": 95,
+    "desc": "AA",
+    "stunImmune": "N",
+    "freezeImmune": "Y",
+    "blowImmune": "N",
+    "knockImmune": "N",
+    "weight": 2,
+    "trans": 3,
+    "material1": "76|60|30",
+    "material2": "70|75|77|31|28",
+    "material3": "72|50|80|31|43",
+    "raidCc": "knockback|charm"
+  },
+  {
+    "kindNum": 104,
+    "base": 100,
+    "className": "BladeMaster1",
+    "name": "블레이드 마스터Ⅱ",
+    "tribe": 4,
+    "grade": 6,
+    "evolStage": 1,
+    "evolKindNum": -1,
+    "dmgType": "P",
+    "isAir": "N",
+    "unitType": "melee",
+    "numBlock": 6,
+    "food": 1,
+    "atkDmg": 55.199999999999996,
+    "def": 2,
+    "phyDef": 4.56,
+    "magDef": 4.56,
+    "hp": 432,
+    "atkSpd": 120,
+    "moveSpd": 1.6,
+    "atkRange": 45,
+    "recovery": 28.8,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 600,
+    "cloaking": "N",
+    "detect": "N",
+    "sex": "M",
+    "canPurchase": "N",
+    "honor": 4,
+    "nAtk": "동시에 여러 마리의 적들을 효과적으로 공격한다.",
+    "sAtk": "거대한 원형 검기를 날려 적들을 공격하고, 적 수정 가까이 이동한다.",
+    "goldBuffs": "18|10|14|4|8|14|18|36|36|18|10|36|10|18|31|10|18|18",
+    "goldBuffValues": "70|27|3|10|4|3|70|90|90|200|800|1000|5800|28000|2|480000|950000|4950000",
+    "uniqueSkill": 90,
+    "desc": "AA",
+    "stunImmune": "Y",
+    "freezeImmune": "N",
+    "blowImmune": "N",
+    "knockImmune": "N",
+    "weight": 3,
+    "trans": 3,
+    "material1": "80|70|34",
+    "material2": "75|74|76|37|34",
+    "material3": "50|71|52|37|48",
+    "raidCc": "knockback"
   },
   {
     "kindNum": 1001,
@@ -4653,7 +5141,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1002,
@@ -4701,7 +5190,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1003,
@@ -4749,7 +5239,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 10001,
@@ -4797,7 +5288,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 10002,
@@ -4845,7 +5337,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 10003,
@@ -4893,7 +5386,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 10004,
@@ -4941,7 +5435,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 20001,
@@ -4989,7 +5484,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 20002,
@@ -5037,7 +5533,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 20003,
@@ -5085,7 +5582,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 20004,
@@ -5133,7 +5631,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 30001,
@@ -5181,7 +5680,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 30002,
@@ -5229,7 +5729,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 30003,
@@ -5277,7 +5778,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 40001,
@@ -5325,7 +5827,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 40002,
@@ -5373,7 +5876,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 40003,
@@ -5421,7 +5925,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 50001,
@@ -5469,7 +5974,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 50002,
@@ -5517,7 +6023,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 50003,
@@ -5565,7 +6072,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1050,
@@ -5613,7 +6121,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1051,
@@ -5661,7 +6170,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1052,
@@ -5709,7 +6219,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1053,
@@ -5757,7 +6268,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1054,
@@ -5805,7 +6317,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1055,
@@ -5853,7 +6366,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1056,
@@ -5901,7 +6415,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1057,
@@ -5949,7 +6464,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1058,
@@ -5997,7 +6513,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1059,
@@ -6045,7 +6562,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1060,
@@ -6093,7 +6611,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1061,
@@ -6141,7 +6660,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1062,
@@ -6189,7 +6709,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1063,
@@ -6237,7 +6758,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1064,
@@ -6285,7 +6807,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1065,
@@ -6333,7 +6856,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1066,
@@ -6381,7 +6905,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1067,
@@ -6429,7 +6954,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1068,
@@ -6477,7 +7003,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1069,
@@ -6525,7 +7052,8 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
   },
   {
     "kindNum": 1070,
@@ -6573,6 +7101,252 @@
     "trans": 0,
     "material1": 0,
     "material2": 0,
-    "material3": 0
+    "material3": 0,
+    "raidCc": ""
+  },
+  {
+    "kindNum": 100000,
+    "base": 100000,
+    "className": "ScorpionKing",
+    "name": "스콜피온킹",
+    "tribe": 0,
+    "grade": 7,
+    "evolStage": 0,
+    "evolKindNum": -1,
+    "dmgType": "P",
+    "isAir": "N",
+    "unitType": "range",
+    "numBlock": 0,
+    "food": 1,
+    "atkDmg": 10,
+    "def": 0,
+    "phyDef": 1,
+    "magDef": 0.5,
+    "hp": 800,
+    "atkSpd": 104,
+    "moveSpd": 2,
+    "atkRange": 250,
+    "recovery": 1,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 99999,
+    "cloaking": "N",
+    "detect": "Y",
+    "sex": "N",
+    "canPurchase": "N",
+    "honor": 0,
+    "nAtk": "적을 뒤로 밀쳐냄",
+    "sAtk": "스페셜 스킬",
+    "goldBuffs": "1|2|3|4|5|6|7|8|9|10",
+    "goldBuffValues": "2|2|2|2|2|2|2|2|2|18",
+    "uniqueSkill": -1,
+    "desc": "N",
+    "stunImmune": "Y",
+    "freezeImmune": "Y",
+    "blowImmune": "Y",
+    "knockImmune": "Y",
+    "weight": 100,
+    "trans": 0,
+    "material1": 0,
+    "material2": 0,
+    "material3": 0,
+    "raidCc": ""
+  },
+  {
+    "kindNum": 100001,
+    "base": 100001,
+    "className": "HarpyKing",
+    "name": "하피킹",
+    "tribe": 0,
+    "grade": 7,
+    "evolStage": 0,
+    "evolKindNum": -1,
+    "dmgType": "M",
+    "isAir": "Y",
+    "unitType": "range",
+    "numBlock": 0,
+    "food": 1,
+    "atkDmg": 10,
+    "def": 0,
+    "phyDef": 1,
+    "magDef": 0.5,
+    "hp": 800,
+    "atkSpd": 104,
+    "moveSpd": 2,
+    "atkRange": 250,
+    "recovery": 1,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 99999,
+    "cloaking": "N",
+    "detect": "Y",
+    "sex": "N",
+    "canPurchase": "N",
+    "honor": 0,
+    "nAtk": "적을 뒤로 밀쳐냄",
+    "sAtk": "스페셜 스킬",
+    "goldBuffs": "1|2|3|4|5|6|7|8|9|10",
+    "goldBuffValues": "2|2|2|2|2|2|2|2|2|18",
+    "uniqueSkill": -1,
+    "desc": "N",
+    "stunImmune": "Y",
+    "freezeImmune": "Y",
+    "blowImmune": "Y",
+    "knockImmune": "Y",
+    "weight": 100,
+    "trans": 0,
+    "material1": 0,
+    "material2": 0,
+    "material3": 0,
+    "raidCc": ""
+  },
+  {
+    "kindNum": 100002,
+    "base": 100002,
+    "className": "GolemKing",
+    "name": "골램킹",
+    "tribe": 0,
+    "grade": 7,
+    "evolStage": 0,
+    "evolKindNum": -1,
+    "dmgType": "P",
+    "isAir": "N",
+    "unitType": "range",
+    "numBlock": 0,
+    "food": 1,
+    "atkDmg": 10,
+    "def": 0,
+    "phyDef": 3,
+    "magDef": 0.5,
+    "hp": 800,
+    "atkSpd": 104,
+    "moveSpd": 2,
+    "atkRange": 250,
+    "recovery": 1,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 99999,
+    "cloaking": "N",
+    "detect": "Y",
+    "sex": "N",
+    "canPurchase": "N",
+    "honor": 0,
+    "nAtk": "적을 뒤로 밀쳐냄",
+    "sAtk": "스페셜 스킬",
+    "goldBuffs": "1|2|3|4|5|6|7|8|9|10",
+    "goldBuffValues": "2|2|2|2|2|2|2|2|2|18",
+    "uniqueSkill": -1,
+    "desc": "N",
+    "stunImmune": "Y",
+    "freezeImmune": "Y",
+    "blowImmune": "Y",
+    "knockImmune": "Y",
+    "weight": 100,
+    "trans": 0,
+    "material1": 0,
+    "material2": 0,
+    "material3": 0,
+    "raidCc": ""
+  },
+  {
+    "kindNum": 100003,
+    "base": 100003,
+    "className": "Berial",
+    "name": "베리알",
+    "tribe": 0,
+    "grade": 7,
+    "evolStage": 0,
+    "evolKindNum": -1,
+    "dmgType": "M",
+    "isAir": "N",
+    "unitType": "range",
+    "numBlock": 0,
+    "food": 1,
+    "atkDmg": 10,
+    "def": 0,
+    "phyDef": 1,
+    "magDef": 3,
+    "hp": 800,
+    "atkSpd": 104,
+    "moveSpd": 0,
+    "atkRange": 250,
+    "recovery": 1,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 99999,
+    "cloaking": "N",
+    "detect": "Y",
+    "sex": "N",
+    "canPurchase": "N",
+    "honor": 0,
+    "nAtk": "적을 뒤로 밀쳐냄",
+    "sAtk": "스페셜 스킬",
+    "goldBuffs": "1|2|3|4|5|6|7|8|9|10",
+    "goldBuffValues": "2|2|2|2|2|2|2|2|2|18",
+    "uniqueSkill": -1,
+    "desc": "N",
+    "stunImmune": "Y",
+    "freezeImmune": "Y",
+    "blowImmune": "Y",
+    "knockImmune": "Y",
+    "weight": 100,
+    "trans": 0,
+    "material1": 0,
+    "material2": 0,
+    "material3": 0,
+    "raidCc": ""
+  },
+  {
+    "kindNum": 100004,
+    "base": 100004,
+    "className": "DragonKnight",
+    "name": "용기사",
+    "tribe": 0,
+    "grade": 7,
+    "evolStage": 0,
+    "evolKindNum": -1,
+    "dmgType": "P",
+    "isAir": "N",
+    "unitType": "range",
+    "numBlock": 0,
+    "food": 1,
+    "atkDmg": 10,
+    "def": 0,
+    "phyDef": 1,
+    "magDef": 0.5,
+    "hp": 800,
+    "atkSpd": 104,
+    "moveSpd": 2,
+    "atkRange": 250,
+    "recovery": 1,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 99999,
+    "cloaking": "N",
+    "detect": "Y",
+    "sex": "N",
+    "canPurchase": "N",
+    "honor": 0,
+    "nAtk": "적을 뒤로 밀쳐냄",
+    "sAtk": "스페셜 스킬",
+    "goldBuffs": "1|2|3|4|5|6|7|8|9|10",
+    "goldBuffValues": "2|2|2|2|2|2|2|2|2|18",
+    "uniqueSkill": -1,
+    "desc": "N",
+    "stunImmune": "Y",
+    "freezeImmune": "Y",
+    "blowImmune": "Y",
+    "knockImmune": "Y",
+    "weight": 100,
+    "trans": 0,
+    "material1": 0,
+    "material2": 0,
+    "material3": 0,
+    "raidCc": ""
   }
 ]
