@@ -8,6 +8,7 @@ export const DATA_PATHS = {
     heroUniqueSkills: "data/hero_unique_skill.json",
     pets: "data/pet.json",
     petSkills: "data/pet_skill.json",
+    guildRaids: "data/guild_raid.json",
     locale: "data/locales/en.json",
 };
 

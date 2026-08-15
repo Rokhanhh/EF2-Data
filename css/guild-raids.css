@@ -1,0 +1,420 @@
+.guild-raid-heading {
+    margin-bottom: 10px;
+}
+
+.guild-raid-tabs {
+    margin: 8px 0 12px;
+}
+
+.guild-raid-tabs.pagination > li > span {
+    display: block;
+    margin: 2px;
+    padding: 6px 12px;
+    border: 1px solid #4d4334;
+    border-radius: 8px;
+    background: #2b251e;
+    color: #84765f;
+    cursor: not-allowed;
+    font-weight: 700;
+}
+
+.guild-raid-difficulties,
+.guild-raid-boss-list {
+    display: grid;
+    gap: 6px;
+}
+
+.guild-raid-difficulty,
+.guild-raid-boss-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-height: 72px;
+    padding: 8px 10px;
+    border: 1px solid #5b4b31;
+    border-radius: 9px;
+    background: #30291f;
+    color: #f4ead9;
+    text-decoration: none;
+}
+
+.guild-raid-difficulty {
+    gap: 0;
+    height: 72px;
+    min-height: 0;
+    padding: 0;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.guild-raid-boss-row {
+    gap: 0;
+    height: 72px;
+    min-height: 0;
+    padding: 0;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.guild-raid-difficulty:hover,
+.guild-raid-difficulty:focus,
+.guild-raid-boss-row:hover,
+.guild-raid-boss-row:focus {
+    border-color: #d1a12a;
+    background: #403424;
+    color: #fff4b4;
+    text-decoration: none;
+}
+
+.guild-raid-stage-icon {
+    display: flex;
+    align-self: stretch;
+    width: 112px;
+    flex: 0 0 112px;
+    justify-content: center;
+}
+
+.guild-raid-stage-icon > .sprite-icon {
+    display: block;
+    width: 112px !important;
+    height: 72px !important;
+    margin: 0 !important;
+}
+
+.guild-raid-stage-icon > .sprite-icon > .sprite-icon-canvas {
+    top: 0 !important;
+}
+
+.guild-raid-boss-portrait {
+    display: flex;
+    align-self: stretch;
+    width: 101px;
+    flex: 0 0 101px;
+    justify-content: center;
+}
+
+.guild-raid-boss-portrait > .sprite-icon {
+    display: block;
+    width: 101px !important;
+    height: 72px !important;
+    margin: 0 !important;
+}
+
+.guild-raid-boss-portrait > .sprite-icon > .sprite-icon-canvas {
+    top: 0 !important;
+}
+
+.guild-raid-stage-copy {
+    display: flex;
+    min-width: 0;
+    flex: 1;
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 10px;
+}
+
+.guild-raid-stage-copy strong,
+.guild-raid-boss-row > span:last-child {
+    font-weight: 700;
+}
+
+.guild-raid-boss-row > span:last-child {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.guild-raid-stage-copy small {
+    color: #cbb994;
+}
+
+.guild-raid-stage-cost {
+    padding: 8px 10px 8px 0;
+    color: #d5bd81;
+    font-size: 12px;
+    text-align: right;
+}
+
+.guild-raid-stage-cost strong {
+    display: block;
+    color: #fff4b4;
+    font-size: 15px;
+}
+
+.guild-raid-detail-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin: -2px 0 12px;
+}
+
+#guildRaidDetailIcon {
+    align-self: flex-start;
+    width: 106px;
+    height: 76px;
+}
+
+#guildRaidDetailIcon > .sprite-icon {
+    display: block;
+    width: 106px !important;
+    height: 76px !important;
+    margin: 0 !important;
+}
+
+#guildRaidDetailIcon > .sprite-icon > .sprite-icon-canvas {
+    top: 0 !important;
+}
+
+.guild-raid-detail-navigation a,
+.guild-raid-detail-navigation span {
+    padding: 0 9px;
+    border-right: 1px solid #5b4b31;
+    font-size: 12px;
+}
+
+.guild-raid-detail-navigation a:first-child,
+.guild-raid-detail-navigation span:first-child {
+    padding-left: 0;
+}
+
+.guild-raid-detail-navigation span {
+    color: #827660;
+}
+
+.guild-raid-panel {
+    min-height: 0;
+}
+
+.guild-raid-pets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.guild-raid-pets a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #f4ead9;
+}
+
+.guild-raid-pets a:hover,
+.guild-raid-pets a:focus {
+    color: #ffd98e;
+    text-decoration: none;
+}
+
+.guild-raid-reward-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-bottom: 10px;
+}
+
+.guild-raid-rewards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 6%;
+    row-gap: 12px;
+}
+
+.guild-raid-rewards-grid .guild-raid-reward-group {
+    margin-bottom: 0;
+    width: fit-content;
+    align-items: center;
+    justify-self: start;
+    text-align: center;
+}
+
+.guild-raid-currency-rewards {
+    display: grid;
+    grid-template-columns: repeat(3, 29px);
+    gap: 4px;
+    align-items: start;
+}
+
+.guild-raid-currency-rewards.single {
+    grid-template-columns: 29px;
+}
+
+.guild-raid-any-attack {
+    align-items: center;
+    text-align: center;
+}
+
+.guild-raid-currency-reward {
+    display: grid;
+    grid-template-rows: 33px auto;
+    width: 29px;
+    justify-items: center;
+    align-items: center;
+    color: #fff4b4;
+    font-size: 11px;
+    line-height: 1;
+}
+
+.guild-raid-currency-reward > .sprite-icon {
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, .65));
+}
+
+.guild-raid-currency-reward strong {
+    align-self: start;
+    margin-top: 0;
+}
+
+.guild-raid-reward-group:last-child {
+    margin-bottom: 0;
+}
+
+.guild-raid-reward-group strong {
+    color: #fff4b4;
+}
+
+.guild-raid-attack-patterns {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.guild-raid-attack-patterns li {
+    margin: 5px 0;
+    line-height: 1.35;
+}
+
+.guild-raid-tribes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.guild-raid-tribe-effect {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+}
+
+.guild-raid-tribe-effect strong.positive {
+    color: #75d86b;
+}
+
+.guild-raid-tribe-effect strong.negative {
+    color: #e27272;
+}
+
+.guild-raid-weakpoint-note {
+    margin-bottom: 10px;
+    color: #d9cdb9;
+    font-size: 12px;
+    line-height: 1.35;
+}
+
+.guild-raid-weakpoints {
+    display: grid;
+    gap: 7px;
+}
+
+.guild-raid-weakpoint {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+    padding: 6px 8px;
+    border: 1px solid #836c36;
+    border-radius: 6px;
+    background: #4a3d2b;
+    color: #ffe39b;
+}
+
+.guild-raid-weakpoint-icon {
+    flex: 0 0 auto;
+    margin-top: 1px;
+}
+
+.guild-raid-weakpoint > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.guild-raid-weakpoint-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px;
+}
+
+.guild-raid-weakpoint strong {
+    font-size: 13px;
+}
+
+.guild-raid-weakpoint span {
+    color: #f4ead9;
+    font-size: 12px;
+}
+
+.guild-raid-vulnerability-units {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin-top: 5px;
+}
+
+.guild-raid-vulnerability-units a {
+    display: inline-flex;
+    width: 42px;
+    height: 24px;
+}
+
+.guild-raid-vulnerability-units a:hover,
+.guild-raid-vulnerability-units a:focus {
+    filter: brightness(1.2);
+    outline: 1px solid #fff4b4;
+}
+
+.guild-raid-unit-portrait {
+    position: relative;
+    display: block;
+    width: 42px;
+    height: 24px;
+}
+
+.guild-raid-unit-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.guild-raid-unit-crop {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 33px;
+    height: 20px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 86% 0, 100% 50%, 86% 100%, 0 100%);
+}
+
+.guild-raid-unit-hero {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+}
+
+@media (max-width: 480px) {
+    .guild-raid-difficulty {
+        gap: 7px;
+    }
+
+    .guild-raid-stage-cost {
+        max-width: 66px;
+        font-size: 11px;
+    }
+
+    .guild-raid-detail-navigation {
+        margin-left: 0;
+    }
+
+    .guild-raid-rewards-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}

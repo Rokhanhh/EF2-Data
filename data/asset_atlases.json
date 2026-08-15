@@ -7,6 +7,10 @@
         "uiPet": {
             "json": "images/atlases/ui-pet/UI_PET.json",
             "image": "images/atlases/ui-pet/UI_PET.png"
+        },
+        "uiRaid": {
+            "json": "images/atlases/ui-raid/UI_RAID.json",
+            "image": "images/atlases/ui-raid/UI_RAID.png"
         }
     },
     "sets": {
@@ -30,6 +34,9 @@
             "source": "uiPet",
             "framePrefix": "UI_PET",
             "pad": 0
+        },
+        "raids": {
+            "source": "uiRaid"
         }
     }
 }

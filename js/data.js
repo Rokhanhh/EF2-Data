@@ -1,6 +1,6 @@
-import { versionedUrl } from "./cache-bust.js?v=194107cf343d";
-import { DATA_PATHS } from "./constants.js?v=194107cf343d";
-import { loadAssetAtlases } from "./asset-atlas.js?v=194107cf343d";
+import { versionedUrl } from "./cache-bust.js?v=20260815163500";
+import { DATA_PATHS } from "./constants.js?v=20260815163500";
+import { loadAssetAtlases } from "./asset-atlas.js?v=20260815163500";
 
 export async function loadRelicData() {
     const [treasureBook, valueBook, setBook, limitBreakBook, locale, assetAtlases] = await Promise.all([
@@ -77,6 +77,31 @@ export async function loadUnitData() {
         petByCoupleMap: new Map(toArrayBook(petBook).map(normalizePet).filter((pet) => pet.couple > 0).map((pet) => [pet.couple, pet])),
         heroGoldSkillMap: new Map(toArrayBook(goldSkillBook).map((skill) => [Number(skill.id), normalizeHeroGoldSkill(skill)])),
         heroUniqueSkillMap: new Map(toArrayBook(uniqueSkillBook).map((skill) => [Number(skill.kindNum), normalizeHeroUniqueSkill(skill)])),
+        locale: locale || {},
+        assetAtlases,
+    };
+}
+
+export async function loadGuildRaidData() {
+    const [raidBook, petBook, unitBook, locale, assetAtlases] = await Promise.all([
+        loadJson(DATA_PATHS.guildRaids),
+        loadJson(DATA_PATHS.pets),
+        loadJson(DATA_PATHS.units),
+        loadJson(DATA_PATHS.locale),
+        loadAssetAtlases(undefined, ["ui", "pets", "raids"]),
+    ]);
+
+    const raids = toArrayBook(raidBook)
+        .map(normalizeGuildRaid)
+        .sort((a, b) => a.main - b.main || a.difficult - b.difficult || a.sub - b.sub);
+    const pets = toArrayBook(petBook).map(normalizePet);
+    const units = toArrayBook(unitBook).map(normalizeUnit);
+
+    return {
+        raids,
+        units,
+        petMap: new Map(pets.map((pet) => [pet.kindNum, pet])),
+        unitMap: new Map(units.map((unit) => [unit.kindNum, unit])),
         locale: locale || {},
         assetAtlases,
     };
@@ -186,6 +211,25 @@ function normalizeUnit(row) {
         material2: parseNumberList(row.material2, "|").filter((id) => id > 0),
         material3: parseNumberList(row.material3, "|").filter((id) => id > 0),
     };
+}
+
+function normalizeGuildRaid(row) {
+    const numericFields = [
+        "kindNum", "main", "sub", "progress", "difficult", "openCost", "limit", "bossKindNum", "level", "hp",
+        "levelDiff", "attack", "phyDefense", "magDefense", "shield", "plusValue", "minusValue", "meleeDef",
+        "rangeDef", "guildCoin", "raidCoin", "claimGuildCoin", "gem", "petKindNum", "numPet", "petKindNum2",
+        "numPet2", "incAttack", "decSpeed", "resistType", "takenResistMin", "takenResistMax", "takenMultMax",
+        "takenMultMin", "dealResistMin", "dealResistMax", "dealMultMin", "dealMultMax", "recommendResist",
+        "EVADEMIN", "EVADEMAX", "BLOCKMIN", "BLOCKMAX", "vulnStun", "vulnFreeze", "vulnPoison", "vulnCurse",
+        "vulnSilence", "vulnShock", "vulnBinding", "vulnBlow", "vulnKnockback", "vulnCharm", "maxPerWeakpoint",
+    ];
+    const normalized = { ...row };
+    numericFields.forEach((field) => {
+        normalized[field] = Number(String(row[field] == null ? 0 : row[field]).replace(/,/g, "")) || 0;
+    });
+    normalized.plusTribe = String(row.plusTribe || "").toLowerCase();
+    normalized.minusTribe = String(row.minusTribe || "").toLowerCase();
+    return normalized;
 }
 
 function normalizeHeroGoldSkill(row) {

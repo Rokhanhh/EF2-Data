@@ -1,8 +1,9 @@
-import { loadAssetAtlases, renderAtlasIconById } from "./asset-atlas.js?v=194107cf343d";
-import { defaultNavLinks, renderFooter, renderNavbar } from "./layout.js?v=194107cf343d";
-import { initPetsView, renderPetsRoute } from "./pets-view.js?v=194107cf343d";
-import { initRelicsView, renderRelicsRoute } from "./relics-view.js?v=194107cf343d";
-import { initUnitsView, renderUnitsRoute } from "./units-view.js?v=194107cf343d";
+import { loadAssetAtlases, renderAtlasIconById } from "./asset-atlas.js?v=20260815163500";
+import { defaultNavLinks, renderFooter, renderNavbar } from "./layout.js?v=20260815163500";
+import { initGuildRaidsView, renderGuildRaidsRoute } from "./guild-raids-view.js?v=20260815163500";
+import { initPetsView, renderPetsRoute } from "./pets-view.js?v=20260815163500";
+import { initRelicsView, renderRelicsRoute } from "./relics-view.js?v=20260815163500";
+import { initUnitsView, renderUnitsRoute } from "./units-view.js?v=20260815163500";
 
 (function () {
     "use strict";
@@ -26,7 +27,7 @@ import { initUnitsView, renderUnitsRoute } from "./units-view.js?v=194107cf343d"
             return true;
         }
 
-        if (route !== "relics" && route !== "pets" && route !== "units") {
+        if (route !== "relics" && route !== "pets" && route !== "units" && route !== "guild-raids") {
             history.replaceState(null, "", `${window.location.pathname}${window.location.search}`);
             return false;
         }
@@ -42,6 +43,9 @@ import { initUnitsView, renderUnitsRoute } from "./units-view.js?v=194107cf343d"
         document.getElementById("unitDetailView").classList.add("view-hidden");
         document.getElementById("petListView").classList.add("view-hidden");
         document.getElementById("petDetailView").classList.add("view-hidden");
+        document.getElementById("guildRaidMainView").classList.add("view-hidden");
+        document.getElementById("guildRaidBossListView").classList.add("view-hidden");
+        document.getElementById("guildRaidDetailView").classList.add("view-hidden");
         renderNavbar({
             links: defaultNavLinks("Home"),
         });
@@ -63,6 +67,9 @@ import { initUnitsView, renderUnitsRoute } from "./units-view.js?v=194107cf343d"
             document.getElementById("unitDetailView").classList.add("view-hidden");
             document.getElementById("petListView").classList.add("view-hidden");
             document.getElementById("petDetailView").classList.add("view-hidden");
+            document.getElementById("guildRaidMainView").classList.add("view-hidden");
+            document.getElementById("guildRaidBossListView").classList.add("view-hidden");
+            document.getElementById("guildRaidDetailView").classList.add("view-hidden");
             await initRelicsView();
             renderRelicsRoute();
             return;
@@ -74,6 +81,9 @@ import { initUnitsView, renderUnitsRoute } from "./units-view.js?v=194107cf343d"
             document.getElementById("detailView").classList.add("view-hidden");
             document.getElementById("unitListView").classList.add("view-hidden");
             document.getElementById("unitDetailView").classList.add("view-hidden");
+            document.getElementById("guildRaidMainView").classList.add("view-hidden");
+            document.getElementById("guildRaidBossListView").classList.add("view-hidden");
+            document.getElementById("guildRaidDetailView").classList.add("view-hidden");
             await initPetsView();
             renderPetsRoute();
             return;
@@ -85,8 +95,24 @@ import { initUnitsView, renderUnitsRoute } from "./units-view.js?v=194107cf343d"
             document.getElementById("detailView").classList.add("view-hidden");
             document.getElementById("petListView").classList.add("view-hidden");
             document.getElementById("petDetailView").classList.add("view-hidden");
+            document.getElementById("guildRaidMainView").classList.add("view-hidden");
+            document.getElementById("guildRaidBossListView").classList.add("view-hidden");
+            document.getElementById("guildRaidDetailView").classList.add("view-hidden");
             await initUnitsView();
             renderUnitsRoute();
+            return;
+        }
+
+        if (route === "guild-raids") {
+            document.getElementById("homeView").classList.add("view-hidden");
+            document.getElementById("listView").classList.add("view-hidden");
+            document.getElementById("detailView").classList.add("view-hidden");
+            document.getElementById("unitListView").classList.add("view-hidden");
+            document.getElementById("unitDetailView").classList.add("view-hidden");
+            document.getElementById("petListView").classList.add("view-hidden");
+            document.getElementById("petDetailView").classList.add("view-hidden");
+            await initGuildRaidsView();
+            renderGuildRaidsRoute();
             return;
         }
 

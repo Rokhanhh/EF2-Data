@@ -51,6 +51,7 @@ export function defaultNavLinks(activeLabel = "") {
         { label: "Units", href: "#/units" },
         { label: "Relics", href: "#/relics" },
         { label: "Pets", href: "#/pets" },
+        { label: "Guild Raids", href: "#/guild-raids/1" },
     ].map((link) => ({ ...link, active: link.label === activeLabel }));
 }
 

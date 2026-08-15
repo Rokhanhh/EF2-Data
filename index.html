@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Endless Frontier Data</title>
 
-    <link href="css/bootstrap.css?v=194107cf343d" rel="stylesheet">
-    <link href="css/sprites.css?v=194107cf343d" rel="stylesheet">
-    <link href="css/global.css?v=194107cf343d" rel="stylesheet">
-    <link href="css/relics.css?v=194107cf343d" rel="stylesheet">
-    <link href="css/units.css?v=194107cf343d" rel="stylesheet">
-    <link href="css/pets.css?v=194107cf343d" rel="stylesheet">
-    <link href="css/home.css?v=194107cf343d" rel="stylesheet">
+    <link href="css/bootstrap.css?v=20260815163500" rel="stylesheet">
+    <link href="css/sprites.css?v=20260815163500" rel="stylesheet">
+    <link href="css/global.css?v=20260815163500" rel="stylesheet">
+    <link href="css/relics.css?v=20260815163500" rel="stylesheet">
+    <link href="css/units.css?v=20260815163500" rel="stylesheet">
+    <link href="css/pets.css?v=20260815163500" rel="stylesheet">
+    <link href="css/guild-raids.css?v=20260815163500" rel="stylesheet">
+    <link href="css/home.css?v=20260815163500" rel="stylesheet">
 </head>
 
 <body>
@@ -261,9 +262,55 @@
         </div>
     </div>
 
+    <div class="container view-hidden" id="guildRaidMainView">
+        <div class="row unit-details">
+            <div class="col-md-12 text-center">
+                <h2 class="general-heading relic-book-title guild-raid-heading">Guild Raids</h2>
+            </div>
+            <div class="col-md-12 text-center">
+                <ul class="pagination pagination-sm grade-tabs guild-raid-tabs" id="guildRaidMainTabs"></ul>
+            </div>
+            <div class="col-md-12 text-left">
+                <h4 class="relic-title" id="guildRaidMainTitle">Loading...</h4>
+            </div>
+            <div class="col-md-12">
+                <div class="relic-list-panel guild-raid-difficulties" id="guildRaidDifficultyList">Loading raids...</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container view-hidden" id="guildRaidBossListView">
+        <div class="row unit-details">
+            <div class="col-md-12 text-left">
+                <a class="btn btn-default detail-back-link" id="guildRaidBossListBack" href="#/guild-raids/1">Back to Stage List</a>
+                <h3 class="relic-title" id="guildRaidBossListTitle">Loading...</h3>
+            </div>
+            <div class="col-md-12">
+                <div class="relic-list-panel guild-raid-boss-list" id="guildRaidBossList">Loading bosses...</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container view-hidden" id="guildRaidDetailView">
+        <div class="row unit-details">
+            <div class="col-md-12 text-left">
+                <a class="btn btn-default detail-back-link" id="guildRaidDetailBack" href="#/guild-raids/1/1">Back to Boss List</a>
+                <div class="relic-header">
+                    <span class="relic-main-icon" id="guildRaidDetailIcon"></span>
+                    <div>
+                        <h3 class="relic-title" id="guildRaidDetailTitle">Loading...</h3>
+                        <div class="relic-meta" id="guildRaidDetailMeta"></div>
+                    </div>
+                </div>
+                <div class="guild-raid-detail-navigation" id="guildRaidDetailNavigation"></div>
+            </div>
+            <div class="col-md-12 text-left" id="guildRaidDetailContent"></div>
+        </div>
+    </div>
+
     <div id="siteFooter"></div>
 
-    <script type="module" src="js/app.js?v=194107cf343d"></script>
+    <script type="module" src="js/app.js?v=20260815163500"></script>
 </body>
 
 </html>
