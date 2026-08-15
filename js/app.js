@@ -1,9 +1,9 @@
-import { loadAssetAtlases, renderAtlasIconById } from "./asset-atlas.js?v=20260815163500";
-import { defaultNavLinks, renderFooter, renderNavbar } from "./layout.js?v=20260815163500";
-import { initGuildRaidsView, renderGuildRaidsRoute } from "./guild-raids-view.js?v=20260815163500";
-import { initPetsView, renderPetsRoute } from "./pets-view.js?v=20260815163500";
-import { initRelicsView, renderRelicsRoute } from "./relics-view.js?v=20260815163500";
-import { initUnitsView, renderUnitsRoute } from "./units-view.js?v=20260815163500";
+import { loadAssetAtlases, renderAtlasIconById } from "./asset-atlas.js?v=717fb3471389";
+import { defaultNavLinks, renderFooter, renderNavbar } from "./layout.js?v=717fb3471389";
+import { initGuildRaidsView, renderGuildRaidsRoute } from "./guild-raids-view.js?v=717fb3471389";
+import { initPetsView, renderPetsRoute } from "./pets-view.js?v=717fb3471389";
+import { initRelicsView, renderRelicsRoute } from "./relics-view.js?v=717fb3471389";
+import { initUnitsView, renderUnitsRoute } from "./units-view.js?v=717fb3471389";
 
 (function () {
     "use strict";
