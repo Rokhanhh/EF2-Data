@@ -1,7 +1,7 @@
-import { renderAtlasIconById } from "./asset-atlas.js?v=246e0d2df15b";
-import { loadPetData } from "./data.js?v=246e0d2df15b";
-import { defaultNavLinks, renderNavbar } from "./layout.js?v=246e0d2df15b";
-import { escapeHtml, formatNumber } from "./utils.js?v=246e0d2df15b";
+import { renderAtlasIconById } from "./asset-atlas.js?v=194107cf343d";
+import { loadPetData } from "./data.js?v=194107cf343d";
+import { defaultNavLinks, renderNavbar } from "./layout.js?v=194107cf343d";
+import { escapeHtml, formatNumber } from "./utils.js?v=194107cf343d";
 
 const state = {
     pets: [],
