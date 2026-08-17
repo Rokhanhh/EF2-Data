@@ -1,0 +1,82 @@
+[
+  {
+    "subId": 1,
+    "skillRef": 1,
+    "emblems": "2|5",
+    "value5": 4,
+    "value6": 7,
+    "desc": "공격력 증가"
+  },
+  {
+    "subId": 2,
+    "skillRef": 2,
+    "emblems": "1|2|3|4|5",
+    "value5": 5,
+    "value6": 8,
+    "desc": "최대 HP 증가"
+  },
+  {
+    "subId": 3,
+    "skillRef": 3,
+    "emblems": "1|3|4",
+    "value5": 4,
+    "value6": 7,
+    "desc": "방어력 증가"
+  },
+  {
+    "subId": 4,
+    "skillRef": 4,
+    "emblems": "2|4|5",
+    "value5": 3,
+    "value6": 5,
+    "desc": "공격속도 증가"
+  },
+  {
+    "subId": 5,
+    "skillRef": 9,
+    "emblems": "1|3",
+    "value5": -3,
+    "value6": -5,
+    "desc": "받는 피해 감소"
+  },
+  {
+    "subId": 6,
+    "skillRef": 35,
+    "emblems": "1|2|3|4|5|6",
+    "value5": 3,
+    "value6": 5,
+    "desc": "액티브 쿨다운 감소"
+  },
+  {
+    "subId": 7,
+    "skillRef": 13,
+    "emblems": "1|3",
+    "value5": 2,
+    "value6": 4,
+    "desc": "5초마다 군단 HP 회복"
+  },
+  {
+    "subId": 8,
+    "skillRef": 31,
+    "emblems": "4|5",
+    "value5": 0.0025,
+    "value6": 0.005,
+    "desc": "타격당 보스 기력 소진"
+  },
+  {
+    "subId": 9,
+    "skillRef": 41,
+    "emblems": 6,
+    "value5": 4,
+    "value6": 7,
+    "desc": "석궁 데미지 증가"
+  },
+  {
+    "subId": 10,
+    "skillRef": 43,
+    "emblems": 6,
+    "value5": 3,
+    "value6": 5,
+    "desc": "석궁 에너지 충전 속도 증가"
+  }
+]

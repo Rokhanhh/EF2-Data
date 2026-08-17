@@ -9,6 +9,7 @@ $files = @(
     "js/asset-atlas.js",
     "js/cache-bust.js",
     "js/data.js",
+    "js/emblems-runes-view.js",
     "js/guild-raids-view.js",
     "js/pets-view.js",
     "js/relic-calculations.js",

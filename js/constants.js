@@ -9,6 +9,11 @@ export const DATA_PATHS = {
     pets: "data/pet.json",
     petSkills: "data/pet_skill.json",
     guildRaids: "data/guild_raid.json",
+    emblems: "data/emblem.json",
+    emblemSkills: "data/emblem_skill.json",
+    runes: "data/rune.json",
+    runeGrades: "data/rune_grade.json",
+    runeSubs: "data/rune_sub.json",
     locale: "data/locales/en.json",
 };
 

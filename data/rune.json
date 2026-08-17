@@ -1,0 +1,1372 @@
+[
+  {
+    "kindNum": 101,
+    "className": "RuneRock",
+    "name": "체력의 룬",
+    "type": "A",
+    "skillRef": 2,
+    "filter": "ALL",
+    "value": "3|6|12|24|35|60",
+    "param": 0
+  },
+  {
+    "kindNum": 102,
+    "className": "RuneIron",
+    "name": "방어의 룬",
+    "type": "A",
+    "skillRef": 3,
+    "filter": "ALL",
+    "value": "3|6|12|24|35|60",
+    "param": 0
+  },
+  {
+    "kindNum": 103,
+    "className": "RuneStride",
+    "name": "이동의 룬",
+    "type": "A",
+    "skillRef": 5,
+    "filter": "ALL",
+    "value": "3|5|10|15|20|30",
+    "param": 0
+  },
+  {
+    "kindNum": 104,
+    "className": "RuneMenace",
+    "name": "어그로 증가의 룬",
+    "type": "A",
+    "skillRef": 7,
+    "filter": "ALL",
+    "value": "7|15|25|30|40|50",
+    "param": 0
+  },
+  {
+    "kindNum": 105,
+    "className": "RuneWall",
+    "name": "보호의 룬",
+    "type": "A",
+    "skillRef": 9,
+    "filter": "ALL",
+    "value": "-3|-5|-7|-12|-18|-25",
+    "param": 0
+  },
+  {
+    "kindNum": 106,
+    "className": "RuneMend",
+    "name": "재생의 룬",
+    "type": "A",
+    "skillRef": 13,
+    "filter": "ALL",
+    "value": "2|4|6|8|10|12",
+    "param": 0
+  },
+  {
+    "kindNum": 107,
+    "className": "RuneThorn",
+    "name": "반격의 룬",
+    "type": "A",
+    "skillRef": 17,
+    "filter": "ALL",
+    "value": "2|4|6|10|15|20",
+    "param": 0
+  },
+  {
+    "kindNum": 112,
+    "className": "RuneRockHuman",
+    "name": "체력의 룬(인간)",
+    "type": "A",
+    "skillRef": 2,
+    "filter": "HUMAN",
+    "value": "0|0|0|36|53|90",
+    "param": 0
+  },
+  {
+    "kindNum": 113,
+    "className": "RuneRockElf",
+    "name": "체력의 룬(엘프)",
+    "type": "A",
+    "skillRef": 2,
+    "filter": "ELF",
+    "value": "0|0|0|36|53|90",
+    "param": 0
+  },
+  {
+    "kindNum": 114,
+    "className": "RuneRockUndead",
+    "name": "체력의 룬(언데드)",
+    "type": "A",
+    "skillRef": 2,
+    "filter": "UNDEAD",
+    "value": "0|0|0|36|53|90",
+    "param": 0
+  },
+  {
+    "kindNum": 115,
+    "className": "RuneRockOrc",
+    "name": "체력의 룬(오크)",
+    "type": "A",
+    "skillRef": 2,
+    "filter": "ORC",
+    "value": "0|0|0|36|53|90",
+    "param": 0
+  },
+  {
+    "kindNum": 116,
+    "className": "RuneResolveA",
+    "name": "쿨타임의 룬",
+    "type": "A",
+    "skillRef": 35,
+    "filter": "ALL",
+    "value": "3|5|7|10|13|16",
+    "param": 0
+  },
+  {
+    "kindNum": 117,
+    "className": "RuneEndureA",
+    "name": "지속시간의 룬",
+    "type": "A",
+    "skillRef": 36,
+    "filter": "ALL",
+    "value": "2|4|7|10|15|20",
+    "param": 0
+  },
+  {
+    "kindNum": 118,
+    "className": "RuneClarityA",
+    "name": "기절 저항의 룬",
+    "type": "A",
+    "skillRef": 22,
+    "filter": "ALL",
+    "value": "10|20|30|40|60|100",
+    "param": 0
+  },
+  {
+    "kindNum": 119,
+    "className": "RuneAnchorA",
+    "name": "넉백 저항의 룬",
+    "type": "A",
+    "skillRef": 23,
+    "filter": "ALL",
+    "value": "10|20|30|40|60|100",
+    "param": 0
+  },
+  {
+    "kindNum": 120,
+    "className": "RuneGravityA",
+    "name": "블로우 저항의 룬",
+    "type": "A",
+    "skillRef": 24,
+    "filter": "ALL",
+    "value": "10|20|30|40|60|100",
+    "param": 0
+  },
+  {
+    "kindNum": 121,
+    "className": "RuneTauntBreak",
+    "name": "제압의 룬",
+    "type": "A",
+    "skillRef": 71,
+    "filter": "ALL",
+    "value": "0|0|0|15|30|50",
+    "param": 0
+  },
+  {
+    "kindNum": 122,
+    "className": "RuneTauntShield",
+    "name": "수호 함성의 룬",
+    "type": "A",
+    "skillRef": 72,
+    "filter": "ALL",
+    "value": "0|0|0|8|12|16",
+    "param": 0
+  },
+  {
+    "kindNum": 123,
+    "className": "RuneTauntMend",
+    "name": "불굴의 룬",
+    "type": "A",
+    "skillRef": 73,
+    "filter": "ALL",
+    "value": "0|0|0|0|20|40",
+    "param": 0
+  },
+  {
+    "kindNum": 124,
+    "className": "RuneLastStand",
+    "name": "사수의 룬",
+    "type": "A",
+    "skillRef": 95,
+    "filter": "ALL",
+    "value": "0|0|0|0|35|50",
+    "param": 0
+  },
+  {
+    "kindNum": 126,
+    "className": "RuneAegisPulse",
+    "name": "순환 방벽의 룬",
+    "type": "A",
+    "skillRef": 109,
+    "filter": "ALL",
+    "value": "0|0|0|6|9|13",
+    "param": 0
+  },
+  {
+    "kindNum": 127,
+    "className": "RuneRampart",
+    "name": "보루의 룬",
+    "type": "A",
+    "skillRef": 110,
+    "filter": "ALL",
+    "value": "0|0|10|14|20|27",
+    "param": 0
+  },
+  {
+    "kindNum": 128,
+    "className": "RuneDash",
+    "name": "대시의 룬",
+    "type": "A",
+    "skillRef": 38,
+    "filter": "ALL",
+    "value": "0|0|0|0|15|30",
+    "param": 0
+  },
+  {
+    "kindNum": 201,
+    "className": "RuneFury",
+    "name": "공격의 룬",
+    "type": "B",
+    "skillRef": 1,
+    "filter": "ALL",
+    "value": "3|6|12|24|35|60",
+    "param": 0
+  },
+  {
+    "kindNum": 202,
+    "className": "RuneVigor",
+    "name": "체력의 룬",
+    "type": "B",
+    "skillRef": 2,
+    "filter": "ALL",
+    "value": "3|6|12|24|35|60",
+    "param": 0
+  },
+  {
+    "kindNum": 203,
+    "className": "RuneSwift",
+    "name": "공속의 룬",
+    "type": "B",
+    "skillRef": 4,
+    "filter": "ALL",
+    "value": "3|5|10|15|20|30",
+    "param": 0
+  },
+  {
+    "kindNum": 204,
+    "className": "RuneChase",
+    "name": "이동의 룬",
+    "type": "B",
+    "skillRef": 5,
+    "filter": "ALL",
+    "value": "3|5|10|15|20|30",
+    "param": 0
+  },
+  {
+    "kindNum": 205,
+    "className": "RuneFar",
+    "name": "사거리의 룬",
+    "type": "B",
+    "skillRef": 6,
+    "filter": "ALL",
+    "value": "3|7|12|20|28|40",
+    "param": 0
+  },
+  {
+    "kindNum": 206,
+    "className": "RuneShadow",
+    "name": "어그로 감소의 룬",
+    "type": "B",
+    "skillRef": 8,
+    "filter": "ALL",
+    "value": "-7|-15|-25|-30|-40|-50",
+    "param": 0
+  },
+  {
+    "kindNum": 207,
+    "className": "RuneKeen",
+    "name": "치명타 확률의 룬",
+    "type": "B",
+    "skillRef": 10,
+    "filter": "ALL",
+    "value": "3|7|10|15|20|30",
+    "param": 0
+  },
+  {
+    "kindNum": 208,
+    "className": "RuneSlayer",
+    "name": "치명타 피해의 룬",
+    "type": "B",
+    "skillRef": 11,
+    "filter": "ALL",
+    "value": "0|6|12|24|35|60",
+    "param": 0
+  },
+  {
+    "kindNum": 209,
+    "className": "RuneLeech",
+    "name": "흡혈의 룬",
+    "type": "B",
+    "skillRef": 12,
+    "filter": "ALL",
+    "value": "0|0|5|7|10|14",
+    "param": 0
+  },
+  {
+    "kindNum": 214,
+    "className": "RuneFuryHuman",
+    "name": "공격의 룬(인간)",
+    "type": "B",
+    "skillRef": 1,
+    "filter": "HUMAN",
+    "value": "0|0|0|36|53|90",
+    "param": 0
+  },
+  {
+    "kindNum": 215,
+    "className": "RuneFuryElf",
+    "name": "공격의 룬(엘프)",
+    "type": "B",
+    "skillRef": 1,
+    "filter": "ELF",
+    "value": "0|0|0|36|53|90",
+    "param": 0
+  },
+  {
+    "kindNum": 216,
+    "className": "RuneFuryUndead",
+    "name": "공격의 룬(언데드)",
+    "type": "B",
+    "skillRef": 1,
+    "filter": "UNDEAD",
+    "value": "0|0|0|36|53|90",
+    "param": 0
+  },
+  {
+    "kindNum": 217,
+    "className": "RuneFuryOrc",
+    "name": "공격의 룬(오크)",
+    "type": "B",
+    "skillRef": 1,
+    "filter": "ORC",
+    "value": "0|0|0|36|53|90",
+    "param": 0
+  },
+  {
+    "kindNum": 218,
+    "className": "RuneReaperB",
+    "name": "그로기 딜의 룬",
+    "type": "B",
+    "skillRef": 32,
+    "filter": "ALL",
+    "value": "0|0|14|20|28|38",
+    "param": 0
+  },
+  {
+    "kindNum": 219,
+    "className": "RuneExploitB",
+    "name": "약점 딜의 룬",
+    "type": "B",
+    "skillRef": 34,
+    "filter": "ALL",
+    "value": "0|0|14|20|28|38",
+    "param": 0
+  },
+  {
+    "kindNum": 220,
+    "className": "RuneResolveB",
+    "name": "쿨타임의 룬",
+    "type": "B",
+    "skillRef": 35,
+    "filter": "ALL",
+    "value": "3|5|7|10|13|16",
+    "param": 0
+  },
+  {
+    "kindNum": 221,
+    "className": "RuneAmplifyB",
+    "name": "액티브 강화의 룬",
+    "type": "B",
+    "skillRef": 37,
+    "filter": "ALL",
+    "value": "0|0|11|16|22|30",
+    "param": 0
+  },
+  {
+    "kindNum": 222,
+    "className": "RuneAnchorB",
+    "name": "넉백 저항의 룬",
+    "type": "B",
+    "skillRef": 23,
+    "filter": "ALL",
+    "value": "10|20|30|40|60|100",
+    "param": 0
+  },
+  {
+    "kindNum": 223,
+    "className": "RuneGravityB",
+    "name": "블로우 저항의 룬",
+    "type": "B",
+    "skillRef": 24,
+    "filter": "ALL",
+    "value": "10|20|30|40|60|100",
+    "param": 0
+  },
+  {
+    "kindNum": 224,
+    "className": "RuneStunResistB",
+    "name": "기절 저항의 룬",
+    "type": "B",
+    "skillRef": 22,
+    "filter": "ALL",
+    "value": "10|20|30|40|60|100",
+    "param": 0
+  },
+  {
+    "kindNum": 226,
+    "className": "RuneDeadlyFrenzy",
+    "name": "필살의 룬",
+    "type": "B",
+    "skillRef": 75,
+    "filter": "ALL",
+    "value": "0|0|0|10|15|21",
+    "param": 0
+  },
+  {
+    "kindNum": 228,
+    "className": "RuneBloodlustB",
+    "name": "전의의 룬",
+    "type": "B",
+    "skillRef": 94,
+    "filter": "ALL",
+    "value": "0|0|0|0|25|35",
+    "param": 0
+  },
+  {
+    "kindNum": 229,
+    "className": "RuneWarband",
+    "name": "군단 사기의 룬",
+    "type": "B",
+    "skillRef": 111,
+    "filter": "ALL",
+    "value": "0|0|8|11|16|22",
+    "param": 0
+  },
+  {
+    "kindNum": 301,
+    "className": "RuneLifeC",
+    "name": "체력의 룬",
+    "type": "C",
+    "skillRef": 2,
+    "filter": "ALL",
+    "value": "3|6|12|24|35|60",
+    "param": 0
+  },
+  {
+    "kindNum": 302,
+    "className": "RuneOakC",
+    "name": "방어의 룬",
+    "type": "C",
+    "skillRef": 3,
+    "filter": "ALL",
+    "value": "3|6|12|24|35|60",
+    "param": 0
+  },
+  {
+    "kindNum": 303,
+    "className": "RuneShadowC",
+    "name": "어그로 감소의 룬",
+    "type": "C",
+    "skillRef": 8,
+    "filter": "ALL",
+    "value": "-7|-15|-25|-30|-40|-50",
+    "param": 0
+  },
+  {
+    "kindNum": 304,
+    "className": "RuneAegisC",
+    "name": "보호의 룬",
+    "type": "C",
+    "skillRef": 9,
+    "filter": "ALL",
+    "value": "-3|-5|-7|-12|-18|-25",
+    "param": 0
+  },
+  {
+    "kindNum": 305,
+    "className": "RuneMendC",
+    "name": "재생의 룬",
+    "type": "C",
+    "skillRef": 13,
+    "filter": "ALL",
+    "value": "2|4|6|8|10|12",
+    "param": 0
+  },
+  {
+    "kindNum": 306,
+    "className": "RuneGrace",
+    "name": "회복 증폭의 룬",
+    "type": "C",
+    "skillRef": 14,
+    "filter": "ALL",
+    "value": "5|9|14|20|28|38",
+    "param": 0
+  },
+  {
+    "kindNum": 307,
+    "className": "RuneMeditateC",
+    "name": "마나 회복의 룬",
+    "type": "C",
+    "skillRef": 15,
+    "filter": "ALL",
+    "value": "5|8|13|19|26|35",
+    "param": 0
+  },
+  {
+    "kindNum": 312,
+    "className": "RuneGraceHuman",
+    "name": "회복 증폭의 룬(인간)",
+    "type": "C",
+    "skillRef": 14,
+    "filter": "HUMAN",
+    "value": "0|0|0|30|42|57",
+    "param": 0
+  },
+  {
+    "kindNum": 313,
+    "className": "RuneGraceElf",
+    "name": "회복 증폭의 룬(엘프)",
+    "type": "C",
+    "skillRef": 14,
+    "filter": "ELF",
+    "value": "0|0|0|30|42|57",
+    "param": 0
+  },
+  {
+    "kindNum": 314,
+    "className": "RuneGraceUndead",
+    "name": "회복 증폭의 룬(언데드)",
+    "type": "C",
+    "skillRef": 14,
+    "filter": "UNDEAD",
+    "value": "0|0|0|30|42|57",
+    "param": 0
+  },
+  {
+    "kindNum": 315,
+    "className": "RuneGraceOrc",
+    "name": "회복 증폭의 룬(오크)",
+    "type": "C",
+    "skillRef": 14,
+    "filter": "ORC",
+    "value": "0|0|0|30|42|57",
+    "param": 0
+  },
+  {
+    "kindNum": 316,
+    "className": "RuneResolveC",
+    "name": "쿨타임의 룬",
+    "type": "C",
+    "skillRef": 35,
+    "filter": "ALL",
+    "value": "3|5|7|10|13|16",
+    "param": 0
+  },
+  {
+    "kindNum": 317,
+    "className": "RuneBlessC",
+    "name": "지속시간의 룬",
+    "type": "C",
+    "skillRef": 36,
+    "filter": "ALL",
+    "value": "2|4|7|10|15|20",
+    "param": 0
+  },
+  {
+    "kindNum": 318,
+    "className": "RuneAmplifyC",
+    "name": "액티브 강화의 룬",
+    "type": "C",
+    "skillRef": 37,
+    "filter": "ALL",
+    "value": "0|0|11|16|22|30",
+    "param": 0
+  },
+  {
+    "kindNum": 319,
+    "className": "RuneWarmthC",
+    "name": "빙결 저항의 룬",
+    "type": "C",
+    "skillRef": 21,
+    "filter": "ALL",
+    "value": "10|20|30|40|60|100",
+    "param": 0
+  },
+  {
+    "kindNum": 320,
+    "className": "RuneClarityC",
+    "name": "기절 저항의 룬",
+    "type": "C",
+    "skillRef": 22,
+    "filter": "ALL",
+    "value": "10|20|30|40|60|100",
+    "param": 0
+  },
+  {
+    "kindNum": 321,
+    "className": "RuneGravityC",
+    "name": "블로우 면역의 룬",
+    "type": "C",
+    "skillRef": 24,
+    "filter": "ALL",
+    "value": "0|0|0|100|100|100",
+    "param": 0
+  },
+  {
+    "kindNum": 322,
+    "className": "RuneCleanseLight",
+    "name": "성광의 룬",
+    "type": "C",
+    "skillRef": 76,
+    "filter": "ALL",
+    "value": "0|0|0|1|1|2",
+    "param": 0
+  },
+  {
+    "kindNum": 323,
+    "className": "RuneSanctuary",
+    "name": "성역의 룬",
+    "type": "C",
+    "skillRef": 77,
+    "filter": "ALL",
+    "value": "0|0|0|0|10|15",
+    "param": 0
+  },
+  {
+    "kindNum": 324,
+    "className": "RuneMiracle",
+    "name": "기적의 룬",
+    "type": "C",
+    "skillRef": 95,
+    "filter": "ALL",
+    "value": "0|0|0|0|35|50",
+    "param": 0
+  },
+  {
+    "kindNum": 325,
+    "className": "RuneDrip",
+    "name": "성수의 룬",
+    "type": "C",
+    "skillRef": 101,
+    "filter": "ALL",
+    "value": "0|2|3|4.5|6.5|9",
+    "param": 0
+  },
+  {
+    "kindNum": 326,
+    "className": "RuneShower",
+    "name": "은총의 룬",
+    "type": "C",
+    "skillRef": 102,
+    "filter": "ALL",
+    "value": "0|0|4|6|8.5|12",
+    "param": 0
+  },
+  {
+    "kindNum": 327,
+    "className": "RuneFieldMedic",
+    "name": "야전의 룬",
+    "type": "C",
+    "skillRef": 103,
+    "filter": "ALL",
+    "value": "0|0|3|4.5|6.5|9",
+    "param": 0
+  },
+  {
+    "kindNum": 328,
+    "className": "RuneAbsolve",
+    "name": "정화의 룬",
+    "type": "C",
+    "skillRef": 104,
+    "filter": "ALL",
+    "value": "0|0|0|1|1|2",
+    "param": 0
+  },
+  {
+    "kindNum": 401,
+    "className": "RuneVigorD",
+    "name": "체력의 룬",
+    "type": "D",
+    "skillRef": 2,
+    "filter": "ALL",
+    "value": "3|6|12|24|35|60",
+    "param": 0
+  },
+  {
+    "kindNum": 402,
+    "className": "RuneOakD",
+    "name": "방어의 룬",
+    "type": "D",
+    "skillRef": 3,
+    "filter": "ALL",
+    "value": "3|6|12|24|35|60",
+    "param": 0
+  },
+  {
+    "kindNum": 403,
+    "className": "RuneTempo",
+    "name": "공속의 룬",
+    "type": "D",
+    "skillRef": 4,
+    "filter": "ALL",
+    "value": "3|5|10|15|20|30",
+    "param": 0
+  },
+  {
+    "kindNum": 404,
+    "className": "RuneFarD",
+    "name": "사거리의 룬",
+    "type": "D",
+    "skillRef": 6,
+    "filter": "ALL",
+    "value": "3|7|12|20|28|40",
+    "param": 0
+  },
+  {
+    "kindNum": 405,
+    "className": "RuneShadowD",
+    "name": "어그로 감소의 룬",
+    "type": "D",
+    "skillRef": 8,
+    "filter": "ALL",
+    "value": "-7|-15|-25|-30|-40|-50",
+    "param": 0
+  },
+  {
+    "kindNum": 406,
+    "className": "RuneChantD",
+    "name": "마나 회복의 룬",
+    "type": "D",
+    "skillRef": 15,
+    "filter": "ALL",
+    "value": "5|8|13|19|26|35",
+    "param": 0
+  },
+  {
+    "kindNum": 407,
+    "className": "RuneCorrode",
+    "name": "디버프 연장의 룬",
+    "type": "D",
+    "skillRef": 16,
+    "filter": "ALL",
+    "value": "5|8|13|19|26|35",
+    "param": 0
+  },
+  {
+    "kindNum": 412,
+    "className": "RuneTempoHuman",
+    "name": "공속의 룬(인간)",
+    "type": "D",
+    "skillRef": 4,
+    "filter": "HUMAN",
+    "value": "0|0|0|23|30|45",
+    "param": 0
+  },
+  {
+    "kindNum": 413,
+    "className": "RuneTempoElf",
+    "name": "공속의 룬(엘프)",
+    "type": "D",
+    "skillRef": 4,
+    "filter": "ELF",
+    "value": "0|0|0|23|30|45",
+    "param": 0
+  },
+  {
+    "kindNum": 414,
+    "className": "RuneTempoUndead",
+    "name": "공속의 룬(언데드)",
+    "type": "D",
+    "skillRef": 4,
+    "filter": "UNDEAD",
+    "value": "0|0|0|23|30|45",
+    "param": 0
+  },
+  {
+    "kindNum": 415,
+    "className": "RuneTempoOrc",
+    "name": "공속의 룬(오크)",
+    "type": "D",
+    "skillRef": 4,
+    "filter": "ORC",
+    "value": "0|0|0|23|30|45",
+    "param": 0
+  },
+  {
+    "kindNum": 416,
+    "className": "RuneSapD",
+    "name": "기력 타격의 룬",
+    "type": "D",
+    "skillRef": 31,
+    "filter": "ALL",
+    "value": "0|0|0.007|0.01|0.014|0.019",
+    "param": 0
+  },
+  {
+    "kindNum": 417,
+    "className": "RuneLingerD",
+    "name": "그로기 연장의 룬",
+    "type": "D",
+    "skillRef": 33,
+    "filter": "ALL",
+    "value": "0|0|0|10|14|19",
+    "param": 0
+  },
+  {
+    "kindNum": 418,
+    "className": "RuneExploitD",
+    "name": "약점 딜의 룬",
+    "type": "D",
+    "skillRef": 34,
+    "filter": "ALL",
+    "value": "0|0|14|20|28|38",
+    "param": 0
+  },
+  {
+    "kindNum": 419,
+    "className": "RuneResolveD",
+    "name": "쿨타임의 룬",
+    "type": "D",
+    "skillRef": 35,
+    "filter": "ALL",
+    "value": "3|5|7|10|13|16",
+    "param": 0
+  },
+  {
+    "kindNum": 420,
+    "className": "RuneEndureD",
+    "name": "지속시간의 룬",
+    "type": "D",
+    "skillRef": 36,
+    "filter": "ALL",
+    "value": "2|4|7|10|15|20",
+    "param": 0
+  },
+  {
+    "kindNum": 421,
+    "className": "RuneAmplifyD",
+    "name": "액티브 강화의 룬",
+    "type": "D",
+    "skillRef": 37,
+    "filter": "ALL",
+    "value": "0|0|11|16|22|30",
+    "param": 0
+  },
+  {
+    "kindNum": 422,
+    "className": "RuneWarmthD",
+    "name": "빙결 저항의 룬",
+    "type": "D",
+    "skillRef": 21,
+    "filter": "ALL",
+    "value": "10|20|30|40|60|100",
+    "param": 0
+  },
+  {
+    "kindNum": 425,
+    "className": "RuneUnravel",
+    "name": "붕괴의 룬",
+    "type": "D",
+    "skillRef": 78,
+    "filter": "ALL",
+    "value": "0|0|0|8|12|16",
+    "param": 0
+  },
+  {
+    "kindNum": 426,
+    "className": "RuneSiphon",
+    "name": "착취의 룬",
+    "type": "D",
+    "skillRef": 79,
+    "filter": "ALL",
+    "value": "0|0|0|15|22|30",
+    "param": 0
+  },
+  {
+    "kindNum": 427,
+    "className": "RuneWarSong",
+    "name": "진군가의 룬",
+    "type": "D",
+    "skillRef": 105,
+    "filter": "ALL",
+    "value": "0|0|10|14|20|27",
+    "param": 0
+  },
+  {
+    "kindNum": 428,
+    "className": "RuneWarDrum",
+    "name": "전고의 룬",
+    "type": "D",
+    "skillRef": 106,
+    "filter": "ALL",
+    "value": "0|0|8|11|16|22",
+    "param": 0
+  },
+  {
+    "kindNum": 429,
+    "className": "RuneOmen",
+    "name": "징조의 룬",
+    "type": "D",
+    "skillRef": 107,
+    "filter": "ALL",
+    "value": "0|0|0|8|12|16",
+    "param": 0
+  },
+  {
+    "kindNum": 430,
+    "className": "RuneWellspring",
+    "name": "샘솟음의 룬",
+    "type": "D",
+    "skillRef": 108,
+    "filter": "ALL",
+    "value": "0|0|5|7|10|14",
+    "param": 0
+  },
+  {
+    "kindNum": 501,
+    "className": "RuneFuryE",
+    "name": "공격의 룬",
+    "type": "E",
+    "skillRef": 1,
+    "filter": "ALL",
+    "value": "3|6|12|24|35|60",
+    "param": 0
+  },
+  {
+    "kindNum": 502,
+    "className": "RuneVigorE",
+    "name": "체력의 룬",
+    "type": "E",
+    "skillRef": 2,
+    "filter": "ALL",
+    "value": "3|6|12|24|35|60",
+    "param": 0
+  },
+  {
+    "kindNum": 503,
+    "className": "RuneSwiftE",
+    "name": "공속의 룬",
+    "type": "E",
+    "skillRef": 4,
+    "filter": "ALL",
+    "value": "3|5|10|15|20|30",
+    "param": 0
+  },
+  {
+    "kindNum": 504,
+    "className": "RuneChaseE",
+    "name": "이동의 룬",
+    "type": "E",
+    "skillRef": 5,
+    "filter": "ALL",
+    "value": "3|5|10|15|20|30",
+    "param": 0
+  },
+  {
+    "kindNum": 505,
+    "className": "RuneShadowE",
+    "name": "어그로 감소의 룬",
+    "type": "E",
+    "skillRef": 8,
+    "filter": "ALL",
+    "value": "-7|-15|-25|-30|-40|-50",
+    "param": 0
+  },
+  {
+    "kindNum": 506,
+    "className": "RuneKeenE",
+    "name": "치명타 확률의 룬",
+    "type": "E",
+    "skillRef": 10,
+    "filter": "ALL",
+    "value": "3|7|10|15|20|30",
+    "param": 0
+  },
+  {
+    "kindNum": 507,
+    "className": "RuneSlayerE",
+    "name": "치명타 피해의 룬",
+    "type": "E",
+    "skillRef": 11,
+    "filter": "ALL",
+    "value": "0|6|12|24|35|60",
+    "param": 0
+  },
+  {
+    "kindNum": 508,
+    "className": "RuneCrush",
+    "name": "기력 타격의 룬",
+    "type": "E",
+    "skillRef": 31,
+    "filter": "ALL",
+    "value": "0|0|0.01|0.015|0.022|0.03",
+    "param": 0
+  },
+  {
+    "kindNum": 517,
+    "className": "RuneReaperE",
+    "name": "그로기 딜의 룬",
+    "type": "E",
+    "skillRef": 32,
+    "filter": "ALL",
+    "value": "0|0|14|20|28|38",
+    "param": 0
+  },
+  {
+    "kindNum": 518,
+    "className": "RuneLingerE",
+    "name": "그로기 연장의 룬",
+    "type": "E",
+    "skillRef": 33,
+    "filter": "ALL",
+    "value": "0|0|0|10|14|19",
+    "param": 0
+  },
+  {
+    "kindNum": 519,
+    "className": "RuneResolveE",
+    "name": "쿨타임의 룬",
+    "type": "E",
+    "skillRef": 35,
+    "filter": "ALL",
+    "value": "3|5|7|10|13|16",
+    "param": 0
+  },
+  {
+    "kindNum": 520,
+    "className": "RuneAmplifyE",
+    "name": "액티브 강화의 룬",
+    "type": "E",
+    "skillRef": 37,
+    "filter": "ALL",
+    "value": "0|0|11|16|22|30",
+    "param": 0
+  },
+  {
+    "kindNum": 521,
+    "className": "RuneClarityE",
+    "name": "기절 저항의 룬",
+    "type": "E",
+    "skillRef": 22,
+    "filter": "ALL",
+    "value": "10|20|30|40|60|100",
+    "param": 0
+  },
+  {
+    "kindNum": 522,
+    "className": "RuneGravityE",
+    "name": "블로우 저항의 룬",
+    "type": "E",
+    "skillRef": 24,
+    "filter": "ALL",
+    "value": "10|20|30|40|60|100",
+    "param": 0
+  },
+  {
+    "kindNum": 524,
+    "className": "RuneOnslaught",
+    "name": "몰아치기의 룬",
+    "type": "E",
+    "skillRef": 80,
+    "filter": "ALL",
+    "value": "0|0|0|0|15|20",
+    "param": 0
+  },
+  {
+    "kindNum": 525,
+    "className": "RunePincer",
+    "name": "협공의 룬",
+    "type": "E",
+    "skillRef": 84,
+    "filter": "ALL",
+    "value": "0|0|0|0|7|15",
+    "param": 0
+  },
+  {
+    "kindNum": 526,
+    "className": "RuneChainE",
+    "name": "연타의 룬",
+    "type": "E",
+    "skillRef": 91,
+    "filter": "ALL",
+    "value": "0|0|0|0|0.5|0.75",
+    "param": 100
+  },
+  {
+    "kindNum": 527,
+    "className": "RuneShatter",
+    "name": "분쇄의 룬",
+    "type": "E",
+    "skillRef": 92,
+    "filter": "ALL",
+    "value": "0|0|0|0|1.5|2.5",
+    "param": 100
+  },
+  {
+    "kindNum": 528,
+    "className": "RuneBloodlustE",
+    "name": "전의의 룬",
+    "type": "E",
+    "skillRef": 94,
+    "filter": "ALL",
+    "value": "0|0|0|0|25|35",
+    "param": 0
+  },
+  {
+    "kindNum": 530,
+    "className": "RuneRift",
+    "name": "균열의 룬",
+    "type": "E",
+    "skillRef": 113,
+    "filter": "ALL",
+    "value": "0|0|0|0|6|9",
+    "param": 0
+  },
+  {
+    "kindNum": 601,
+    "className": "RuneAim",
+    "name": "명중의 룬",
+    "type": "F",
+    "skillRef": 41,
+    "filter": "ALL",
+    "value": "4|7|11|16|22|30",
+    "param": 0
+  },
+  {
+    "kindNum": 602,
+    "className": "RuneWound",
+    "name": "상처의 룬",
+    "type": "F",
+    "skillRef": 42,
+    "filter": "ALL",
+    "value": "4|7|10|14|19|25",
+    "param": 0
+  },
+  {
+    "kindNum": 603,
+    "className": "RuneReload",
+    "name": "신속장전의 룬",
+    "type": "F",
+    "skillRef": 43,
+    "filter": "ALL",
+    "value": "3|5|8|12|16|22",
+    "param": 0
+  },
+  {
+    "kindNum": 604,
+    "className": "RuneMarksman",
+    "name": "명사수의 룬",
+    "type": "F",
+    "skillRef": 47,
+    "filter": "ALL",
+    "value": "0|3|5|8|11|15",
+    "param": 0
+  },
+  {
+    "kindNum": 606,
+    "className": "RuneExecution",
+    "name": "처형의 룬",
+    "type": "F",
+    "skillRef": 49,
+    "filter": "ALL",
+    "value": "0|7|11|16|23|32",
+    "param": 0
+  },
+  {
+    "kindNum": 608,
+    "className": "RuneInsight",
+    "name": "약점 창의 룬",
+    "type": "F",
+    "skillRef": 45,
+    "filter": "ALL",
+    "value": "0|0|12|17|23|30",
+    "param": 0
+  },
+  {
+    "kindNum": 613,
+    "className": "RuneSunder",
+    "name": "갑옷 파괴의 룬",
+    "type": "F",
+    "skillRef": 56,
+    "filter": "ALL",
+    "value": "0|0|10|14|20|27",
+    "param": 0
+  },
+  {
+    "kindNum": 614,
+    "className": "RuneLingerF",
+    "name": "그로기 연장의 룬",
+    "type": "F",
+    "skillRef": 33,
+    "filter": "ALL",
+    "value": "0|0|0|10|14|19",
+    "param": 0
+  },
+  {
+    "kindNum": 615,
+    "className": "RuneResolveF",
+    "name": "쿨타임의 룬",
+    "type": "F",
+    "skillRef": 35,
+    "filter": "ALL",
+    "value": "3|5|7|10|13|16",
+    "param": 0
+  },
+  {
+    "kindNum": 616,
+    "className": "RuneAmplifyF",
+    "name": "액티브 강화의 룬",
+    "type": "F",
+    "skillRef": 37,
+    "filter": "ALL",
+    "value": "0|0|11|16|22|30",
+    "param": 0
+  },
+  {
+    "kindNum": 617,
+    "className": "RuneSiege",
+    "name": "공성의 룬",
+    "type": "F",
+    "skillRef": 51,
+    "filter": "ALL",
+    "value": "0|0|0|1|1|2",
+    "param": 0
+  },
+  {
+    "kindNum": 618,
+    "className": "RuneTwinbolt",
+    "name": "쌍발의 룬",
+    "type": "F",
+    "skillRef": 52,
+    "filter": "ALL",
+    "value": "0|0|0|0|50|70",
+    "param": 0
+  },
+  {
+    "kindNum": 619,
+    "className": "RuneDoubleCurse",
+    "name": "이중고의 룬",
+    "type": "F",
+    "skillRef": 53,
+    "filter": "ALL",
+    "value": "0|0|0|1|1|1",
+    "param": 0
+  },
+  {
+    "kindNum": 620,
+    "className": "RuneBonecrush",
+    "name": "기절 연장의 룬",
+    "type": "F",
+    "skillRef": 82,
+    "filter": "ALL",
+    "value": "0|0|0|1|1.5|2",
+    "param": 0
+  },
+  {
+    "kindNum": 621,
+    "className": "RuneMarkF",
+    "name": "깊은 상처의 룬",
+    "type": "F",
+    "skillRef": 83,
+    "filter": "ALL",
+    "value": "0|0|0|0|2|3",
+    "param": 0
+  },
+  {
+    "kindNum": 622,
+    "className": "RuneRally",
+    "name": "함성의 룬",
+    "type": "F",
+    "skillRef": 93,
+    "filter": "ALL",
+    "value": "0|0|0|0|10|15",
+    "param": 8
+  },
+  {
+    "kindNum": 623,
+    "className": "RuneCharge",
+    "name": "충전의 룬",
+    "type": "F",
+    "skillRef": 44,
+    "filter": "ALL",
+    "value": "0|5|10|15|20|30",
+    "param": 0
+  },
+  {
+    "kindNum": 624,
+    "className": "RuneRecoup",
+    "name": "만회의 룬",
+    "type": "F",
+    "skillRef": 46,
+    "filter": "ALL",
+    "value": "10|20|30|40|50|70",
+    "param": 0
+  },
+  {
+    "kindNum": 625,
+    "className": "RuneWarSongF",
+    "name": "진군가의 룬",
+    "type": "F",
+    "skillRef": 105,
+    "filter": "ALL",
+    "value": "0|0|8|11|16|22",
+    "param": 0
+  },
+  {
+    "kindNum": 626,
+    "className": "RuneWarDrumF",
+    "name": "전고의 룬",
+    "type": "F",
+    "skillRef": 106,
+    "filter": "ALL",
+    "value": "0|0|6|9|13|18",
+    "param": 0
+  },
+  {
+    "kindNum": 627,
+    "className": "RuneOmenF",
+    "name": "징조의 룬",
+    "type": "F",
+    "skillRef": 107,
+    "filter": "ALL",
+    "value": "0|0|0|6|9|13",
+    "param": 0
+  },
+  {
+    "kindNum": 628,
+    "className": "RuneWellspringF",
+    "name": "샘솟음의 룬",
+    "type": "F",
+    "skillRef": 108,
+    "filter": "ALL",
+    "value": "0|0|4|6|8|11",
+    "param": 0
+  },
+  {
+    "kindNum": 629,
+    "className": "RuneDripF",
+    "name": "성수의 룬",
+    "type": "F",
+    "skillRef": 101,
+    "filter": "ALL",
+    "value": "0|1.5|2.5|3.5|5|7",
+    "param": 0
+  }
+]

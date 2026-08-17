@@ -1,7 +1,7 @@
-import { renderAtlasIcon, renderAtlasIconById } from "./asset-atlas.js?v=20260815163500";
-import { loadUnitData } from "./data.js?v=20260815163500";
-import { defaultNavLinks, renderNavbar } from "./layout.js?v=20260815163500";
-import { escapeHtml, formatNumber } from "./utils.js?v=20260815163500";
+import { renderAtlasIcon, renderAtlasIconById } from "./asset-atlas.js?v=20260817150940";
+import { loadUnitData } from "./data.js?v=20260817150940";
+import { defaultNavLinks, renderNavbar } from "./layout.js?v=20260817150940";
+import { escapeHtml, formatNumber } from "./utils.js?v=20260817150940";
 
 const TRIBES = [
     { id: 1, label: "Human" },
@@ -675,7 +675,8 @@ function renderTribeTabIcon(tribeId, label) {
 function formatStat(value) {
     const number = Number(value);
     if (!Number.isFinite(number)) return String(value || "-");
-    return Number.isInteger(number) ? formatNumber(number) : String(number);
+    const rounded = Number(number.toFixed(2));
+    return Number.isInteger(rounded) ? formatNumber(rounded) : String(rounded);
 }
 
 function formatDisplayAttackSpeed(value) {

@@ -1,0 +1,44 @@
+[
+  {
+    "grade": 1,
+    "gradeName": "일반",
+    "mergeCount": 5,
+    "mergeCoin": 100,
+    "subOption": 0
+  },
+  {
+    "grade": 2,
+    "gradeName": "고급",
+    "mergeCount": 5,
+    "mergeCoin": 300,
+    "subOption": 0
+  },
+  {
+    "grade": 3,
+    "gradeName": "희귀",
+    "mergeCount": 5,
+    "mergeCoin": 900,
+    "subOption": 0
+  },
+  {
+    "grade": 4,
+    "gradeName": "영웅",
+    "mergeCount": 5,
+    "mergeCoin": 2500,
+    "subOption": 0
+  },
+  {
+    "grade": 5,
+    "gradeName": "전설",
+    "mergeCount": 5,
+    "mergeCoin": 7000,
+    "subOption": 1
+  },
+  {
+    "grade": 6,
+    "gradeName": "신화",
+    "mergeCount": 0,
+    "mergeCoin": 0,
+    "subOption": 1
+  }
+]

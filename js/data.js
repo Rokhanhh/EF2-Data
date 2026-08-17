@@ -1,6 +1,6 @@
-import { versionedUrl } from "./cache-bust.js?v=20260815163500";
-import { DATA_PATHS } from "./constants.js?v=20260815163500";
-import { loadAssetAtlases } from "./asset-atlas.js?v=20260815163500";
+import { versionedUrl } from "./cache-bust.js?v=20260817150940";
+import { DATA_PATHS } from "./constants.js?v=20260817150940";
+import { loadAssetAtlases } from "./asset-atlas.js?v=20260817150940";
 
 export async function loadRelicData() {
     const [treasureBook, valueBook, setBook, limitBreakBook, locale, assetAtlases] = await Promise.all([
@@ -102,6 +102,43 @@ export async function loadGuildRaidData() {
         units,
         petMap: new Map(pets.map((pet) => [pet.kindNum, pet])),
         unitMap: new Map(units.map((unit) => [unit.kindNum, unit])),
+        locale: locale || {},
+        assetAtlases,
+    };
+}
+
+export async function loadEmblemsRunesData() {
+    const [emblemBook, skillBook, runeBook, gradeBook, runeSubBook, locale, assetAtlases] = await Promise.all([
+        loadJson(DATA_PATHS.emblems),
+        loadJson(DATA_PATHS.emblemSkills),
+        loadJson(DATA_PATHS.runes),
+        loadJson(DATA_PATHS.runeGrades),
+        loadJson(DATA_PATHS.runeSubs),
+        loadJson(DATA_PATHS.locale),
+        loadAssetAtlases(undefined, ["raids"]),
+    ]);
+
+    const skills = toArrayBook(skillBook).map(normalizeEmblemSkill);
+    const skillMap = new Map(skills.map((skill) => [skill.kindNum, skill]));
+    const runes = toArrayBook(runeBook)
+        .map(normalizeRune)
+        .sort((a, b) => a.type.localeCompare(b.type) || a.kindNum - b.kindNum);
+    const emblems = toArrayBook(emblemBook)
+        .map(normalizeEmblem)
+        .sort((a, b) => a.kindNum - b.kindNum);
+    const grades = toArrayBook(gradeBook)
+        .map(normalizeRuneGrade)
+        .sort((a, b) => a.grade - b.grade);
+    const runeSubs = toArrayBook(runeSubBook)
+        .map(normalizeRuneSub)
+        .sort((a, b) => a.subId - b.subId);
+
+    return {
+        emblems,
+        runes,
+        grades,
+        runeSubs,
+        skillMap,
         locale: locale || {},
         assetAtlases,
     };
@@ -230,6 +267,57 @@ function normalizeGuildRaid(row) {
     normalized.plusTribe = String(row.plusTribe || "").toLowerCase();
     normalized.minusTribe = String(row.minusTribe || "").toLowerCase();
     return normalized;
+}
+
+function normalizeEmblem(row) {
+    return {
+        ...row,
+        kindNum: Number(row.kindNum),
+        pSkill: Number(row.pSkill),
+        pValue: Number(row.pValue || 0),
+        aSkill: Number(row.aSkill),
+        aValue: Number(row.aValue || 0),
+        aCool: Number(row.aCool || 0),
+        aDur: Number(row.aDur || 0),
+        runeType: String(row.runeType || ""),
+    };
+}
+
+function normalizeEmblemSkill(row) {
+    return {
+        ...row,
+        kindNum: Number(row.kindNum),
+        minGrade: Number(row.minGrade || 0),
+    };
+}
+
+function normalizeRune(row) {
+    return {
+        ...row,
+        kindNum: Number(row.kindNum),
+        type: String(row.type || ""),
+        skillRef: Number(row.skillRef),
+        values: parseNumberList(row.value, "|", 6).slice(0, 6),
+        filter: String(row.filter || "ALL"),
+    };
+}
+
+function normalizeRuneGrade(row) {
+    return {
+        ...row,
+        grade: Number(row.grade),
+    };
+}
+
+function normalizeRuneSub(row) {
+    return {
+        ...row,
+        subId: Number(row.subId),
+        skillRef: Number(row.skillRef),
+        emblems: parseNumberList(row.emblems, "|"),
+        value5: Number(row.value5 || 0),
+        value6: Number(row.value6 || 0),
+    };
 }
 
 function normalizeHeroGoldSkill(row) {
