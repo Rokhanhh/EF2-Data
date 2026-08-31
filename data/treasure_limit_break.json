@@ -6,7 +6,8 @@
     "grade3": 4,
     "grade4": 8,
     "grade5": 12,
-    "grade6": 24
+    "grade6": 24,
+    "grade7": 0
   },
   {
     "level": 2,
@@ -15,7 +16,8 @@
     "grade3": 12,
     "grade4": 24,
     "grade5": 36,
-    "grade6": 72
+    "grade6": 72,
+    "grade7": 0
   },
   {
     "level": 3,
@@ -24,7 +26,8 @@
     "grade3": 24,
     "grade4": 48,
     "grade5": 72,
-    "grade6": 144
+    "grade6": 144,
+    "grade7": 0
   },
   {
     "level": 4,
@@ -33,7 +36,8 @@
     "grade3": 40,
     "grade4": 80,
     "grade5": 120,
-    "grade6": 240
+    "grade6": 240,
+    "grade7": 0
   },
   {
     "level": 5,
@@ -42,7 +46,8 @@
     "grade3": 60,
     "grade4": 120,
     "grade5": 180,
-    "grade6": 360
+    "grade6": 360,
+    "grade7": 0
   },
   {
     "level": 6,
@@ -51,7 +56,8 @@
     "grade3": 84,
     "grade4": 168,
     "grade5": 252,
-    "grade6": 504
+    "grade6": 504,
+    "grade7": 0
   },
   {
     "level": 7,
@@ -60,7 +66,8 @@
     "grade3": 112,
     "grade4": 224,
     "grade5": 336,
-    "grade6": 672
+    "grade6": 672,
+    "grade7": 0
   },
   {
     "level": 8,
@@ -69,7 +76,8 @@
     "grade3": 144,
     "grade4": 288,
     "grade5": 432,
-    "grade6": 864
+    "grade6": 864,
+    "grade7": 0
   },
   {
     "level": 9,
@@ -78,7 +86,8 @@
     "grade3": 180,
     "grade4": 360,
     "grade5": 540,
-    "grade6": 1080
+    "grade6": 1080,
+    "grade7": 0
   },
   {
     "level": 10,
@@ -87,7 +96,8 @@
     "grade3": 220,
     "grade4": 440,
     "grade5": 660,
-    "grade6": 1320
+    "grade6": 1320,
+    "grade7": 0
   },
   {
     "level": 11,
@@ -96,7 +106,8 @@
     "grade3": 264,
     "grade4": 528,
     "grade5": 792,
-    "grade6": 1584
+    "grade6": 1584,
+    "grade7": 0
   },
   {
     "level": 12,
@@ -105,7 +116,8 @@
     "grade3": 312,
     "grade4": 624,
     "grade5": 936,
-    "grade6": 1872
+    "grade6": 1872,
+    "grade7": 0
   },
   {
     "level": 13,
@@ -114,7 +126,8 @@
     "grade3": 364,
     "grade4": 728,
     "grade5": 1092,
-    "grade6": 2184
+    "grade6": 2184,
+    "grade7": 0
   },
   {
     "level": 14,
@@ -123,7 +136,8 @@
     "grade3": 420,
     "grade4": 840,
     "grade5": 1260,
-    "grade6": 2520
+    "grade6": 2520,
+    "grade7": 0
   },
   {
     "level": 15,
@@ -132,7 +146,8 @@
     "grade3": 480,
     "grade4": 960,
     "grade5": 1440,
-    "grade6": 2880
+    "grade6": 2880,
+    "grade7": 0
   },
   {
     "level": 16,
@@ -141,7 +156,8 @@
     "grade3": 544,
     "grade4": 1088,
     "grade5": 1632,
-    "grade6": 3264
+    "grade6": 3264,
+    "grade7": 0
   },
   {
     "level": 17,
@@ -150,7 +166,8 @@
     "grade3": 612,
     "grade4": 1224,
     "grade5": 1836,
-    "grade6": 3672
+    "grade6": 3672,
+    "grade7": 0
   },
   {
     "level": 18,
@@ -159,7 +176,8 @@
     "grade3": 684,
     "grade4": 1368,
     "grade5": 2052,
-    "grade6": 4104
+    "grade6": 4104,
+    "grade7": 0
   },
   {
     "level": 19,
@@ -168,7 +186,8 @@
     "grade3": 760,
     "grade4": 1520,
     "grade5": 2280,
-    "grade6": 4560
+    "grade6": 4560,
+    "grade7": 0
   },
   {
     "level": 20,
@@ -177,7 +196,8 @@
     "grade3": 840,
     "grade4": 1680,
     "grade5": 2520,
-    "grade6": 5040
+    "grade6": 5040,
+    "grade7": 0
   },
   {
     "level": 21,
@@ -186,7 +206,8 @@
     "grade3": 924,
     "grade4": 1848,
     "grade5": 2772,
-    "grade6": 5544
+    "grade6": 5544,
+    "grade7": 0
   },
   {
     "level": 22,
@@ -195,7 +216,8 @@
     "grade3": 1012,
     "grade4": 2024,
     "grade5": 3036,
-    "grade6": 6072
+    "grade6": 6072,
+    "grade7": 0
   },
   {
     "level": 23,
@@ -204,7 +226,8 @@
     "grade3": 1104,
     "grade4": 2208,
     "grade5": 3312,
-    "grade6": 6624
+    "grade6": 6624,
+    "grade7": 0
   },
   {
     "level": 24,
@@ -213,7 +236,8 @@
     "grade3": 1200,
     "grade4": 2400,
     "grade5": 3600,
-    "grade6": 7200
+    "grade6": 7200,
+    "grade7": 0
   },
   {
     "level": 25,
@@ -222,7 +246,8 @@
     "grade3": 1300,
     "grade4": 2600,
     "grade5": 3900,
-    "grade6": 7800
+    "grade6": 7800,
+    "grade7": 0
   },
   {
     "level": 26,
@@ -231,7 +256,8 @@
     "grade3": 1404,
     "grade4": 2808,
     "grade5": 4212,
-    "grade6": 8424
+    "grade6": 8424,
+    "grade7": 0
   },
   {
     "level": 27,
@@ -240,7 +266,8 @@
     "grade3": 1512,
     "grade4": 3024,
     "grade5": 4536,
-    "grade6": 9072
+    "grade6": 9072,
+    "grade7": 0
   },
   {
     "level": 28,
@@ -249,7 +276,8 @@
     "grade3": 1624,
     "grade4": 3248,
     "grade5": 4872,
-    "grade6": 9744
+    "grade6": 9744,
+    "grade7": 0
   },
   {
     "level": 29,
@@ -258,7 +286,8 @@
     "grade3": 1740,
     "grade4": 3480,
     "grade5": 5220,
-    "grade6": 10440
+    "grade6": 10440,
+    "grade7": 0
   },
   {
     "level": 30,
@@ -267,7 +296,8 @@
     "grade3": 1860,
     "grade4": 3720,
     "grade5": 5580,
-    "grade6": 11160
+    "grade6": 11160,
+    "grade7": 0
   },
   {
     "level": 31,
@@ -276,7 +306,8 @@
     "grade3": 1980,
     "grade4": 3960,
     "grade5": 5940,
-    "grade6": 11880
+    "grade6": 11880,
+    "grade7": 0
   },
   {
     "level": 32,
@@ -285,7 +316,8 @@
     "grade3": 2100,
     "grade4": 4200,
     "grade5": 6300,
-    "grade6": 12600
+    "grade6": 12600,
+    "grade7": 0
   },
   {
     "level": 33,
@@ -294,7 +326,8 @@
     "grade3": 2220,
     "grade4": 4440,
     "grade5": 6660,
-    "grade6": 13320
+    "grade6": 13320,
+    "grade7": 0
   },
   {
     "level": 34,
@@ -303,7 +336,8 @@
     "grade3": 2340,
     "grade4": 4680,
     "grade5": 7020,
-    "grade6": 14040
+    "grade6": 14040,
+    "grade7": 0
   },
   {
     "level": 35,
@@ -312,7 +346,8 @@
     "grade3": 2460,
     "grade4": 4920,
     "grade5": 7380,
-    "grade6": 14760
+    "grade6": 14760,
+    "grade7": 0
   },
   {
     "level": 36,
@@ -321,7 +356,8 @@
     "grade3": 2580,
     "grade4": 5160,
     "grade5": 7740,
-    "grade6": 15480
+    "grade6": 15480,
+    "grade7": 0
   },
   {
     "level": 37,
@@ -330,7 +366,8 @@
     "grade3": 2700,
     "grade4": 5400,
     "grade5": 8100,
-    "grade6": 16200
+    "grade6": 16200,
+    "grade7": 0
   },
   {
     "level": 38,
@@ -339,7 +376,8 @@
     "grade3": 2820,
     "grade4": 5640,
     "grade5": 8460,
-    "grade6": 16920
+    "grade6": 16920,
+    "grade7": 0
   },
   {
     "level": 39,
@@ -348,7 +386,8 @@
     "grade3": 2940,
     "grade4": 5880,
     "grade5": 8820,
-    "grade6": 17640
+    "grade6": 17640,
+    "grade7": 0
   },
   {
     "level": 40,
@@ -357,7 +396,8 @@
     "grade3": 3060,
     "grade4": 6120,
     "grade5": 9180,
-    "grade6": 18360
+    "grade6": 18360,
+    "grade7": 0
   },
   {
     "level": 41,
@@ -366,7 +406,8 @@
     "grade3": 3180,
     "grade4": 6360,
     "grade5": 9540,
-    "grade6": 19080
+    "grade6": 19080,
+    "grade7": 0
   },
   {
     "level": 42,
@@ -375,7 +416,8 @@
     "grade3": 3300,
     "grade4": 6600,
     "grade5": 9900,
-    "grade6": 19800
+    "grade6": 19800,
+    "grade7": 0
   },
   {
     "level": 43,
@@ -384,7 +426,8 @@
     "grade3": 3420,
     "grade4": 6840,
     "grade5": 10260,
-    "grade6": 20520
+    "grade6": 20520,
+    "grade7": 0
   },
   {
     "level": 44,
@@ -393,7 +436,8 @@
     "grade3": 3540,
     "grade4": 7080,
     "grade5": 10620,
-    "grade6": 21240
+    "grade6": 21240,
+    "grade7": 0
   },
   {
     "level": 45,
@@ -402,7 +446,8 @@
     "grade3": 3660,
     "grade4": 7320,
     "grade5": 10980,
-    "grade6": 21960
+    "grade6": 21960,
+    "grade7": 0
   },
   {
     "level": 46,
@@ -411,7 +456,8 @@
     "grade3": 3780,
     "grade4": 7560,
     "grade5": 11340,
-    "grade6": 22680
+    "grade6": 22680,
+    "grade7": 0
   },
   {
     "level": 47,
@@ -420,7 +466,8 @@
     "grade3": 3900,
     "grade4": 7800,
     "grade5": 11700,
-    "grade6": 23400
+    "grade6": 23400,
+    "grade7": 0
   },
   {
     "level": 48,
@@ -429,7 +476,8 @@
     "grade3": 4020,
     "grade4": 8040,
     "grade5": 12060,
-    "grade6": 24120
+    "grade6": 24120,
+    "grade7": 0
   },
   {
     "level": 49,
@@ -438,7 +486,8 @@
     "grade3": 4140,
     "grade4": 8280,
     "grade5": 12420,
-    "grade6": 24840
+    "grade6": 24840,
+    "grade7": 0
   },
   {
     "level": 50,
@@ -447,6 +496,7 @@
     "grade3": 4260,
     "grade4": 8520,
     "grade5": 12780,
-    "grade6": 25560
+    "grade6": 25560,
+    "grade7": 0
   }
 ]
