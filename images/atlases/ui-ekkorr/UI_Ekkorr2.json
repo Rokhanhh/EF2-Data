@@ -1,0 +1,207 @@
+{"frames": {
+
+"Icon_All":
+{
+	"frame": {"x":196,"y":122,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":24,"h":24},
+	"sourceSize": {"w":26,"h":26}
+},
+"Icon_Melee":
+{
+	"frame": {"x":196,"y":66,"w":26,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":26},
+	"sourceSize": {"w":26,"h":26}
+},
+"Icon_Range":
+{
+	"frame": {"x":196,"y":94,"w":26,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":26},
+	"sourceSize": {"w":26,"h":26}
+},
+"Icon_Skill_ARU":
+{
+	"frame": {"x":1,"y":1,"w":122,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":63},
+	"sourceSize": {"w":122,"h":63}
+},
+"Icon_Skill_ASU":
+{
+	"frame": {"x":125,"y":1,"w":122,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":63},
+	"sourceSize": {"w":122,"h":63}
+},
+"Icon_Skill_AU":
+{
+	"frame": {"x":249,"y":1,"w":122,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":63},
+	"sourceSize": {"w":122,"h":63}
+},
+"Icon_Skill_BGGU":
+{
+	"frame": {"x":373,"y":1,"w":122,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":63},
+	"sourceSize": {"w":122,"h":63}
+},
+"Icon_Skill_CDU":
+{
+	"frame": {"x":1,"y":66,"w":122,"h":63},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":63},
+	"sourceSize": {"w":122,"h":63}
+},
+"Icon_Skill_CPU":
+{
+	"frame": {"x":1,"y":190,"w":122,"h":63},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":63},
+	"sourceSize": {"w":122,"h":63}
+},
+"Icon_Skill_DU":
+{
+	"frame": {"x":1,"y":314,"w":122,"h":63},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":63},
+	"sourceSize": {"w":122,"h":63}
+},
+"Icon_Skill_ECU":
+{
+	"frame": {"x":1,"y":438,"w":122,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":63},
+	"sourceSize": {"w":122,"h":63}
+},
+"Icon_Skill_GCU":
+{
+	"frame": {"x":66,"y":66,"w":122,"h":63},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":63},
+	"sourceSize": {"w":122,"h":63}
+},
+"Icon_Skill_HU":
+{
+	"frame": {"x":66,"y":190,"w":122,"h":63},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":63},
+	"sourceSize": {"w":122,"h":63}
+},
+"Icon_Skill_MSU":
+{
+	"frame": {"x":66,"y":314,"w":122,"h":63},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":63},
+	"sourceSize": {"w":122,"h":63}
+},
+"Icon_Skill_QCTD":
+{
+	"frame": {"x":125,"y":438,"w":122,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":63},
+	"sourceSize": {"w":122,"h":63}
+},
+"Icon_Skill_QGGU":
+{
+	"frame": {"x":249,"y":66,"w":122,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":63},
+	"sourceSize": {"w":122,"h":63}
+},
+"Icon_Skill_QUCD":
+{
+	"frame": {"x":373,"y":66,"w":122,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":63},
+	"sourceSize": {"w":122,"h":63}
+},
+"Icon_Skill_RTD":
+{
+	"frame": {"x":131,"y":66,"w":122,"h":63},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":63},
+	"sourceSize": {"w":122,"h":63}
+},
+"Icon_Skill_SUCD":
+{
+	"frame": {"x":131,"y":190,"w":122,"h":63},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":63},
+	"sourceSize": {"w":122,"h":63}
+},
+"Icon_Skill_TAU":
+{
+	"frame": {"x":131,"y":314,"w":122,"h":63},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":63},
+	"sourceSize": {"w":122,"h":63}
+},
+"Icon_Tribe1":
+{
+	"frame": {"x":222,"y":122,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":24,"h":24},
+	"sourceSize": {"w":26,"h":26}
+},
+"Icon_Tribe2":
+{
+	"frame": {"x":249,"y":131,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":24,"h":24},
+	"sourceSize": {"w":26,"h":26}
+},
+"Icon_Tribe3":
+{
+	"frame": {"x":196,"y":148,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":24,"h":24},
+	"sourceSize": {"w":26,"h":26}
+},
+"Icon_Tribe4":
+{
+	"frame": {"x":222,"y":148,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":24,"h":24},
+	"sourceSize": {"w":26,"h":26}
+}},
+"animations": {
+	"Icon_Tribe": ["Icon_Tribe1","Icon_Tribe2","Icon_Tribe3","Icon_Tribe4"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "UI_Ekkorr2.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0e540453531b4c043e245b5ec14021be:800bd2726997c37335d45e8509aaa817:f55f7d2f588b30f2111b38a07f597d39$"
+}
+}

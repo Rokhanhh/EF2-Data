@@ -89,7 +89,7 @@ export function totalMaterialCost(treasure, enhance) {
 }
 
 export function getHonorAccCost(limitBreakAccByGrade, grade, level) {
-    if (grade < 1 || grade > 6) return 0;
+    if (grade < 1) return 0;
     const list = limitBreakAccByGrade[grade] || [0];
     if (level <= 0) return 0;
 
@@ -124,7 +124,7 @@ function humanizeSkill(value) {
 }
 
 function hasHonorAccCost(limitBreakAccByGrade, grade, level) {
-    if (grade < 1 || grade > 6 || level <= 0) return false;
+    if (grade < 1 || level <= 0) return false;
     const list = limitBreakAccByGrade[grade] || [];
     return list[level] != null;
 }

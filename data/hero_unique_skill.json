@@ -663,5 +663,75 @@
     "code": "callOfDawn",
     "value": 5,
     "desc": "황혼의 부름이 5% 빠르게 충전된다. (누적 적용됨)"
+  },
+  {
+    "kindNum": 96,
+    "name": "엘프의 비술2",
+    "code": "StageSkip2",
+    "value": 2,
+    "desc": "엘프의 비술 발동 확률이 2% 증가한다. ( 누적 적용되며, 히포그리프로 인한 증가량은 최대 30%를 넘지 못한다. )"
+  },
+  {
+    "kindNum": 97,
+    "name": "엘프의 비술2",
+    "code": "StageSkip2",
+    "value": 5,
+    "desc": "엘프의 비술 발동 확률이 5% 증가한다. ( 누적 적용되며, 히포그리프로 인한 증가량은 최대 30%를 넘지 못한다. )"
+  },
+  {
+    "kindNum": 98,
+    "name": "고대숲의 전설",
+    "code": "AncientForestLegend",
+    "value": 1,
+    "desc": "엘프의 비술이 발동하면 1% 확률로 2개 웨이브를 건너뛴다. ( 최대 30%를 넘지 못한다 )"
+  },
+  {
+    "kindNum": 99,
+    "name": "고대숲의 전설",
+    "code": "AncientForestLegend",
+    "value": 3,
+    "desc": "엘프의 비술이 발동하면 3% 확률로 2개 웨이브를 건너뛴다. ( 최대 30%를 넘지 못한다 )"
+  },
+  {
+    "kindNum": 100,
+    "name": "황혼의 잔향",
+    "code": "DawnChargePreserve",
+    "value": 1,
+    "desc": "황혼의 부름 사용 시 1% 확률로 충전 횟수를 소모하지 않는다. ( 최대 30%를 넘지 못한다 )"
+  },
+  {
+    "kindNum": 101,
+    "name": "황혼의 잔향",
+    "code": "DawnChargePreserve",
+    "value": 3,
+    "desc": "황혼의 부름 사용 시 3% 확률로 충전 횟수를 소모하지 않는다. ( 최대 30%를 넘지 못한다 )"
+  },
+  {
+    "kindNum": 102,
+    "name": "황혼의 맹약",
+    "code": "plusLv",
+    "value": 5,
+    "desc": "모든 영웅의 레벨이 5 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 103,
+    "name": "황혼의 맹약",
+    "code": "plusLv",
+    "value": 15,
+    "desc": "모든 영웅의 레벨이 15 증가한다. ( 누적 적용됨 )"
+  },
+  {
+    "kindNum": 104,
+    "name": "적 등장 시간 감소",
+    "code": "EnemySpawnTimeReduction",
+    "value": 1,
+    "desc": "적 등장 시간이 1% 감소한다. ( 누적 적용되며, 최대 15%를 넘지 못한다. )"
+  },
+  {
+    "kindNum": 105,
+    "name": "적 등장 시간 감소",
+    "code": "EnemySpawnTimeReduction",
+    "value": 2,
+    "desc": "적 등장 시간이 2% 감소한다. ( 누적 적용되며, 최대 15%를 넘지 못한다. )"
   }
 ]

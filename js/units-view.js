@@ -337,7 +337,7 @@ function renderSelectedTab(unit) {
 function renderDetailsTab(unit) {
     const normalAttack = text(`UNIT_NATK_${unit.kindNum}`, unit.nAtk || "-");
     const skillAttack = text(`UNIT_SATK_${unit.kindNum}`, unit.sAtk || "-");
-    const uniqueSkill = getUniqueSkill(unit);
+    const uniqueSkills = getUniqueSkills(unit);
 
     return `
         <div class="unit-quick-stats">
@@ -359,10 +359,12 @@ function renderDetailsTab(unit) {
                 <h4># Race Traits</h4>
                 <p>${renderRaceTraits(unit)}</p>
             </section>
-            ${uniqueSkill ? `
+            ${uniqueSkills.length ? `
                 <section class="unit-unique-skill">
                     <h4># Unique Skill</h4>
-                    <p><strong>${escapeHtml(uniqueSkill.name)}</strong><br>${formatMultiline(uniqueSkill.desc)}</p>
+                    <ul class="unit-unique-skill-list">
+                        ${uniqueSkills.map((skill) => `<li>${formatMultiline(skill.desc)}</li>`).join("")}
+                    </ul>
                 </section>
             ` : ""}
             ${renderCouplePet(unit)}
@@ -450,14 +452,15 @@ function bindDetailTabs(unit) {
     });
 }
 
-function getUniqueSkill(unit) {
-    if (!unit.uniqueSkill || unit.uniqueSkill < 0) return null;
-    const skill = state.heroUniqueSkillMap.get(unit.uniqueSkill);
-    if (!skill) return null;
-    return {
-        name: text(`HERO_UNIQUE_SKILL_NAME_${skill.kindNum}`, skill.name || `Unique Skill ${skill.kindNum}`),
-        desc: text(`HERO_UNIQUE_SKILL_DESC_${skill.kindNum}`, skill.desc || ""),
-    };
+function getUniqueSkills(unit) {
+    return [unit.uniqueSkill, unit.uniqueSkill2]
+        .map(Number)
+        .filter((skillId) => skillId > 0)
+        .map((skillId) => state.heroUniqueSkillMap.get(skillId))
+        .filter(Boolean)
+        .map((skill) => ({
+            desc: text(`HERO_UNIQUE_SKILL_DESC_${skill.kindNum}`, skill.desc || ""),
+        }));
 }
 
 function renderCouplePet(unit) {
@@ -535,7 +538,7 @@ function formatGender(sex) {
 function renderSkillIcon(skillCode) {
     const parts = String(skillCode || "").split("_");
     const buffCode = parts.length > 1 ? parts[1] : parts[0];
-    return renderAtlasIcon(state.assetAtlases.units, `Icon_Skill_${buffCode}`, {
+    return renderAtlasIcon(state.assetAtlases.unitSkills, `Icon_Skill_${buffCode}`, {
         label: skillCode || "Skill",
         className: "unit-skill-icon",
         size: 18,
@@ -548,11 +551,11 @@ function renderSkillCardIcon(skillCode) {
     const buffCode = parts.length > 1 ? parts[1] : parts[0];
     return `
         <span class="unit-skill-card-icon-stack">
-            ${renderAtlasIcon(state.assetAtlases.units, `Icon_Skill_${buffCode}`, {
+            ${renderAtlasIcon(state.assetAtlases.unitSkills, `Icon_Skill_${buffCode}`, {
                 label: skillCode || "Skill",
-                size: 30,
+                size: 80,
             })}
-            ${targetCode ? renderAtlasIcon(state.assetAtlases.units, targetIconFrame(targetCode), {
+            ${targetCode ? renderAtlasIcon(state.assetAtlases.unitSkills, targetIconFrame(targetCode), {
                 label: targetCode,
                 className: "unit-skill-target-icon",
                 size: 15,

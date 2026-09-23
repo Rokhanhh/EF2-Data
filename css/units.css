@@ -319,8 +319,18 @@
 }
 
 .unit-unique-skill h4,
-.unit-unique-skill p {
+.unit-unique-skill-list {
     color: #ffff00;
+}
+
+.unit-unique-skill-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.unit-unique-skill-list li::before {
+    content: "- ";
 }
 
 .unit-couple-pet {
@@ -400,14 +410,14 @@
 .unit-skill-card-icon-stack {
     position: relative;
     display: block;
-    width: 42px;
-    height: 34px;
+    width: 80px;
+    height: 46px;
 }
 
 .unit-skill-card-icon-stack > .sprite-icon:first-child {
     position: absolute;
-    left: 3px;
-    top: 3px;
+    left: 0;
+    top: -17px;
 }
 
 .unit-skill-target-icon {

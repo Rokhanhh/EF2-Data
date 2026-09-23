@@ -4,6 +4,10 @@
             "json": "images/atlases/ui-ekkorr/UI_Ekkorr.json",
             "image": "images/atlases/ui-ekkorr/UI_Ekkorr.png"
         },
+        "uiEkkorrSkills": {
+            "json": "images/atlases/ui-ekkorr/UI_Ekkorr2.json",
+            "image": "images/atlases/ui-ekkorr/UI_Ekkorr2.png"
+        },
         "uiPet": {
             "json": "images/atlases/ui-pet/UI_PET.json",
             "image": "images/atlases/ui-pet/UI_PET.png"
@@ -26,6 +30,9 @@
             "source": "uiEkkorr",
             "framePrefix": "Hero",
             "pad": 0
+        },
+        "unitSkills": {
+            "source": "uiEkkorrSkills"
         },
         "petUi": {
             "source": "uiPet"

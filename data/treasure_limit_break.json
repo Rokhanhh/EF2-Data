@@ -7,7 +7,9 @@
     "grade4": 8,
     "grade5": 12,
     "grade6": 24,
-    "grade7": 0
+    "grade7": 56,
+    "grade8": 84,
+    "grade9": 84
   },
   {
     "level": 2,
@@ -17,7 +19,9 @@
     "grade4": 24,
     "grade5": 36,
     "grade6": 72,
-    "grade7": 0
+    "grade7": 168,
+    "grade8": 252,
+    "grade9": 252
   },
   {
     "level": 3,
@@ -27,7 +31,9 @@
     "grade4": 48,
     "grade5": 72,
     "grade6": 144,
-    "grade7": 0
+    "grade7": 336,
+    "grade8": 504,
+    "grade9": 504
   },
   {
     "level": 4,
@@ -37,7 +43,9 @@
     "grade4": 80,
     "grade5": 120,
     "grade6": 240,
-    "grade7": 0
+    "grade7": 560,
+    "grade8": 840,
+    "grade9": 840
   },
   {
     "level": 5,
@@ -47,7 +55,9 @@
     "grade4": 120,
     "grade5": 180,
     "grade6": 360,
-    "grade7": 0
+    "grade7": 840,
+    "grade8": 1260,
+    "grade9": 1260
   },
   {
     "level": 6,
@@ -57,7 +67,9 @@
     "grade4": 168,
     "grade5": 252,
     "grade6": 504,
-    "grade7": 0
+    "grade7": 1176,
+    "grade8": 1764,
+    "grade9": 1764
   },
   {
     "level": 7,
@@ -67,7 +79,9 @@
     "grade4": 224,
     "grade5": 336,
     "grade6": 672,
-    "grade7": 0
+    "grade7": 1568,
+    "grade8": 2352,
+    "grade9": 2352
   },
   {
     "level": 8,
@@ -77,7 +91,9 @@
     "grade4": 288,
     "grade5": 432,
     "grade6": 864,
-    "grade7": 0
+    "grade7": 2016,
+    "grade8": 3024,
+    "grade9": 3024
   },
   {
     "level": 9,
@@ -87,7 +103,9 @@
     "grade4": 360,
     "grade5": 540,
     "grade6": 1080,
-    "grade7": 0
+    "grade7": 2520,
+    "grade8": 3780,
+    "grade9": 3780
   },
   {
     "level": 10,
@@ -97,7 +115,9 @@
     "grade4": 440,
     "grade5": 660,
     "grade6": 1320,
-    "grade7": 0
+    "grade7": 3080,
+    "grade8": 4620,
+    "grade9": 4620
   },
   {
     "level": 11,
@@ -107,7 +127,9 @@
     "grade4": 528,
     "grade5": 792,
     "grade6": 1584,
-    "grade7": 0
+    "grade7": 3696,
+    "grade8": 5544,
+    "grade9": 5544
   },
   {
     "level": 12,
@@ -117,7 +139,9 @@
     "grade4": 624,
     "grade5": 936,
     "grade6": 1872,
-    "grade7": 0
+    "grade7": 4368,
+    "grade8": 6552,
+    "grade9": 6552
   },
   {
     "level": 13,
@@ -127,7 +151,9 @@
     "grade4": 728,
     "grade5": 1092,
     "grade6": 2184,
-    "grade7": 0
+    "grade7": 5096,
+    "grade8": 7644,
+    "grade9": 7644
   },
   {
     "level": 14,
@@ -137,7 +163,9 @@
     "grade4": 840,
     "grade5": 1260,
     "grade6": 2520,
-    "grade7": 0
+    "grade7": 5880,
+    "grade8": 8820,
+    "grade9": 8820
   },
   {
     "level": 15,
@@ -147,7 +175,9 @@
     "grade4": 960,
     "grade5": 1440,
     "grade6": 2880,
-    "grade7": 0
+    "grade7": 6720,
+    "grade8": 10080,
+    "grade9": 10080
   },
   {
     "level": 16,
@@ -157,7 +187,9 @@
     "grade4": 1088,
     "grade5": 1632,
     "grade6": 3264,
-    "grade7": 0
+    "grade7": 7616,
+    "grade8": 11424,
+    "grade9": 11424
   },
   {
     "level": 17,
@@ -167,7 +199,9 @@
     "grade4": 1224,
     "grade5": 1836,
     "grade6": 3672,
-    "grade7": 0
+    "grade7": 8568,
+    "grade8": 12852,
+    "grade9": 12852
   },
   {
     "level": 18,
@@ -177,7 +211,9 @@
     "grade4": 1368,
     "grade5": 2052,
     "grade6": 4104,
-    "grade7": 0
+    "grade7": 9576,
+    "grade8": 14364,
+    "grade9": 14364
   },
   {
     "level": 19,
@@ -187,7 +223,9 @@
     "grade4": 1520,
     "grade5": 2280,
     "grade6": 4560,
-    "grade7": 0
+    "grade7": 10640,
+    "grade8": 15960,
+    "grade9": 15960
   },
   {
     "level": 20,
@@ -197,7 +235,9 @@
     "grade4": 1680,
     "grade5": 2520,
     "grade6": 5040,
-    "grade7": 0
+    "grade7": 11760,
+    "grade8": 17640,
+    "grade9": 17640
   },
   {
     "level": 21,
@@ -207,7 +247,9 @@
     "grade4": 1848,
     "grade5": 2772,
     "grade6": 5544,
-    "grade7": 0
+    "grade7": 12936,
+    "grade8": 19404,
+    "grade9": 19404
   },
   {
     "level": 22,
@@ -217,7 +259,9 @@
     "grade4": 2024,
     "grade5": 3036,
     "grade6": 6072,
-    "grade7": 0
+    "grade7": 14168,
+    "grade8": 21252,
+    "grade9": 21252
   },
   {
     "level": 23,
@@ -227,7 +271,9 @@
     "grade4": 2208,
     "grade5": 3312,
     "grade6": 6624,
-    "grade7": 0
+    "grade7": 15456,
+    "grade8": 23184,
+    "grade9": 23184
   },
   {
     "level": 24,
@@ -237,7 +283,9 @@
     "grade4": 2400,
     "grade5": 3600,
     "grade6": 7200,
-    "grade7": 0
+    "grade7": 16800,
+    "grade8": 25184,
+    "grade9": 25184
   },
   {
     "level": 25,
@@ -247,7 +295,9 @@
     "grade4": 2600,
     "grade5": 3900,
     "grade6": 7800,
-    "grade7": 0
+    "grade7": 18200,
+    "grade8": 27184,
+    "grade9": 27184
   },
   {
     "level": 26,
@@ -257,7 +307,9 @@
     "grade4": 2808,
     "grade5": 4212,
     "grade6": 8424,
-    "grade7": 0
+    "grade7": 19656,
+    "grade8": 29184,
+    "grade9": 29184
   },
   {
     "level": 27,
@@ -267,7 +319,9 @@
     "grade4": 3024,
     "grade5": 4536,
     "grade6": 9072,
-    "grade7": 0
+    "grade7": 21168,
+    "grade8": 31184,
+    "grade9": 31184
   },
   {
     "level": 28,
@@ -277,7 +331,9 @@
     "grade4": 3248,
     "grade5": 4872,
     "grade6": 9744,
-    "grade7": 0
+    "grade7": 22736,
+    "grade8": 33184,
+    "grade9": 33184
   },
   {
     "level": 29,
@@ -287,7 +343,9 @@
     "grade4": 3480,
     "grade5": 5220,
     "grade6": 10440,
-    "grade7": 0
+    "grade7": 24360,
+    "grade8": 35184,
+    "grade9": 35184
   },
   {
     "level": 30,
@@ -297,7 +355,9 @@
     "grade4": 3720,
     "grade5": 5580,
     "grade6": 11160,
-    "grade7": 0
+    "grade7": 26040,
+    "grade8": 37184,
+    "grade9": 37184
   },
   {
     "level": 31,
@@ -307,7 +367,9 @@
     "grade4": 3960,
     "grade5": 5940,
     "grade6": 11880,
-    "grade7": 0
+    "grade7": 27720,
+    "grade8": 39184,
+    "grade9": 39184
   },
   {
     "level": 32,
@@ -317,7 +379,9 @@
     "grade4": 4200,
     "grade5": 6300,
     "grade6": 12600,
-    "grade7": 0
+    "grade7": 29400,
+    "grade8": 41184,
+    "grade9": 41184
   },
   {
     "level": 33,
@@ -327,7 +391,9 @@
     "grade4": 4440,
     "grade5": 6660,
     "grade6": 13320,
-    "grade7": 0
+    "grade7": 31080,
+    "grade8": 43184,
+    "grade9": 43184
   },
   {
     "level": 34,
@@ -337,7 +403,9 @@
     "grade4": 4680,
     "grade5": 7020,
     "grade6": 14040,
-    "grade7": 0
+    "grade7": 32760,
+    "grade8": 45184,
+    "grade9": 45184
   },
   {
     "level": 35,
@@ -347,7 +415,9 @@
     "grade4": 4920,
     "grade5": 7380,
     "grade6": 14760,
-    "grade7": 0
+    "grade7": 34440,
+    "grade8": 47184,
+    "grade9": 47184
   },
   {
     "level": 36,
@@ -357,7 +427,9 @@
     "grade4": 5160,
     "grade5": 7740,
     "grade6": 15480,
-    "grade7": 0
+    "grade7": 36120,
+    "grade8": 49184,
+    "grade9": 49184
   },
   {
     "level": 37,
@@ -367,7 +439,9 @@
     "grade4": 5400,
     "grade5": 8100,
     "grade6": 16200,
-    "grade7": 0
+    "grade7": 37800,
+    "grade8": 51184,
+    "grade9": 51184
   },
   {
     "level": 38,
@@ -377,7 +451,9 @@
     "grade4": 5640,
     "grade5": 8460,
     "grade6": 16920,
-    "grade7": 0
+    "grade7": 39480,
+    "grade8": 53184,
+    "grade9": 53184
   },
   {
     "level": 39,
@@ -387,7 +463,9 @@
     "grade4": 5880,
     "grade5": 8820,
     "grade6": 17640,
-    "grade7": 0
+    "grade7": 41160,
+    "grade8": 55184,
+    "grade9": 55184
   },
   {
     "level": 40,
@@ -397,7 +475,9 @@
     "grade4": 6120,
     "grade5": 9180,
     "grade6": 18360,
-    "grade7": 0
+    "grade7": 42840,
+    "grade8": 57184,
+    "grade9": 57184
   },
   {
     "level": 41,
@@ -407,7 +487,9 @@
     "grade4": 6360,
     "grade5": 9540,
     "grade6": 19080,
-    "grade7": 0
+    "grade7": 44520,
+    "grade8": 59184,
+    "grade9": 59184
   },
   {
     "level": 42,
@@ -417,7 +499,9 @@
     "grade4": 6600,
     "grade5": 9900,
     "grade6": 19800,
-    "grade7": 0
+    "grade7": 46200,
+    "grade8": 61184,
+    "grade9": 61184
   },
   {
     "level": 43,
@@ -427,7 +511,9 @@
     "grade4": 6840,
     "grade5": 10260,
     "grade6": 20520,
-    "grade7": 0
+    "grade7": 47880,
+    "grade8": 63184,
+    "grade9": 63184
   },
   {
     "level": 44,
@@ -437,7 +523,9 @@
     "grade4": 7080,
     "grade5": 10620,
     "grade6": 21240,
-    "grade7": 0
+    "grade7": 49560,
+    "grade8": 65184,
+    "grade9": 65184
   },
   {
     "level": 45,
@@ -447,7 +535,9 @@
     "grade4": 7320,
     "grade5": 10980,
     "grade6": 21960,
-    "grade7": 0
+    "grade7": 51240,
+    "grade8": 67184,
+    "grade9": 67184
   },
   {
     "level": 46,
@@ -457,7 +547,9 @@
     "grade4": 7560,
     "grade5": 11340,
     "grade6": 22680,
-    "grade7": 0
+    "grade7": 52920,
+    "grade8": 69184,
+    "grade9": 69184
   },
   {
     "level": 47,
@@ -467,7 +559,9 @@
     "grade4": 7800,
     "grade5": 11700,
     "grade6": 23400,
-    "grade7": 0
+    "grade7": 54600,
+    "grade8": 71184,
+    "grade9": 71184
   },
   {
     "level": 48,
@@ -477,7 +571,9 @@
     "grade4": 8040,
     "grade5": 12060,
     "grade6": 24120,
-    "grade7": 0
+    "grade7": 56280,
+    "grade8": 73184,
+    "grade9": 73184
   },
   {
     "level": 49,
@@ -487,7 +583,9 @@
     "grade4": 8280,
     "grade5": 12420,
     "grade6": 24840,
-    "grade7": 0
+    "grade7": 57960,
+    "grade8": 75184,
+    "grade9": 75184
   },
   {
     "level": 50,
@@ -497,6 +595,1808 @@
     "grade4": 8520,
     "grade5": 12780,
     "grade6": 25560,
-    "grade7": 0
+    "grade7": 59640,
+    "grade8": 77184,
+    "grade9": 77184
+  },
+  {
+    "level": 51,
+    "grade1": 1095,
+    "grade2": 2190,
+    "grade3": 4380,
+    "grade4": 8760,
+    "grade5": 13140,
+    "grade6": 26280,
+    "grade7": 61320,
+    "grade8": 79684,
+    "grade9": 79684
+  },
+  {
+    "level": 52,
+    "grade1": 1125,
+    "grade2": 2250,
+    "grade3": 4500,
+    "grade4": 9000,
+    "grade5": 13500,
+    "grade6": 27000,
+    "grade7": 63000,
+    "grade8": 82184,
+    "grade9": 82184
+  },
+  {
+    "level": 53,
+    "grade1": 1155,
+    "grade2": 2310,
+    "grade3": 4620,
+    "grade4": 9240,
+    "grade5": 13860,
+    "grade6": 27720,
+    "grade7": 64680,
+    "grade8": 84684,
+    "grade9": 84684
+  },
+  {
+    "level": 54,
+    "grade1": 1185,
+    "grade2": 2370,
+    "grade3": 4740,
+    "grade4": 9480,
+    "grade5": 14220,
+    "grade6": 28440,
+    "grade7": 66360,
+    "grade8": 87184,
+    "grade9": 87184
+  },
+  {
+    "level": 55,
+    "grade1": 1215,
+    "grade2": 2430,
+    "grade3": 4860,
+    "grade4": 9720,
+    "grade5": 14580,
+    "grade6": 29160,
+    "grade7": 68040,
+    "grade8": 89684,
+    "grade9": 89684
+  },
+  {
+    "level": 56,
+    "grade1": 1245,
+    "grade2": 2490,
+    "grade3": 4980,
+    "grade4": 9960,
+    "grade5": 14940,
+    "grade6": 29880,
+    "grade7": 69720,
+    "grade8": 92184,
+    "grade9": 92184
+  },
+  {
+    "level": 57,
+    "grade1": 1275,
+    "grade2": 2550,
+    "grade3": 5100,
+    "grade4": 10200,
+    "grade5": 15300,
+    "grade6": 30600,
+    "grade7": 71400,
+    "grade8": 94684,
+    "grade9": 94684
+  },
+  {
+    "level": 58,
+    "grade1": 1305,
+    "grade2": 2610,
+    "grade3": 5220,
+    "grade4": 10440,
+    "grade5": 15660,
+    "grade6": 31320,
+    "grade7": 73080,
+    "grade8": 97184,
+    "grade9": 97184
+  },
+  {
+    "level": 59,
+    "grade1": 1335,
+    "grade2": 2670,
+    "grade3": 5340,
+    "grade4": 10680,
+    "grade5": 16020,
+    "grade6": 32040,
+    "grade7": 74760,
+    "grade8": 99684,
+    "grade9": 99684
+  },
+  {
+    "level": 60,
+    "grade1": 1365,
+    "grade2": 2730,
+    "grade3": 5460,
+    "grade4": 10920,
+    "grade5": 16380,
+    "grade6": 32760,
+    "grade7": 76440,
+    "grade8": 102184,
+    "grade9": 102184
+  },
+  {
+    "level": 61,
+    "grade1": 1395,
+    "grade2": 2790,
+    "grade3": 5580,
+    "grade4": 11160,
+    "grade5": 16740,
+    "grade6": 33480,
+    "grade7": 78120,
+    "grade8": 104684,
+    "grade9": 104684
+  },
+  {
+    "level": 62,
+    "grade1": 1425,
+    "grade2": 2850,
+    "grade3": 5700,
+    "grade4": 11400,
+    "grade5": 17100,
+    "grade6": 34200,
+    "grade7": 79800,
+    "grade8": 107184,
+    "grade9": 107184
+  },
+  {
+    "level": 63,
+    "grade1": 1455,
+    "grade2": 2910,
+    "grade3": 5820,
+    "grade4": 11640,
+    "grade5": 17460,
+    "grade6": 34920,
+    "grade7": 81480,
+    "grade8": 109684,
+    "grade9": 109684
+  },
+  {
+    "level": 64,
+    "grade1": 1485,
+    "grade2": 2970,
+    "grade3": 5940,
+    "grade4": 11880,
+    "grade5": 17820,
+    "grade6": 35640,
+    "grade7": 83160,
+    "grade8": 112184,
+    "grade9": 112184
+  },
+  {
+    "level": 65,
+    "grade1": 1515,
+    "grade2": 3030,
+    "grade3": 6060,
+    "grade4": 12120,
+    "grade5": 18180,
+    "grade6": 36360,
+    "grade7": 84840,
+    "grade8": 114684,
+    "grade9": 114684
+  },
+  {
+    "level": 66,
+    "grade1": 1545,
+    "grade2": 3090,
+    "grade3": 6180,
+    "grade4": 12360,
+    "grade5": 18540,
+    "grade6": 37080,
+    "grade7": 86520,
+    "grade8": 117184,
+    "grade9": 117184
+  },
+  {
+    "level": 67,
+    "grade1": 1575,
+    "grade2": 3150,
+    "grade3": 6300,
+    "grade4": 12600,
+    "grade5": 18900,
+    "grade6": 37800,
+    "grade7": 88200,
+    "grade8": 119684,
+    "grade9": 119684
+  },
+  {
+    "level": 68,
+    "grade1": 1605,
+    "grade2": 3210,
+    "grade3": 6420,
+    "grade4": 12840,
+    "grade5": 19260,
+    "grade6": 38520,
+    "grade7": 89880,
+    "grade8": 122184,
+    "grade9": 122184
+  },
+  {
+    "level": 69,
+    "grade1": 1635,
+    "grade2": 3270,
+    "grade3": 6540,
+    "grade4": 13080,
+    "grade5": 19620,
+    "grade6": 39240,
+    "grade7": 91560,
+    "grade8": 124684,
+    "grade9": 124684
+  },
+  {
+    "level": 70,
+    "grade1": 1665,
+    "grade2": 3330,
+    "grade3": 6660,
+    "grade4": 13320,
+    "grade5": 19980,
+    "grade6": 39960,
+    "grade7": 93240,
+    "grade8": 127184,
+    "grade9": 127184
+  },
+  {
+    "level": 71,
+    "grade1": 1695,
+    "grade2": 3390,
+    "grade3": 6780,
+    "grade4": 13560,
+    "grade5": 20480,
+    "grade6": 41460,
+    "grade7": 95240,
+    "grade8": 129684,
+    "grade9": 129684
+  },
+  {
+    "level": 72,
+    "grade1": 1725,
+    "grade2": 3450,
+    "grade3": 6900,
+    "grade4": 13800,
+    "grade5": 20980,
+    "grade6": 42960,
+    "grade7": 97240,
+    "grade8": 132184,
+    "grade9": 132184
+  },
+  {
+    "level": 73,
+    "grade1": 1755,
+    "grade2": 3510,
+    "grade3": 7020,
+    "grade4": 14040,
+    "grade5": 21480,
+    "grade6": 44460,
+    "grade7": 99240,
+    "grade8": 134684,
+    "grade9": 134684
+  },
+  {
+    "level": 74,
+    "grade1": 1785,
+    "grade2": 3570,
+    "grade3": 7140,
+    "grade4": 14280,
+    "grade5": 21980,
+    "grade6": 45960,
+    "grade7": 101240,
+    "grade8": 137184,
+    "grade9": 137184
+  },
+  {
+    "level": 75,
+    "grade1": 1815,
+    "grade2": 3630,
+    "grade3": 7260,
+    "grade4": 14520,
+    "grade5": 22480,
+    "grade6": 47460,
+    "grade7": 103240,
+    "grade8": 139684,
+    "grade9": 139684
+  },
+  {
+    "level": 76,
+    "grade1": 1845,
+    "grade2": 3690,
+    "grade3": 7380,
+    "grade4": 14760,
+    "grade5": 22980,
+    "grade6": 48960,
+    "grade7": 105240,
+    "grade8": 142184,
+    "grade9": 142184
+  },
+  {
+    "level": 77,
+    "grade1": 1875,
+    "grade2": 3750,
+    "grade3": 7500,
+    "grade4": 15000,
+    "grade5": 23480,
+    "grade6": 50460,
+    "grade7": 107240,
+    "grade8": 144684,
+    "grade9": 144684
+  },
+  {
+    "level": 78,
+    "grade1": 1905,
+    "grade2": 3810,
+    "grade3": 7620,
+    "grade4": 15240,
+    "grade5": 23980,
+    "grade6": 51960,
+    "grade7": 109240,
+    "grade8": 147184,
+    "grade9": 147184
+  },
+  {
+    "level": 79,
+    "grade1": 1935,
+    "grade2": 3870,
+    "grade3": 7740,
+    "grade4": 15480,
+    "grade5": 24480,
+    "grade6": 53460,
+    "grade7": 111240,
+    "grade8": 149684,
+    "grade9": 149684
+  },
+  {
+    "level": 80,
+    "grade1": 1965,
+    "grade2": 3930,
+    "grade3": 7860,
+    "grade4": 15720,
+    "grade5": 24980,
+    "grade6": 54960,
+    "grade7": 113240,
+    "grade8": 152184,
+    "grade9": 152184
+  },
+  {
+    "level": 81,
+    "grade1": 1995,
+    "grade2": 3990,
+    "grade3": 7980,
+    "grade4": 15960,
+    "grade5": 25480,
+    "grade6": 56460,
+    "grade7": 115240,
+    "grade8": 154684,
+    "grade9": 154684
+  },
+  {
+    "level": 82,
+    "grade1": 2025,
+    "grade2": 4050,
+    "grade3": 8100,
+    "grade4": 16200,
+    "grade5": 25980,
+    "grade6": 57960,
+    "grade7": 117240,
+    "grade8": 157184,
+    "grade9": 157184
+  },
+  {
+    "level": 83,
+    "grade1": 2055,
+    "grade2": 4110,
+    "grade3": 8220,
+    "grade4": 16440,
+    "grade5": 26480,
+    "grade6": 59460,
+    "grade7": 119240,
+    "grade8": 159684,
+    "grade9": 159684
+  },
+  {
+    "level": 84,
+    "grade1": 2085,
+    "grade2": 4170,
+    "grade3": 8340,
+    "grade4": 16680,
+    "grade5": 26980,
+    "grade6": 60960,
+    "grade7": 121240,
+    "grade8": 162184,
+    "grade9": 162184
+  },
+  {
+    "level": 85,
+    "grade1": 2115,
+    "grade2": 4230,
+    "grade3": 8460,
+    "grade4": 16920,
+    "grade5": 27480,
+    "grade6": 62460,
+    "grade7": 123240,
+    "grade8": 164684,
+    "grade9": 164684
+  },
+  {
+    "level": 86,
+    "grade1": 2145,
+    "grade2": 4290,
+    "grade3": 8580,
+    "grade4": 17160,
+    "grade5": 27980,
+    "grade6": 63960,
+    "grade7": 125240,
+    "grade8": 167184,
+    "grade9": 167184
+  },
+  {
+    "level": 87,
+    "grade1": 2175,
+    "grade2": 4350,
+    "grade3": 8700,
+    "grade4": 17400,
+    "grade5": 28480,
+    "grade6": 65460,
+    "grade7": 127240,
+    "grade8": 169684,
+    "grade9": 169684
+  },
+  {
+    "level": 88,
+    "grade1": 2205,
+    "grade2": 4410,
+    "grade3": 8820,
+    "grade4": 17640,
+    "grade5": 28980,
+    "grade6": 66960,
+    "grade7": 129240,
+    "grade8": 172184,
+    "grade9": 172184
+  },
+  {
+    "level": 89,
+    "grade1": 2235,
+    "grade2": 4470,
+    "grade3": 8940,
+    "grade4": 17880,
+    "grade5": 29480,
+    "grade6": 68460,
+    "grade7": 131240,
+    "grade8": 174684,
+    "grade9": 174684
+  },
+  {
+    "level": 90,
+    "grade1": 2265,
+    "grade2": 4530,
+    "grade3": 9060,
+    "grade4": 18120,
+    "grade5": 29980,
+    "grade6": 69960,
+    "grade7": 133240,
+    "grade8": 177184,
+    "grade9": 177184
+  },
+  {
+    "level": 91,
+    "grade1": 2295,
+    "grade2": 4590,
+    "grade3": 9180,
+    "grade4": 18360,
+    "grade5": 30480,
+    "grade6": 71460,
+    "grade7": 135240,
+    "grade8": 179684,
+    "grade9": 179684
+  },
+  {
+    "level": 92,
+    "grade1": 2325,
+    "grade2": 4650,
+    "grade3": 9300,
+    "grade4": 18600,
+    "grade5": 30980,
+    "grade6": 72960,
+    "grade7": 137240,
+    "grade8": 182184,
+    "grade9": 182184
+  },
+  {
+    "level": 93,
+    "grade1": 2355,
+    "grade2": 4710,
+    "grade3": 9420,
+    "grade4": 18840,
+    "grade5": 31480,
+    "grade6": 74460,
+    "grade7": 139240,
+    "grade8": 184684,
+    "grade9": 184684
+  },
+  {
+    "level": 94,
+    "grade1": 2385,
+    "grade2": 4770,
+    "grade3": 9540,
+    "grade4": 19080,
+    "grade5": 31980,
+    "grade6": 75960,
+    "grade7": 141240,
+    "grade8": 187184,
+    "grade9": 187184
+  },
+  {
+    "level": 95,
+    "grade1": 2415,
+    "grade2": 4830,
+    "grade3": 9660,
+    "grade4": 19320,
+    "grade5": 32480,
+    "grade6": 77460,
+    "grade7": 143240,
+    "grade8": 189684,
+    "grade9": 189684
+  },
+  {
+    "level": 96,
+    "grade1": 2445,
+    "grade2": 4890,
+    "grade3": 9780,
+    "grade4": 19560,
+    "grade5": 32980,
+    "grade6": 78960,
+    "grade7": 145240,
+    "grade8": 192184,
+    "grade9": 192184
+  },
+  {
+    "level": 97,
+    "grade1": 2475,
+    "grade2": 4950,
+    "grade3": 9900,
+    "grade4": 19800,
+    "grade5": 33480,
+    "grade6": 80460,
+    "grade7": 147240,
+    "grade8": 194684,
+    "grade9": 194684
+  },
+  {
+    "level": 98,
+    "grade1": 2505,
+    "grade2": 5010,
+    "grade3": 10020,
+    "grade4": 20040,
+    "grade5": 33980,
+    "grade6": 81960,
+    "grade7": 149240,
+    "grade8": 197184,
+    "grade9": 197184
+  },
+  {
+    "level": 99,
+    "grade1": 2535,
+    "grade2": 5070,
+    "grade3": 10140,
+    "grade4": 20280,
+    "grade5": 34480,
+    "grade6": 83460,
+    "grade7": 151240,
+    "grade8": 199684,
+    "grade9": 199684
+  },
+  {
+    "level": 100,
+    "grade1": 2565,
+    "grade2": 5130,
+    "grade3": 10260,
+    "grade4": 20520,
+    "grade5": 34980,
+    "grade6": 84960,
+    "grade7": 153240,
+    "grade8": 202184,
+    "grade9": 202184
+  },
+  {
+    "level": 101,
+    "grade1": 2595,
+    "grade2": 5190,
+    "grade3": 10380,
+    "grade4": 20760,
+    "grade5": 35480,
+    "grade6": 86460,
+    "grade7": 155240,
+    "grade8": 204684,
+    "grade9": 204684
+  },
+  {
+    "level": 102,
+    "grade1": 2625,
+    "grade2": 5250,
+    "grade3": 10500,
+    "grade4": 21000,
+    "grade5": 35980,
+    "grade6": 87960,
+    "grade7": 157240,
+    "grade8": 207184,
+    "grade9": 207184
+  },
+  {
+    "level": 103,
+    "grade1": 2655,
+    "grade2": 5310,
+    "grade3": 10620,
+    "grade4": 21240,
+    "grade5": 36480,
+    "grade6": 89460,
+    "grade7": 159240,
+    "grade8": 209684,
+    "grade9": 209684
+  },
+  {
+    "level": 104,
+    "grade1": 2685,
+    "grade2": 5370,
+    "grade3": 10740,
+    "grade4": 21480,
+    "grade5": 36980,
+    "grade6": 90960,
+    "grade7": 161240,
+    "grade8": 212184,
+    "grade9": 212184
+  },
+  {
+    "level": 105,
+    "grade1": 2715,
+    "grade2": 5430,
+    "grade3": 10860,
+    "grade4": 21720,
+    "grade5": 37480,
+    "grade6": 92460,
+    "grade7": 163240,
+    "grade8": 214684,
+    "grade9": 214684
+  },
+  {
+    "level": 106,
+    "grade1": 2745,
+    "grade2": 5490,
+    "grade3": 10980,
+    "grade4": 21960,
+    "grade5": 37980,
+    "grade6": 93960,
+    "grade7": 165240,
+    "grade8": 217184,
+    "grade9": 217184
+  },
+  {
+    "level": 107,
+    "grade1": 2775,
+    "grade2": 5550,
+    "grade3": 11100,
+    "grade4": 22200,
+    "grade5": 38480,
+    "grade6": 95460,
+    "grade7": 167240,
+    "grade8": 219684,
+    "grade9": 219684
+  },
+  {
+    "level": 108,
+    "grade1": 2805,
+    "grade2": 5610,
+    "grade3": 11220,
+    "grade4": 22440,
+    "grade5": 38980,
+    "grade6": 96960,
+    "grade7": 169240,
+    "grade8": 222184,
+    "grade9": 222184
+  },
+  {
+    "level": 109,
+    "grade1": 2835,
+    "grade2": 5670,
+    "grade3": 11340,
+    "grade4": 22680,
+    "grade5": 39480,
+    "grade6": 98460,
+    "grade7": 171240,
+    "grade8": 224684,
+    "grade9": 224684
+  },
+  {
+    "level": 110,
+    "grade1": 2865,
+    "grade2": 5730,
+    "grade3": 11460,
+    "grade4": 22920,
+    "grade5": 39980,
+    "grade6": 99960,
+    "grade7": 173240,
+    "grade8": 227184,
+    "grade9": 227184
+  },
+  {
+    "level": 111,
+    "grade1": 2895,
+    "grade2": 5790,
+    "grade3": 11580,
+    "grade4": 23160,
+    "grade5": 40480,
+    "grade6": 101460,
+    "grade7": 175240,
+    "grade8": 229684,
+    "grade9": 229684
+  },
+  {
+    "level": 112,
+    "grade1": 2925,
+    "grade2": 5850,
+    "grade3": 11700,
+    "grade4": 23400,
+    "grade5": 40980,
+    "grade6": 102960,
+    "grade7": 177240,
+    "grade8": 232184,
+    "grade9": 232184
+  },
+  {
+    "level": 113,
+    "grade1": 2955,
+    "grade2": 5910,
+    "grade3": 11820,
+    "grade4": 23640,
+    "grade5": 41480,
+    "grade6": 104460,
+    "grade7": 179240,
+    "grade8": 234684,
+    "grade9": 234684
+  },
+  {
+    "level": 114,
+    "grade1": 2985,
+    "grade2": 5970,
+    "grade3": 11940,
+    "grade4": 23880,
+    "grade5": 41980,
+    "grade6": 105960,
+    "grade7": 181240,
+    "grade8": 237184,
+    "grade9": 237184
+  },
+  {
+    "level": 115,
+    "grade1": 3015,
+    "grade2": 6030,
+    "grade3": 12060,
+    "grade4": 24120,
+    "grade5": 42480,
+    "grade6": 107460,
+    "grade7": 183240,
+    "grade8": 239684,
+    "grade9": 239684
+  },
+  {
+    "level": 116,
+    "grade1": 3045,
+    "grade2": 6090,
+    "grade3": 12180,
+    "grade4": 24360,
+    "grade5": 42980,
+    "grade6": 108960,
+    "grade7": 185240,
+    "grade8": 242184,
+    "grade9": 242184
+  },
+  {
+    "level": 117,
+    "grade1": 3075,
+    "grade2": 6150,
+    "grade3": 12300,
+    "grade4": 24600,
+    "grade5": 43480,
+    "grade6": 110460,
+    "grade7": 187240,
+    "grade8": 244684,
+    "grade9": 244684
+  },
+  {
+    "level": 118,
+    "grade1": 3105,
+    "grade2": 6210,
+    "grade3": 12420,
+    "grade4": 24840,
+    "grade5": 43980,
+    "grade6": 111960,
+    "grade7": 189240,
+    "grade8": 247184,
+    "grade9": 247184
+  },
+  {
+    "level": 119,
+    "grade1": 3135,
+    "grade2": 6270,
+    "grade3": 12540,
+    "grade4": 25080,
+    "grade5": 44480,
+    "grade6": 113460,
+    "grade7": 191240,
+    "grade8": 249684,
+    "grade9": 249684
+  },
+  {
+    "level": 120,
+    "grade1": 3165,
+    "grade2": 6330,
+    "grade3": 12660,
+    "grade4": 25320,
+    "grade5": 44980,
+    "grade6": 114960,
+    "grade7": 193240,
+    "grade8": 252184,
+    "grade9": 252184
+  },
+  {
+    "level": 121,
+    "grade1": 3195,
+    "grade2": 6390,
+    "grade3": 12780,
+    "grade4": 25560,
+    "grade5": 45980,
+    "grade6": 116960,
+    "grade7": 196240,
+    "grade8": 255184,
+    "grade9": 255184
+  },
+  {
+    "level": 122,
+    "grade1": 3225,
+    "grade2": 6450,
+    "grade3": 12900,
+    "grade4": 25800,
+    "grade5": 46980,
+    "grade6": 118960,
+    "grade7": 199240,
+    "grade8": 258184,
+    "grade9": 258184
+  },
+  {
+    "level": 123,
+    "grade1": 3255,
+    "grade2": 6510,
+    "grade3": 13020,
+    "grade4": 26040,
+    "grade5": 47980,
+    "grade6": 120960,
+    "grade7": 202240,
+    "grade8": 261184,
+    "grade9": 261184
+  },
+  {
+    "level": 124,
+    "grade1": 3285,
+    "grade2": 6570,
+    "grade3": 13140,
+    "grade4": 26280,
+    "grade5": 48980,
+    "grade6": 122960,
+    "grade7": 205240,
+    "grade8": 264184,
+    "grade9": 264184
+  },
+  {
+    "level": 125,
+    "grade1": 3315,
+    "grade2": 6630,
+    "grade3": 13260,
+    "grade4": 26520,
+    "grade5": 49980,
+    "grade6": 124960,
+    "grade7": 208240,
+    "grade8": 267184,
+    "grade9": 267184
+  },
+  {
+    "level": 126,
+    "grade1": 3345,
+    "grade2": 6690,
+    "grade3": 13380,
+    "grade4": 26760,
+    "grade5": 50980,
+    "grade6": 126960,
+    "grade7": 211240,
+    "grade8": 270184,
+    "grade9": 270184
+  },
+  {
+    "level": 127,
+    "grade1": 3375,
+    "grade2": 6750,
+    "grade3": 13500,
+    "grade4": 27000,
+    "grade5": 51980,
+    "grade6": 128960,
+    "grade7": 214240,
+    "grade8": 273184,
+    "grade9": 273184
+  },
+  {
+    "level": 128,
+    "grade1": 3405,
+    "grade2": 6810,
+    "grade3": 13620,
+    "grade4": 27240,
+    "grade5": 52980,
+    "grade6": 130960,
+    "grade7": 217240,
+    "grade8": 276184,
+    "grade9": 276184
+  },
+  {
+    "level": 129,
+    "grade1": 3435,
+    "grade2": 6870,
+    "grade3": 13740,
+    "grade4": 27480,
+    "grade5": 53980,
+    "grade6": 132960,
+    "grade7": 220240,
+    "grade8": 279184,
+    "grade9": 279184
+  },
+  {
+    "level": 130,
+    "grade1": 3465,
+    "grade2": 6930,
+    "grade3": 13860,
+    "grade4": 27720,
+    "grade5": 54980,
+    "grade6": 134960,
+    "grade7": 223240,
+    "grade8": 282184,
+    "grade9": 282184
+  },
+  {
+    "level": 131,
+    "grade1": 3495,
+    "grade2": 6990,
+    "grade3": 13980,
+    "grade4": 27960,
+    "grade5": 55980,
+    "grade6": 136960,
+    "grade7": 226240,
+    "grade8": 285184,
+    "grade9": 285184
+  },
+  {
+    "level": 132,
+    "grade1": 3525,
+    "grade2": 7050,
+    "grade3": 14100,
+    "grade4": 28200,
+    "grade5": 56980,
+    "grade6": 138960,
+    "grade7": 229240,
+    "grade8": 288184,
+    "grade9": 288184
+  },
+  {
+    "level": 133,
+    "grade1": 3555,
+    "grade2": 7110,
+    "grade3": 14220,
+    "grade4": 28440,
+    "grade5": 57980,
+    "grade6": 140960,
+    "grade7": 232240,
+    "grade8": 291184,
+    "grade9": 291184
+  },
+  {
+    "level": 134,
+    "grade1": 3585,
+    "grade2": 7170,
+    "grade3": 14340,
+    "grade4": 28680,
+    "grade5": 58980,
+    "grade6": 142960,
+    "grade7": 235240,
+    "grade8": 294184,
+    "grade9": 294184
+  },
+  {
+    "level": 135,
+    "grade1": 3615,
+    "grade2": 7230,
+    "grade3": 14460,
+    "grade4": 28920,
+    "grade5": 59980,
+    "grade6": 144960,
+    "grade7": 238240,
+    "grade8": 297184,
+    "grade9": 297184
+  },
+  {
+    "level": 136,
+    "grade1": 3645,
+    "grade2": 7290,
+    "grade3": 14580,
+    "grade4": 29160,
+    "grade5": 60980,
+    "grade6": 146960,
+    "grade7": 241240,
+    "grade8": 300184,
+    "grade9": 300184
+  },
+  {
+    "level": 137,
+    "grade1": 3675,
+    "grade2": 7350,
+    "grade3": 14700,
+    "grade4": 29400,
+    "grade5": 61980,
+    "grade6": 148960,
+    "grade7": 244240,
+    "grade8": 303184,
+    "grade9": 303184
+  },
+  {
+    "level": 138,
+    "grade1": 3705,
+    "grade2": 7410,
+    "grade3": 14820,
+    "grade4": 29640,
+    "grade5": 62980,
+    "grade6": 150960,
+    "grade7": 247240,
+    "grade8": 306184,
+    "grade9": 306184
+  },
+  {
+    "level": 139,
+    "grade1": 3735,
+    "grade2": 7470,
+    "grade3": 14940,
+    "grade4": 29880,
+    "grade5": 63980,
+    "grade6": 152960,
+    "grade7": 250240,
+    "grade8": 309184,
+    "grade9": 309184
+  },
+  {
+    "level": 140,
+    "grade1": 3765,
+    "grade2": 7530,
+    "grade3": 15060,
+    "grade4": 30120,
+    "grade5": 64980,
+    "grade6": 154960,
+    "grade7": 253240,
+    "grade8": 312184,
+    "grade9": 312184
+  },
+  {
+    "level": 141,
+    "grade1": 3795,
+    "grade2": 7590,
+    "grade3": 15180,
+    "grade4": 30360,
+    "grade5": 65980,
+    "grade6": 156960,
+    "grade7": 256240,
+    "grade8": 315184,
+    "grade9": 315184
+  },
+  {
+    "level": 142,
+    "grade1": 3825,
+    "grade2": 7650,
+    "grade3": 15300,
+    "grade4": 30600,
+    "grade5": 66980,
+    "grade6": 158960,
+    "grade7": 259240,
+    "grade8": 318184,
+    "grade9": 318184
+  },
+  {
+    "level": 143,
+    "grade1": 3855,
+    "grade2": 7710,
+    "grade3": 15420,
+    "grade4": 30840,
+    "grade5": 67980,
+    "grade6": 160960,
+    "grade7": 262240,
+    "grade8": 321184,
+    "grade9": 321184
+  },
+  {
+    "level": 144,
+    "grade1": 3885,
+    "grade2": 7770,
+    "grade3": 15540,
+    "grade4": 31080,
+    "grade5": 68980,
+    "grade6": 162960,
+    "grade7": 265240,
+    "grade8": 324184,
+    "grade9": 324184
+  },
+  {
+    "level": 145,
+    "grade1": 3915,
+    "grade2": 7830,
+    "grade3": 15660,
+    "grade4": 31320,
+    "grade5": 69980,
+    "grade6": 164960,
+    "grade7": 268240,
+    "grade8": 327184,
+    "grade9": 327184
+  },
+  {
+    "level": 146,
+    "grade1": 3945,
+    "grade2": 7890,
+    "grade3": 15780,
+    "grade4": 31560,
+    "grade5": 70980,
+    "grade6": 166960,
+    "grade7": 271240,
+    "grade8": 330184,
+    "grade9": 330184
+  },
+  {
+    "level": 147,
+    "grade1": 3975,
+    "grade2": 7950,
+    "grade3": 15900,
+    "grade4": 31800,
+    "grade5": 71980,
+    "grade6": 168960,
+    "grade7": 274240,
+    "grade8": 333184,
+    "grade9": 333184
+  },
+  {
+    "level": 148,
+    "grade1": 4005,
+    "grade2": 8010,
+    "grade3": 16020,
+    "grade4": 32040,
+    "grade5": 72980,
+    "grade6": 170960,
+    "grade7": 277240,
+    "grade8": 336184,
+    "grade9": 336184
+  },
+  {
+    "level": 149,
+    "grade1": 4035,
+    "grade2": 8070,
+    "grade3": 16140,
+    "grade4": 32280,
+    "grade5": 73980,
+    "grade6": 172960,
+    "grade7": 280240,
+    "grade8": 339184,
+    "grade9": 339184
+  },
+  {
+    "level": 150,
+    "grade1": 4065,
+    "grade2": 8130,
+    "grade3": 16260,
+    "grade4": 32520,
+    "grade5": 74980,
+    "grade6": 174960,
+    "grade7": 283240,
+    "grade8": 342184,
+    "grade9": 342184
+  },
+  {
+    "level": 151,
+    "grade1": 4095,
+    "grade2": 8190,
+    "grade3": 16380,
+    "grade4": 32760,
+    "grade5": 75980,
+    "grade6": 176960,
+    "grade7": 286240,
+    "grade8": 345184,
+    "grade9": 345184
+  },
+  {
+    "level": 152,
+    "grade1": 4125,
+    "grade2": 8250,
+    "grade3": 16500,
+    "grade4": 33000,
+    "grade5": 76980,
+    "grade6": 178960,
+    "grade7": 289240,
+    "grade8": 348184,
+    "grade9": 348184
+  },
+  {
+    "level": 153,
+    "grade1": 4155,
+    "grade2": 8310,
+    "grade3": 16620,
+    "grade4": 33240,
+    "grade5": 77980,
+    "grade6": 180960,
+    "grade7": 292240,
+    "grade8": 351184,
+    "grade9": 351184
+  },
+  {
+    "level": 154,
+    "grade1": 4185,
+    "grade2": 8370,
+    "grade3": 16740,
+    "grade4": 33480,
+    "grade5": 78980,
+    "grade6": 182960,
+    "grade7": 295240,
+    "grade8": 354184,
+    "grade9": 354184
+  },
+  {
+    "level": 155,
+    "grade1": 4215,
+    "grade2": 8430,
+    "grade3": 16860,
+    "grade4": 33720,
+    "grade5": 79980,
+    "grade6": 184960,
+    "grade7": 298240,
+    "grade8": 357184,
+    "grade9": 357184
+  },
+  {
+    "level": 156,
+    "grade1": 4245,
+    "grade2": 8490,
+    "grade3": 16980,
+    "grade4": 33960,
+    "grade5": 80980,
+    "grade6": 186960,
+    "grade7": 301240,
+    "grade8": 360184,
+    "grade9": 360184
+  },
+  {
+    "level": 157,
+    "grade1": 4275,
+    "grade2": 8550,
+    "grade3": 17100,
+    "grade4": 34200,
+    "grade5": 81980,
+    "grade6": 188960,
+    "grade7": 304240,
+    "grade8": 363184,
+    "grade9": 363184
+  },
+  {
+    "level": 158,
+    "grade1": 4305,
+    "grade2": 8610,
+    "grade3": 17220,
+    "grade4": 34440,
+    "grade5": 82980,
+    "grade6": 190960,
+    "grade7": 307240,
+    "grade8": 366184,
+    "grade9": 366184
+  },
+  {
+    "level": 159,
+    "grade1": 4335,
+    "grade2": 8670,
+    "grade3": 17340,
+    "grade4": 34680,
+    "grade5": 83980,
+    "grade6": 192960,
+    "grade7": 310240,
+    "grade8": 369184,
+    "grade9": 369184
+  },
+  {
+    "level": 160,
+    "grade1": 4365,
+    "grade2": 8730,
+    "grade3": 17460,
+    "grade4": 34920,
+    "grade5": 84980,
+    "grade6": 194960,
+    "grade7": 313240,
+    "grade8": 372184,
+    "grade9": 372184
+  },
+  {
+    "level": 161,
+    "grade1": 4395,
+    "grade2": 8790,
+    "grade3": 17580,
+    "grade4": 35160,
+    "grade5": 85980,
+    "grade6": 196960,
+    "grade7": 316240,
+    "grade8": 375184,
+    "grade9": 375184
+  },
+  {
+    "level": 162,
+    "grade1": 4425,
+    "grade2": 8850,
+    "grade3": 17700,
+    "grade4": 35400,
+    "grade5": 86980,
+    "grade6": 198960,
+    "grade7": 319240,
+    "grade8": 378184,
+    "grade9": 378184
+  },
+  {
+    "level": 163,
+    "grade1": 4455,
+    "grade2": 8910,
+    "grade3": 17820,
+    "grade4": 35640,
+    "grade5": 87980,
+    "grade6": 200960,
+    "grade7": 322240,
+    "grade8": 381184,
+    "grade9": 381184
+  },
+  {
+    "level": 164,
+    "grade1": 4485,
+    "grade2": 8970,
+    "grade3": 17940,
+    "grade4": 35880,
+    "grade5": 88980,
+    "grade6": 202960,
+    "grade7": 325240,
+    "grade8": 384184,
+    "grade9": 384184
+  },
+  {
+    "level": 165,
+    "grade1": 4515,
+    "grade2": 9030,
+    "grade3": 18060,
+    "grade4": 36120,
+    "grade5": 89980,
+    "grade6": 204960,
+    "grade7": 328240,
+    "grade8": 387184,
+    "grade9": 387184
+  },
+  {
+    "level": 166,
+    "grade1": 4545,
+    "grade2": 9090,
+    "grade3": 18180,
+    "grade4": 36360,
+    "grade5": 90980,
+    "grade6": 206960,
+    "grade7": 331240,
+    "grade8": 390184,
+    "grade9": 390184
+  },
+  {
+    "level": 167,
+    "grade1": 4575,
+    "grade2": 9150,
+    "grade3": 18300,
+    "grade4": 36600,
+    "grade5": 91980,
+    "grade6": 208960,
+    "grade7": 334240,
+    "grade8": 393184,
+    "grade9": 393184
+  },
+  {
+    "level": 168,
+    "grade1": 4605,
+    "grade2": 9210,
+    "grade3": 18420,
+    "grade4": 36840,
+    "grade5": 92980,
+    "grade6": 210960,
+    "grade7": 337240,
+    "grade8": 396184,
+    "grade9": 396184
+  },
+  {
+    "level": 169,
+    "grade1": 4635,
+    "grade2": 9270,
+    "grade3": 18540,
+    "grade4": 37080,
+    "grade5": 93980,
+    "grade6": 212960,
+    "grade7": 340240,
+    "grade8": 399184,
+    "grade9": 399184
+  },
+  {
+    "level": 170,
+    "grade1": 4665,
+    "grade2": 9330,
+    "grade3": 18660,
+    "grade4": 37320,
+    "grade5": 94980,
+    "grade6": 214960,
+    "grade7": 343240,
+    "grade8": 402184,
+    "grade9": 402184
+  },
+  {
+    "level": 171,
+    "grade1": 4695,
+    "grade2": 9390,
+    "grade3": 18780,
+    "grade4": 37560,
+    "grade5": 95980,
+    "grade6": 216960,
+    "grade7": 346240,
+    "grade8": 405184,
+    "grade9": 405184
+  },
+  {
+    "level": 172,
+    "grade1": 4725,
+    "grade2": 9450,
+    "grade3": 18900,
+    "grade4": 37800,
+    "grade5": 96980,
+    "grade6": 218960,
+    "grade7": 349240,
+    "grade8": 408184,
+    "grade9": 408184
+  },
+  {
+    "level": 173,
+    "grade1": 4755,
+    "grade2": 9510,
+    "grade3": 19020,
+    "grade4": 38040,
+    "grade5": 97980,
+    "grade6": 220960,
+    "grade7": 352240,
+    "grade8": 411184,
+    "grade9": 411184
+  },
+  {
+    "level": 174,
+    "grade1": 4785,
+    "grade2": 9570,
+    "grade3": 19140,
+    "grade4": 38280,
+    "grade5": 98980,
+    "grade6": 222960,
+    "grade7": 355240,
+    "grade8": 414184,
+    "grade9": 414184
+  },
+  {
+    "level": 175,
+    "grade1": 4815,
+    "grade2": 9630,
+    "grade3": 19260,
+    "grade4": 38520,
+    "grade5": 99980,
+    "grade6": 224960,
+    "grade7": 358240,
+    "grade8": 417184,
+    "grade9": 417184
+  },
+  {
+    "level": 176,
+    "grade1": 4845,
+    "grade2": 9690,
+    "grade3": 19380,
+    "grade4": 38760,
+    "grade5": 100980,
+    "grade6": 226960,
+    "grade7": 361240,
+    "grade8": 420184,
+    "grade9": 420184
+  },
+  {
+    "level": 177,
+    "grade1": 4875,
+    "grade2": 9750,
+    "grade3": 19500,
+    "grade4": 39000,
+    "grade5": 101980,
+    "grade6": 228960,
+    "grade7": 364240,
+    "grade8": 423184,
+    "grade9": 423184
+  },
+  {
+    "level": 178,
+    "grade1": 4905,
+    "grade2": 9810,
+    "grade3": 19620,
+    "grade4": 39240,
+    "grade5": 102980,
+    "grade6": 230960,
+    "grade7": 367240,
+    "grade8": 426184,
+    "grade9": 426184
+  },
+  {
+    "level": 179,
+    "grade1": 4935,
+    "grade2": 9870,
+    "grade3": 19740,
+    "grade4": 39480,
+    "grade5": 103980,
+    "grade6": 232960,
+    "grade7": 370240,
+    "grade8": 429184,
+    "grade9": 429184
+  },
+  {
+    "level": 180,
+    "grade1": 4965,
+    "grade2": 9930,
+    "grade3": 19860,
+    "grade4": 39720,
+    "grade5": 104980,
+    "grade6": 234960,
+    "grade7": 373240,
+    "grade8": 432184,
+    "grade9": 432184
+  },
+  {
+    "level": 181,
+    "grade1": 4995,
+    "grade2": 9990,
+    "grade3": 19980,
+    "grade4": 39960,
+    "grade5": 105980,
+    "grade6": 236960,
+    "grade7": 376240,
+    "grade8": 435184,
+    "grade9": 435184
+  },
+  {
+    "level": 182,
+    "grade1": 5025,
+    "grade2": 10050,
+    "grade3": 20100,
+    "grade4": 40200,
+    "grade5": 106980,
+    "grade6": 238960,
+    "grade7": 379240,
+    "grade8": 438184,
+    "grade9": 438184
+  },
+  {
+    "level": 183,
+    "grade1": 5055,
+    "grade2": 10110,
+    "grade3": 20220,
+    "grade4": 40440,
+    "grade5": 107980,
+    "grade6": 240960,
+    "grade7": 382240,
+    "grade8": 441184,
+    "grade9": 441184
+  },
+  {
+    "level": 184,
+    "grade1": 5085,
+    "grade2": 10170,
+    "grade3": 20340,
+    "grade4": 40680,
+    "grade5": 108980,
+    "grade6": 242960,
+    "grade7": 385240,
+    "grade8": 444184,
+    "grade9": 444184
+  },
+  {
+    "level": 185,
+    "grade1": 5115,
+    "grade2": 10230,
+    "grade3": 20460,
+    "grade4": 40920,
+    "grade5": 109980,
+    "grade6": 244960,
+    "grade7": 388240,
+    "grade8": 447184,
+    "grade9": 447184
+  },
+  {
+    "level": 186,
+    "grade1": 5145,
+    "grade2": 10290,
+    "grade3": 20580,
+    "grade4": 41160,
+    "grade5": 110980,
+    "grade6": 246960,
+    "grade7": 391240,
+    "grade8": 450184,
+    "grade9": 450184
+  },
+  {
+    "level": 187,
+    "grade1": 5175,
+    "grade2": 10350,
+    "grade3": 20700,
+    "grade4": 41400,
+    "grade5": 111980,
+    "grade6": 248960,
+    "grade7": 394240,
+    "grade8": 453184,
+    "grade9": 453184
+  },
+  {
+    "level": 188,
+    "grade1": 5205,
+    "grade2": 10410,
+    "grade3": 20820,
+    "grade4": 41640,
+    "grade5": 112980,
+    "grade6": 250960,
+    "grade7": 397240,
+    "grade8": 456184,
+    "grade9": 456184
+  },
+  {
+    "level": 189,
+    "grade1": 5235,
+    "grade2": 10470,
+    "grade3": 20940,
+    "grade4": 41880,
+    "grade5": 113980,
+    "grade6": 252960,
+    "grade7": 400240,
+    "grade8": 459184,
+    "grade9": 459184
+  },
+  {
+    "level": 190,
+    "grade1": 5265,
+    "grade2": 10530,
+    "grade3": 21060,
+    "grade4": 42120,
+    "grade5": 114980,
+    "grade6": 254960,
+    "grade7": 403240,
+    "grade8": 462184,
+    "grade9": 462184
+  },
+  {
+    "level": 191,
+    "grade1": 5295,
+    "grade2": 10590,
+    "grade3": 21180,
+    "grade4": 42360,
+    "grade5": 115980,
+    "grade6": 256960,
+    "grade7": 406240,
+    "grade8": 465184,
+    "grade9": 465184
+  },
+  {
+    "level": 192,
+    "grade1": 5325,
+    "grade2": 10650,
+    "grade3": 21300,
+    "grade4": 42600,
+    "grade5": 116980,
+    "grade6": 258960,
+    "grade7": 409240,
+    "grade8": 468184,
+    "grade9": 468184
+  },
+  {
+    "level": 193,
+    "grade1": 5355,
+    "grade2": 10710,
+    "grade3": 21420,
+    "grade4": 42840,
+    "grade5": 117980,
+    "grade6": 260960,
+    "grade7": 412240,
+    "grade8": 471184,
+    "grade9": 471184
+  },
+  {
+    "level": 194,
+    "grade1": 5385,
+    "grade2": 10770,
+    "grade3": 21540,
+    "grade4": 43080,
+    "grade5": 118980,
+    "grade6": 262960,
+    "grade7": 415240,
+    "grade8": 474184,
+    "grade9": 474184
+  },
+  {
+    "level": 195,
+    "grade1": 5415,
+    "grade2": 10830,
+    "grade3": 21660,
+    "grade4": 43320,
+    "grade5": 119980,
+    "grade6": 264960,
+    "grade7": 418240,
+    "grade8": 477184,
+    "grade9": 477184
+  },
+  {
+    "level": 196,
+    "grade1": 5445,
+    "grade2": 10890,
+    "grade3": 21780,
+    "grade4": 43560,
+    "grade5": 120980,
+    "grade6": 266960,
+    "grade7": 421240,
+    "grade8": 480184,
+    "grade9": 480184
+  },
+  {
+    "level": 197,
+    "grade1": 5475,
+    "grade2": 10950,
+    "grade3": 21900,
+    "grade4": 43800,
+    "grade5": 121980,
+    "grade6": 268960,
+    "grade7": 424240,
+    "grade8": 483184,
+    "grade9": 483184
+  },
+  {
+    "level": 198,
+    "grade1": 5505,
+    "grade2": 11010,
+    "grade3": 22020,
+    "grade4": 44040,
+    "grade5": 122980,
+    "grade6": 270960,
+    "grade7": 427240,
+    "grade8": 486184,
+    "grade9": 486184
+  },
+  {
+    "level": 199,
+    "grade1": 5535,
+    "grade2": 11070,
+    "grade3": 22140,
+    "grade4": 44280,
+    "grade5": 123980,
+    "grade6": 272960,
+    "grade7": 430240,
+    "grade8": 489184,
+    "grade9": 489184
+  },
+  {
+    "level": 200,
+    "grade1": 5565,
+    "grade2": 11130,
+    "grade3": 22260,
+    "grade4": 44520,
+    "grade5": 124980,
+    "grade6": 274960,
+    "grade7": 433240,
+    "grade8": 492184,
+    "grade9": 492184
   }
 ]

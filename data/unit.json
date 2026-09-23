@@ -1,5 +1,6 @@
 [
   {
+    "uniqueSkill2": -1,
     "kindNum": 1,
     "base": 1,
     "className": "FootMan1",
@@ -49,6 +50,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 2,
     "base": 2,
     "className": "HeavyWarrior1",
@@ -98,6 +100,7 @@
     "raidCc": "knockback"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 3,
     "base": 3,
     "className": "FireBird1",
@@ -147,6 +150,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 4,
     "base": 4,
     "className": "Gunner1",
@@ -196,6 +200,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 5,
     "base": 5,
     "className": "HammerKnight1",
@@ -245,6 +250,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 6,
     "base": 6,
     "className": "HorseKnight1",
@@ -294,6 +300,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 7,
     "base": 7,
     "className": "ElfArcher1",
@@ -343,6 +350,7 @@
     "raidCc": "silence"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 8,
     "base": 8,
     "className": "ElfWarrior1",
@@ -392,6 +400,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 9,
     "base": 9,
     "className": "PoisonArcher1",
@@ -441,6 +450,7 @@
     "raidCc": "poison"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 10,
     "base": 10,
     "className": "HighArcher1",
@@ -490,6 +500,7 @@
     "raidCc": "knockback"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 11,
     "base": 11,
     "className": "GreenEagle1",
@@ -539,6 +550,7 @@
     "raidCc": "knockback|poison"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 12,
     "base": 12,
     "className": "WindMage1",
@@ -588,6 +600,7 @@
     "raidCc": "binding"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 13,
     "base": 13,
     "className": "SkeletonMan1",
@@ -637,6 +650,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 14,
     "base": 14,
     "className": "BlackMage1",
@@ -686,6 +700,7 @@
     "raidCc": "binding|shock"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 15,
     "base": 15,
     "className": "Ghost1",
@@ -735,6 +750,7 @@
     "raidCc": "curse"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 16,
     "base": 16,
     "className": "SkeletonWarrior1",
@@ -784,6 +800,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 17,
     "base": 17,
     "className": "GreatHammer1",
@@ -833,6 +850,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 18,
     "base": 18,
     "className": "DarkMage1",
@@ -882,6 +900,7 @@
     "raidCc": "curse"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 19,
     "base": 19,
     "className": "OrcFighter1",
@@ -931,6 +950,7 @@
     "raidCc": "blow"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 20,
     "base": 20,
     "className": "OrcHunter1",
@@ -980,6 +1000,7 @@
     "raidCc": "freeze"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 21,
     "base": 21,
     "className": "OrcIceMage1",
@@ -1029,6 +1050,7 @@
     "raidCc": "freeze"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 22,
     "base": 22,
     "className": "OrcWing1",
@@ -1078,6 +1100,7 @@
     "raidCc": "poison"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 23,
     "base": 23,
     "className": "OrcAxe1",
@@ -1127,6 +1150,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 24,
     "base": 24,
     "className": "OrcHammer1",
@@ -1176,6 +1200,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 25,
     "base": 25,
     "className": "OrcWolfRider1",
@@ -1225,6 +1250,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 26,
     "base": 1,
     "className": "FootMan1",
@@ -1274,6 +1300,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 27,
     "base": 2,
     "className": "HeavyWarrior1",
@@ -1323,6 +1350,7 @@
     "raidCc": "knockback"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 28,
     "base": 3,
     "className": "FireBird1",
@@ -1372,6 +1400,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 29,
     "base": 4,
     "className": "Gunner1",
@@ -1421,6 +1450,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 30,
     "base": 5,
     "className": "HammerKnight1",
@@ -1470,6 +1500,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 31,
     "base": 6,
     "className": "HorseKnight1",
@@ -1519,6 +1550,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 32,
     "base": 7,
     "className": "ElfArcher1",
@@ -1568,6 +1600,7 @@
     "raidCc": "silence"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 33,
     "base": 8,
     "className": "ElfWarrior1",
@@ -1617,6 +1650,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 34,
     "base": 9,
     "className": "PoisonArcher1",
@@ -1666,6 +1700,7 @@
     "raidCc": "poison"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 35,
     "base": 10,
     "className": "HighArcher1",
@@ -1715,6 +1750,7 @@
     "raidCc": "knockback"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 36,
     "base": 11,
     "className": "GreenEagle1",
@@ -1764,6 +1800,7 @@
     "raidCc": "knockback|poison"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 37,
     "base": 12,
     "className": "WindMage1",
@@ -1813,6 +1850,7 @@
     "raidCc": "binding"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 38,
     "base": 13,
     "className": "SkeletonMan1",
@@ -1862,6 +1900,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 39,
     "base": 14,
     "className": "BlackMage1",
@@ -1911,6 +1950,7 @@
     "raidCc": "binding|shock"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 40,
     "base": 15,
     "className": "Ghost1",
@@ -1960,6 +2000,7 @@
     "raidCc": "curse"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 41,
     "base": 16,
     "className": "SkeletonWarrior1",
@@ -2009,6 +2050,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 42,
     "base": 17,
     "className": "GreatHammer1",
@@ -2058,6 +2100,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 43,
     "base": 18,
     "className": "DarkMage1",
@@ -2107,6 +2150,7 @@
     "raidCc": "curse"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 44,
     "base": 19,
     "className": "OrcFighter1",
@@ -2156,6 +2200,7 @@
     "raidCc": "blow"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 45,
     "base": 20,
     "className": "OrcHunter1",
@@ -2205,6 +2250,7 @@
     "raidCc": "freeze"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 46,
     "base": 21,
     "className": "OrcIceMage1",
@@ -2254,6 +2300,7 @@
     "raidCc": "freeze"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 47,
     "base": 22,
     "className": "OrcWing1",
@@ -2303,6 +2350,7 @@
     "raidCc": "poison"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 48,
     "base": 23,
     "className": "OrcAxe1",
@@ -2352,6 +2400,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 49,
     "base": 24,
     "className": "OrcHammer1",
@@ -2401,6 +2450,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 50,
     "base": 25,
     "className": "OrcWolfRider1",
@@ -2450,6 +2500,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 51,
     "base": 51,
     "className": "Unicorn1",
@@ -2499,6 +2550,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 52,
     "base": 51,
     "className": "Unicorn1",
@@ -2548,6 +2600,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 53,
     "base": 53,
     "className": "Fairy1",
@@ -2597,6 +2650,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 54,
     "base": 53,
     "className": "Fairy1",
@@ -2646,6 +2700,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 55,
     "base": 55,
     "className": "Priest1",
@@ -2695,6 +2750,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 56,
     "base": 55,
     "className": "Priest1",
@@ -2744,6 +2800,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 57,
     "base": 57,
     "className": "DarkArcher1",
@@ -2793,6 +2850,7 @@
     "raidCc": "silence"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 58,
     "base": 57,
     "className": "DarkArcher1",
@@ -2842,6 +2900,7 @@
     "raidCc": "silence"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 59,
     "base": 59,
     "className": "DeathKnight1",
@@ -2891,6 +2950,7 @@
     "raidCc": "curse"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 60,
     "base": 59,
     "className": "DeathKnight1",
@@ -2940,6 +3000,7 @@
     "raidCc": "curse"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 61,
     "base": 61,
     "className": "OrcBigFoot1",
@@ -2989,6 +3050,7 @@
     "raidCc": "freeze"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 62,
     "base": 62,
     "className": "Golem1",
@@ -3038,6 +3100,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 63,
     "base": 63,
     "className": "DeathHand1",
@@ -3087,6 +3150,7 @@
     "raidCc": "blow|knockback"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 64,
     "base": 64,
     "className": "WolfWarrior1",
@@ -3136,6 +3200,7 @@
     "raidCc": "knockback"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 65,
     "base": 65,
     "className": "Ant1",
@@ -3185,6 +3250,7 @@
     "raidCc": "blow|stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 66,
     "base": 66,
     "className": "GreatMage1",
@@ -3234,6 +3300,7 @@
     "raidCc": "blow|stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 67,
     "base": 67,
     "className": "OrcBlizzardMage1",
@@ -3283,6 +3350,7 @@
     "raidCc": "freeze"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 68,
     "base": 68,
     "className": "Bomber1",
@@ -3332,6 +3400,7 @@
     "raidCc": "blow"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 69,
     "base": 69,
     "className": "BigDrumer1",
@@ -3381,6 +3450,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 70,
     "base": 61,
     "className": "OrcBigFoot1",
@@ -3430,6 +3500,7 @@
     "raidCc": "freeze"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 71,
     "base": 62,
     "className": "Golem1",
@@ -3479,6 +3550,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 72,
     "base": 63,
     "className": "DeathHand1",
@@ -3528,6 +3600,7 @@
     "raidCc": "blow|knockback"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 73,
     "base": 64,
     "className": "WolfWarrior1",
@@ -3577,6 +3650,7 @@
     "raidCc": "knockback"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 74,
     "base": 65,
     "className": "Ant1",
@@ -3626,6 +3700,7 @@
     "raidCc": "blow|stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 75,
     "base": 66,
     "className": "GreatMage1",
@@ -3675,6 +3750,7 @@
     "raidCc": "blow|stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 76,
     "base": 67,
     "className": "OrcBlizzardMage1",
@@ -3724,6 +3800,7 @@
     "raidCc": "freeze"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 77,
     "base": 68,
     "className": "Bomber1",
@@ -3773,6 +3850,7 @@
     "raidCc": "blow"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 78,
     "base": 69,
     "className": "BigDrumer1",
@@ -3822,6 +3900,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 79,
     "base": 79,
     "className": "Pilot1",
@@ -3871,6 +3950,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 80,
     "base": 79,
     "className": "Pilot1",
@@ -3920,6 +4000,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 81,
     "base": 81,
     "className": "TigerRider1",
@@ -3969,6 +4050,7 @@
     "raidCc": "knockback|shock"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 82,
     "base": 82,
     "className": "SteamPunk1",
@@ -4018,6 +4100,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 83,
     "base": 83,
     "className": "OrcRapterRider1",
@@ -4067,6 +4150,7 @@
     "raidCc": "freeze|knockback"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 84,
     "base": 81,
     "className": "TigerRider1",
@@ -4116,6 +4200,7 @@
     "raidCc": "knockback|shock"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 85,
     "base": 82,
     "className": "SteamPunk1",
@@ -4165,6 +4250,7 @@
     "raidCc": "stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 86,
     "base": 83,
     "className": "OrcRapterRider1",
@@ -4214,6 +4300,7 @@
     "raidCc": "freeze|knockback"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 87,
     "base": 87,
     "className": "DarkNinja1",
@@ -4263,6 +4350,7 @@
     "raidCc": "blow|stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 88,
     "base": 87,
     "className": "DarkNinja1",
@@ -4312,6 +4400,7 @@
     "raidCc": "blow|stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 89,
     "base": 89,
     "className": "WingKnight1",
@@ -4361,6 +4450,7 @@
     "raidCc": "knockback|stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 90,
     "base": 90,
     "className": "Sylphid1",
@@ -4410,6 +4500,7 @@
     "raidCc": "binding|knockback"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 91,
     "base": 91,
     "className": "Abyss1",
@@ -4459,6 +4550,7 @@
     "raidCc": "shock"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 92,
     "base": 92,
     "className": "WyvernRider1",
@@ -4508,6 +4600,7 @@
     "raidCc": "freeze"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 93,
     "base": 89,
     "className": "WingKnight1",
@@ -4557,6 +4650,7 @@
     "raidCc": "knockback|stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 94,
     "base": 90,
     "className": "Sylphid1",
@@ -4606,6 +4700,7 @@
     "raidCc": "binding|knockback"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 95,
     "base": 91,
     "className": "Abyss1",
@@ -4655,6 +4750,7 @@
     "raidCc": "shock"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 96,
     "base": 92,
     "className": "WyvernRider1",
@@ -4704,6 +4800,7 @@
     "raidCc": "freeze"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 97,
     "base": 97,
     "className": "Aladin1",
@@ -4753,6 +4850,7 @@
     "raidCc": "knockback"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 98,
     "base": 98,
     "className": "Druid1",
@@ -4802,6 +4900,7 @@
     "raidCc": "binding|poison|stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 99,
     "base": 99,
     "className": "Succubus1",
@@ -4851,6 +4950,7 @@
     "raidCc": "knockback|charm"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 100,
     "base": 100,
     "className": "BladeMaster1",
@@ -4900,6 +5000,7 @@
     "raidCc": "knockback"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 101,
     "base": 97,
     "className": "Aladin1",
@@ -4949,6 +5050,7 @@
     "raidCc": "knockback"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 102,
     "base": 98,
     "className": "Druid1",
@@ -4998,6 +5100,7 @@
     "raidCc": "binding|poison|stun"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 103,
     "base": 99,
     "className": "Succubus1",
@@ -5047,6 +5150,7 @@
     "raidCc": "knockback|charm"
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 104,
     "base": 100,
     "className": "BladeMaster1",
@@ -5096,6 +5200,407 @@
     "raidCc": "knockback"
   },
   {
+    "uniqueSkill2": 102,
+    "kindNum": 105,
+    "base": 105,
+    "className": "FireSpirit1",
+    "name": "불의 정령",
+    "tribe": 1,
+    "grade": 5,
+    "evolStage": 0,
+    "evolKindNum": 109,
+    "dmgType": "M",
+    "isAir": "N",
+    "unitType": "range",
+    "numBlock": 2,
+    "food": 1,
+    "atkDmg": 50,
+    "def": 1,
+    "phyDef": 2.8,
+    "magDef": 2.8,
+    "hp": 250,
+    "atkSpd": 100,
+    "moveSpd": 1.3,
+    "atkRange": 145,
+    "recovery": 12.5,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 600,
+    "cloaking": "N",
+    "detect": "N",
+    "sex": "F",
+    "canPurchase": "Y",
+    "honor": 5,
+    "nAtk": "적을 기절시키고, 최대 3마리의 적을 공격하는 불덩어리를 발사한다.",
+    "sAtk": "여러 개의 화염 회오리 바람을 만들어서, 적을 마비시키고 데미지를 준다.",
+    "goldBuffs": "11|10|18|14|18|14|10|8|16|22|10|10|18",
+    "goldBuffValues": "30|20|40|1|40|1|20|2|1|1|400|600|2600",
+    "uniqueSkill": 31,
+    "desc": "AA",
+    "stunImmune": "N",
+    "freezeImmune": "N",
+    "blowImmune": "N",
+    "knockImmune": "N",
+    "weight": 3,
+    "trans": 0,
+    "material1": 0,
+    "material2": 0,
+    "material3": 0,
+    "raidCc": "knockback"
+  },
+  {
+    "uniqueSkill2": 98,
+    "kindNum": 106,
+    "base": 106,
+    "className": "Hippogriff1",
+    "name": "히포그리프",
+    "tribe": 2,
+    "grade": 5,
+    "evolStage": 0,
+    "evolKindNum": 110,
+    "dmgType": "P",
+    "isAir": "Y",
+    "unitType": "range",
+    "numBlock": 2,
+    "food": 1,
+    "atkDmg": 50,
+    "def": 1,
+    "phyDef": 2.5,
+    "magDef": 2.5,
+    "hp": 225,
+    "atkSpd": 100,
+    "moveSpd": 1.5,
+    "atkRange": 155,
+    "recovery": 11.5,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 600,
+    "cloaking": "N",
+    "detect": "N",
+    "sex": "M",
+    "canPurchase": "Y",
+    "honor": 5,
+    "nAtk": "적을 느리게 하는 창을 던진다.",
+    "sAtk": "많은 깃털을 날려, 다수의 적들을 느리게 하고, 넉백시킨다.",
+    "goldBuffs": "10|18|14|7|54|14|4|18|17|16|27|10|10",
+    "goldBuffValues": "20|40|1|1|2|1|5|60|1|1|300|600|3000",
+    "uniqueSkill": 96,
+    "desc": "AA",
+    "stunImmune": "N",
+    "freezeImmune": "N",
+    "blowImmune": "N",
+    "knockImmune": "N",
+    "weight": 3,
+    "trans": 0,
+    "material1": 0,
+    "material2": 0,
+    "material3": 0,
+    "raidCc": ""
+  },
+  {
+    "uniqueSkill2": 102,
+    "kindNum": 107,
+    "base": 107,
+    "className": "CrowKnight1",
+    "name": "크로우나이트",
+    "tribe": 3,
+    "grade": 5,
+    "evolStage": 0,
+    "evolKindNum": 111,
+    "dmgType": "P",
+    "isAir": "Y",
+    "unitType": "range",
+    "numBlock": 2,
+    "food": 1,
+    "atkDmg": 50,
+    "def": 1,
+    "phyDef": 2.5,
+    "magDef": 2.5,
+    "hp": 225,
+    "atkSpd": 100,
+    "moveSpd": 1.4,
+    "atkRange": 165,
+    "recovery": 11.5,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 600,
+    "cloaking": "Y",
+    "detect": "N",
+    "sex": "M",
+    "canPurchase": "Y",
+    "honor": 5,
+    "nAtk": "폭발하는 폭발탄을 발사한다. 폭발시 주변의 적들에게도 피해를 준다.",
+    "sAtk": "까마귀 떼를 소환해 다수의 적을 공격하고, 자신의 체력을 조금 회복시킨다.",
+    "goldBuffs": "10|11|18|14|7|14|10|18|16|17|13|18|10",
+    "goldBuffValues": "20|50|40|1|1|1|100|100|1|1|1|500|3000",
+    "uniqueSkill": 100,
+    "desc": "AA",
+    "stunImmune": "N",
+    "freezeImmune": "N",
+    "blowImmune": "N",
+    "knockImmune": "N",
+    "weight": 2,
+    "trans": 0,
+    "material1": 0,
+    "material2": 0,
+    "material3": 0,
+    "raidCc": ""
+  },
+  {
+    "uniqueSkill2": 31,
+    "kindNum": 108,
+    "base": 108,
+    "className": "Naga1",
+    "name": "나가",
+    "tribe": 4,
+    "grade": 5,
+    "evolStage": 0,
+    "evolKindNum": 112,
+    "dmgType": "P",
+    "isAir": "N",
+    "unitType": "range",
+    "numBlock": 2,
+    "food": 1,
+    "atkDmg": 50,
+    "def": 1,
+    "phyDef": 2.8,
+    "magDef": 2.8,
+    "hp": 250,
+    "atkSpd": 100,
+    "moveSpd": 1.3,
+    "atkRange": 145,
+    "recovery": 12.5,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 600,
+    "cloaking": "Y",
+    "detect": "Y",
+    "sex": "F",
+    "canPurchase": "Y",
+    "honor": 5,
+    "nAtk": "다수의 화살로 적을 공격하고, 적의 이동속도가 느려진다.",
+    "sAtk": "얼음기둥을 소환해서 다수의 적들을 얼음감옥에 가둔다.",
+    "goldBuffs": "11|10|14|18|14|7|10|54|17|16|10|18|10",
+    "goldBuffValues": "30|20|1|40|1|1|20|2|1|1|300|550|2000",
+    "uniqueSkill": 104,
+    "desc": "AA",
+    "stunImmune": "N",
+    "freezeImmune": "N",
+    "blowImmune": "N",
+    "knockImmune": "N",
+    "weight": 3,
+    "trans": 0,
+    "material1": 0,
+    "material2": 0,
+    "material3": 0,
+    "raidCc": "freeze"
+  },
+  {
+    "uniqueSkill2": 103,
+    "kindNum": 109,
+    "base": 105,
+    "className": "FireSpirit1",
+    "name": "불의 정령Ⅱ",
+    "tribe": 1,
+    "grade": 6,
+    "evolStage": 1,
+    "evolKindNum": -1,
+    "dmgType": "M",
+    "isAir": "N",
+    "unitType": "range",
+    "numBlock": 4,
+    "food": 1,
+    "atkDmg": 60,
+    "def": 1,
+    "phyDef": 3.36,
+    "magDef": 3.36,
+    "hp": 300,
+    "atkSpd": 100,
+    "moveSpd": 1.3,
+    "atkRange": 145,
+    "recovery": 12.5,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 600,
+    "cloaking": "N",
+    "detect": "N",
+    "sex": "F",
+    "canPurchase": "N",
+    "honor": 5,
+    "nAtk": "적을 기절시키고, 최대 3마리의 적을 공격하는 불덩어리를 발사한다.",
+    "sAtk": "여러 개의 화염 회오리 바람을 만들어서, 적을 마비시키고 데미지를 준다.",
+    "goldBuffs": "11|10|18|14|18|14|10|8|43|22|10|10|18|10|13|10|18|18",
+    "goldBuffValues": "50|27|70|3|70|3|27|4|1|2|800|1200|5200|52000|2|460000|1150000|4930000",
+    "uniqueSkill": 33,
+    "desc": "AA",
+    "stunImmune": "N",
+    "freezeImmune": "N",
+    "blowImmune": "N",
+    "knockImmune": "Y",
+    "weight": 3,
+    "trans": 3,
+    "material1": "73|80|40",
+    "material2": "74|72|71|43|42",
+    "material3": "75|52|60|43|31",
+    "raidCc": "knockback"
+  },
+  {
+    "uniqueSkill2": 99,
+    "kindNum": 110,
+    "base": 106,
+    "className": "Hippogriff1",
+    "name": "히포그리프Ⅱ",
+    "tribe": 2,
+    "grade": 6,
+    "evolStage": 1,
+    "evolKindNum": -1,
+    "dmgType": "P",
+    "isAir": "Y",
+    "unitType": "range",
+    "numBlock": 4,
+    "food": 1,
+    "atkDmg": 60,
+    "def": 1,
+    "phyDef": 3,
+    "magDef": 3,
+    "hp": 270,
+    "atkSpd": 100,
+    "moveSpd": 1.5,
+    "atkRange": 155,
+    "recovery": 11.5,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 600,
+    "cloaking": "N",
+    "detect": "N",
+    "sex": "M",
+    "canPurchase": "N",
+    "honor": 5,
+    "nAtk": "적을 느리게 하는 창을 던진다.",
+    "sAtk": "많은 깃털을 날려, 다수의 적들을 느리게 하고, 넉백시킨다.",
+    "goldBuffs": "10|18|14|7|54|14|4|18|17|16|27|10|10|19|27|18|19|18",
+    "goldBuffValues": "27|70|3|2|5|3|10|95|2|2|600|1200|5800|45000|250000|660000|1300000|4950000",
+    "uniqueSkill": 97,
+    "desc": "AA",
+    "stunImmune": "N",
+    "freezeImmune": "N",
+    "blowImmune": "Y",
+    "knockImmune": "N",
+    "weight": 3,
+    "trans": 3,
+    "material1": "72|74|49",
+    "material2": "72|50|73|48|49",
+    "material3": "52|77|70|48|37",
+    "raidCc": ""
+  },
+  {
+    "uniqueSkill2": 103,
+    "kindNum": 111,
+    "base": 107,
+    "className": "CrowKnight1",
+    "name": "크로우나이트Ⅱ",
+    "tribe": 3,
+    "grade": 6,
+    "evolStage": 1,
+    "evolKindNum": -1,
+    "dmgType": "P",
+    "isAir": "Y",
+    "unitType": "range",
+    "numBlock": 4,
+    "food": 1,
+    "atkDmg": 60,
+    "def": 1,
+    "phyDef": 3,
+    "magDef": 3,
+    "hp": 270,
+    "atkSpd": 100,
+    "moveSpd": 1.4,
+    "atkRange": 165,
+    "recovery": 11.5,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 600,
+    "cloaking": "Y",
+    "detect": "N",
+    "sex": "M",
+    "canPurchase": "N",
+    "honor": 5,
+    "nAtk": "폭발하는 폭발탄을 발사한다. 폭발시 주변의 적들에게도 피해를 준다.",
+    "sAtk": "까마귀 떼를 소환해 다수의 적을 공격하고, 자신의 체력을 조금 회복시킨다.",
+    "goldBuffs": "10|11|18|14|7|14|10|18|43|17|13|18|10|18|10|18|10|18",
+    "goldBuffValues": "50|100|90|3|2|3|200|200|1|2|2|1000|6000|30000|600000|800000|1600000|7200000",
+    "uniqueSkill": 101,
+    "desc": "AA",
+    "stunImmune": "N",
+    "freezeImmune": "Y",
+    "blowImmune": "N",
+    "knockImmune": "N",
+    "weight": 2,
+    "trans": 3,
+    "material1": "50|72|30",
+    "material2": "70|75|60|31|28",
+    "material3": "77|76|80|31|43",
+    "raidCc": "stun"
+  },
+  {
+    "uniqueSkill2": 33,
+    "kindNum": 112,
+    "base": 108,
+    "className": "Naga1",
+    "name": "나가Ⅱ",
+    "tribe": 4,
+    "grade": 6,
+    "evolStage": 1,
+    "evolKindNum": -1,
+    "dmgType": "P",
+    "isAir": "N",
+    "unitType": "range",
+    "numBlock": 4,
+    "food": 1,
+    "atkDmg": 60,
+    "def": 1,
+    "phyDef": 3.36,
+    "magDef": 3.36,
+    "hp": 300,
+    "atkSpd": 100,
+    "moveSpd": 1.3,
+    "atkRange": 145,
+    "recovery": 12.5,
+    "magicShield": 0,
+    "physicalShield": 0,
+    "numRevive": 0,
+    "reviveTime": 600,
+    "cloaking": "Y",
+    "detect": "Y",
+    "sex": "F",
+    "canPurchase": "N",
+    "honor": 5,
+    "nAtk": "다수의 화살로 적을 공격하고, 적의 이동속도가 느려진다.",
+    "sAtk": "얼음기둥을 소환해서 다수의 적들을 얼음감옥에 가둔다.",
+    "goldBuffs": "11|10|14|18|14|7|10|54|17|43|10|18|10|18|18|18|18|10",
+    "goldBuffValues": "50|27|3|70|3|2|27|5|2|1|600|1100|4000|28000|425000|650000|940000|4300000",
+    "uniqueSkill": 105,
+    "desc": "AA",
+    "stunImmune": "Y",
+    "freezeImmune": "N",
+    "blowImmune": "N",
+    "knockImmune": "N",
+    "weight": 3,
+    "trans": 3,
+    "material1": "71|76|34",
+    "material2": "75|52|70|37|36",
+    "material3": "50|80|74|37|48",
+    "raidCc": "freeze"
+  },
+  {
+    "uniqueSkill2": -1,
     "kindNum": 1001,
     "base": 1001,
     "className": "NWolf",
@@ -5145,6 +5650,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1002,
     "base": 1002,
     "className": "SkeletonX1",
@@ -5194,6 +5700,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1003,
     "base": 1003,
     "className": "IceWolf",
@@ -5243,6 +5750,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 10001,
     "base": 10001,
     "className": "ElfTown5",
@@ -5292,6 +5800,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 10002,
     "base": 10002,
     "className": "Castle0",
@@ -5341,6 +5850,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 10003,
     "base": 10003,
     "className": "Castle1",
@@ -5390,6 +5900,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 10004,
     "base": 10004,
     "className": "Castle2",
@@ -5439,6 +5950,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 20001,
     "base": 20001,
     "className": "KingSlime",
@@ -5488,6 +6000,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 20002,
     "base": 20002,
     "className": "SlimeRed",
@@ -5537,6 +6050,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 20003,
     "base": 20003,
     "className": "SlimeBlue",
@@ -5586,6 +6100,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 20004,
     "base": 20004,
     "className": "SlimeYellow",
@@ -5635,6 +6150,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 30001,
     "base": 30001,
     "className": "OrcFlower",
@@ -5684,6 +6200,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 30002,
     "base": 30002,
     "className": "FlowerSoldier1",
@@ -5733,6 +6250,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 30003,
     "base": 30003,
     "className": "FlowerSoldier2",
@@ -5782,6 +6300,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 40001,
     "base": 40001,
     "className": "HammerMole",
@@ -5831,6 +6350,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 40002,
     "base": 40002,
     "className": "MoleSoldier1",
@@ -5880,6 +6400,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 40003,
     "base": 40003,
     "className": "MoleSoldier2",
@@ -5929,6 +6450,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 50001,
     "base": 50001,
     "className": "DarkHermit",
@@ -5978,6 +6500,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 50002,
     "base": 50002,
     "className": "StarFish",
@@ -6027,6 +6550,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 50003,
     "base": 50003,
     "className": "Crab",
@@ -6076,6 +6600,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1050,
     "base": 1050,
     "className": "RedWolf1",
@@ -6125,6 +6650,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1051,
     "base": 1051,
     "className": "BlueWolf1",
@@ -6174,6 +6700,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1052,
     "base": 1052,
     "className": "GreenWolf1",
@@ -6223,6 +6750,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1053,
     "base": 1053,
     "className": "VioletWolf1",
@@ -6272,6 +6800,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1054,
     "base": 1054,
     "className": "GrayWolf1",
@@ -6321,6 +6850,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1055,
     "base": 1055,
     "className": "RedWolf2",
@@ -6370,6 +6900,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1056,
     "base": 1056,
     "className": "BlueWolf2",
@@ -6419,6 +6950,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1057,
     "base": 1057,
     "className": "GreenWolf2",
@@ -6468,6 +7000,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1058,
     "base": 1058,
     "className": "VioletWolf2",
@@ -6517,6 +7050,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1059,
     "base": 1059,
     "className": "GrayWolf2",
@@ -6566,6 +7100,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1060,
     "base": 1060,
     "className": "SSlime1",
@@ -6615,6 +7150,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1061,
     "base": 1061,
     "className": "SSlime2",
@@ -6664,6 +7200,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1062,
     "base": 1062,
     "className": "SSlime3",
@@ -6713,6 +7250,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1063,
     "base": 1063,
     "className": "Spider1",
@@ -6762,6 +7300,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1064,
     "base": 1064,
     "className": "Spider2",
@@ -6811,6 +7350,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1065,
     "base": 1065,
     "className": "Frog1",
@@ -6860,6 +7400,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1066,
     "base": 1066,
     "className": "Frog2",
@@ -6909,6 +7450,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1067,
     "base": 1067,
     "className": "RoboBomb1",
@@ -6958,6 +7500,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1068,
     "base": 1068,
     "className": "RoboBomb2",
@@ -7007,6 +7550,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1069,
     "base": 1069,
     "className": "Boar1",
@@ -7056,6 +7600,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 1070,
     "base": 1070,
     "className": "Boar2",
@@ -7105,6 +7650,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 100000,
     "base": 100000,
     "className": "ScorpionKing",
@@ -7154,6 +7700,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 100001,
     "base": 100001,
     "className": "HarpyKing",
@@ -7203,6 +7750,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 100002,
     "base": 100002,
     "className": "GolemKing",
@@ -7252,6 +7800,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 100003,
     "base": 100003,
     "className": "Berial",
@@ -7301,6 +7850,7 @@
     "raidCc": ""
   },
   {
+    "uniqueSkill2": -1,
     "kindNum": 100004,
     "base": 100004,
     "className": "DragonKnight",

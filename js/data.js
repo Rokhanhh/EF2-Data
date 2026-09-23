@@ -63,7 +63,7 @@ export async function loadUnitData() {
         loadJson(DATA_PATHS.heroGoldSkills),
         loadJson(DATA_PATHS.heroUniqueSkills),
         loadJson(DATA_PATHS.locale),
-        loadAssetAtlases(undefined, ["units", "pets"]),
+        loadAssetAtlases(undefined, ["units", "unitSkills", "pets"]),
     ]);
 
     const units = toArrayBook(unitBook)
@@ -241,6 +241,7 @@ function normalizeUnit(row) {
         reviveTime: Number(row.reviveTime || 0),
         recovery: Number(row.recovery || 0),
         uniqueSkill: Number(row.uniqueSkill || 0),
+        uniqueSkill2: Number(row.uniqueSkill2 || 0),
         trans: Number(row.trans || 0),
         goldBuffs: parseNumberList(row.goldBuffs, "|"),
         goldBuffValues: parseNumberList(row.goldBuffValues, "|"),
@@ -337,17 +338,23 @@ function normalizeHeroUniqueSkill(row) {
 
 function buildLimitBreakAccByGrade(rows) {
     const accByGrade = {};
-    for (let grade = 1; grade <= 6; grade += 1) {
+    const grades = [...new Set(rows.flatMap((row) => Object.keys(row)
+        .map((key) => /^grade(\d+)$/i.exec(key))
+        .filter(Boolean)
+        .map((match) => Number(match[1]))))]
+        .sort((a, b) => a - b);
+
+    grades.forEach((grade) => {
         accByGrade[grade] = [0];
-    }
+    });
 
     rows
         .slice()
         .sort((a, b) => Number(a.level) - Number(b.level))
         .forEach((row) => {
-            for (let grade = 1; grade <= 6; grade += 1) {
+            grades.forEach((grade) => {
                 accByGrade[grade][Number(row.level)] = Number(row[`grade${grade}`] || 0);
-            }
+            });
         });
 
     return accByGrade;
