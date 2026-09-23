@@ -1,7 +1,7 @@
-import { renderAtlasIcon, renderAtlasIconById } from "./asset-atlas.js?v=508f15c8f865";
-import { loadGuildRaidData } from "./data.js?v=508f15c8f865";
-import { defaultNavLinks, renderNavbar } from "./layout.js?v=508f15c8f865";
-import { escapeHtml, formatNumber } from "./utils.js?v=508f15c8f865";
+import { renderAtlasIcon, renderAtlasIconById } from "./asset-atlas.js?v=e05c1fcbd23b";
+import { loadGuildRaidData } from "./data.js?v=e05c1fcbd23b";
+import { defaultNavLinks, renderNavbar } from "./layout.js?v=e05c1fcbd23b";
+import { escapeHtml, formatNumber } from "./utils.js?v=e05c1fcbd23b";
 
 const RAID_COUNT = 5;
 const WEAKPOINTS = [
