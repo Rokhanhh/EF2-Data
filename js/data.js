@@ -1,6 +1,6 @@
-import { versionedUrl } from "./cache-bust.js?v=e05c1fcbd23b";
-import { DATA_PATHS } from "./constants.js?v=e05c1fcbd23b";
-import { loadAssetAtlases } from "./asset-atlas.js?v=e05c1fcbd23b";
+import { versionedUrl } from "./cache-bust.js?v=bb03d33acd53";
+import { DATA_PATHS } from "./constants.js?v=bb03d33acd53";
+import { loadAssetAtlases } from "./asset-atlas.js?v=bb03d33acd53";
 
 export async function loadRelicData() {
     const [treasureBook, valueBook, setBook, limitBreakBook, locale, assetAtlases] = await Promise.all([
