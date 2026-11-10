@@ -3248,6 +3248,134 @@
     "isPlus": 0
   },
   {
+    "id": 427,
+    "init": 1017000000,
+    "inc": 1.092,
+    "inflaPoint": 91,
+    "inc2": 1.348,
+    "isPlus": 0
+  },
+  {
+    "id": 428,
+    "init": 1111000000,
+    "inc": 1.142,
+    "inflaPoint": 101,
+    "inc2": 1.349,
+    "isPlus": 0
+  },
+  {
+    "id": 429,
+    "init": 11520000000,
+    "inc": 1.145,
+    "inflaPoint": 101,
+    "inc2": 1.349,
+    "isPlus": 0
+  },
+  {
+    "id": 430,
+    "init": 258900000000,
+    "inc": 1.145,
+    "inflaPoint": 101,
+    "inc2": 1.349,
+    "isPlus": 0
+  },
+  {
+    "id": 431,
+    "init": 2056000,
+    "inc": 1.081,
+    "inflaPoint": 91,
+    "inc2": 1.351,
+    "isPlus": 0
+  },
+  {
+    "id": 432,
+    "init": 2648000,
+    "inc": 1.129,
+    "inflaPoint": 101,
+    "inc2": 1.35,
+    "isPlus": 0
+  },
+  {
+    "id": 433,
+    "init": 904000000,
+    "inc": 1.096,
+    "inflaPoint": 101,
+    "inc2": 1.349,
+    "isPlus": 0
+  },
+  {
+    "id": 434,
+    "init": 20240000000,
+    "inc": 1.096,
+    "inflaPoint": 101,
+    "inc2": 1.349,
+    "isPlus": 0
+  },
+  {
+    "id": 435,
+    "init": 1017000000,
+    "inc": 1.092,
+    "inflaPoint": 91,
+    "inc2": 1.348,
+    "isPlus": 0
+  },
+  {
+    "id": 436,
+    "init": 1111000000,
+    "inc": 1.142,
+    "inflaPoint": 101,
+    "inc2": 1.349,
+    "isPlus": 0
+  },
+  {
+    "id": 437,
+    "init": 11520000000,
+    "inc": 1.145,
+    "inflaPoint": 101,
+    "inc2": 1.349,
+    "isPlus": 0
+  },
+  {
+    "id": 438,
+    "init": 258900000000,
+    "inc": 1.145,
+    "inflaPoint": 101,
+    "inc2": 1.349,
+    "isPlus": 0
+  },
+  {
+    "id": 439,
+    "init": 24000,
+    "inc": 1.018,
+    "inflaPoint": 999,
+    "inc2": 0,
+    "isPlus": 0
+  },
+  {
+    "id": 440,
+    "init": 17600,
+    "inc": 1.037,
+    "inflaPoint": 101,
+    "inc2": 1.01,
+    "isPlus": 0
+  },
+  {
+    "id": 441,
+    "init": 26400,
+    "inc": 1.033,
+    "inflaPoint": 101,
+    "inc2": 1.017,
+    "isPlus": 0
+  },
+  {
+    "id": 442,
+    "init": 29700,
+    "inc": 1.033,
+    "inflaPoint": 101,
+    "inc2": 1.017,
+    "isPlus": 0
+  },
+  {
     "id": 1001,
     "init": 127000000,
     "inc": 1.091,

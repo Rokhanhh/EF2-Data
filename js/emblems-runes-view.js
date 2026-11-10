@@ -1,7 +1,7 @@
-import { renderAtlasIcon } from "./asset-atlas.js?v=bb03d33acd53";
-import { loadEmblemsRunesData } from "./data.js?v=bb03d33acd53";
-import { defaultNavLinks, renderNavbar } from "./layout.js?v=bb03d33acd53";
-import { escapeHtml } from "./utils.js?v=bb03d33acd53";
+import { renderAtlasBackground, renderAtlasIcon } from "./asset-atlas.js?v=20261109-atlas-fix";
+import { loadEmblemsRunesData } from "./data.js?v=20261109-atlas-fix";
+import { defaultNavLinks, renderNavbar } from "./layout.js?v=20261109-atlas-fix";
+import { escapeHtml } from "./utils.js?v=20261109-atlas-fix";
 
 const EMBLEM_ICONS = {
     A: "emblem_tnk.png",
@@ -360,22 +360,9 @@ function renderEmblemIcon(emblem, size) {
 }
 
 function renderEmblemBackground(emblem) {
-    const atlas = state.assetAtlases.raids;
-    const sprite = atlas && atlas.frames && atlas.frames[EMBLEM_BACKGROUNDS[emblem.kindNum]];
-    if (!sprite || !atlas.size) return "";
-
-    const frame = sprite.frame;
-    const sourceSize = sprite.sourceSize || { w: frame.w, h: frame.h };
-    const sizeX = (atlas.size.w / sourceSize.w) * 100;
-    const positionX = (frame.x / (atlas.size.w - sourceSize.w)) * 100;
-    const positionY = (frame.y / (atlas.size.h - sourceSize.h)) * 100;
-    const style = [
-        `background-image:url('${escapeHtml(atlas.image)}')`,
-        `background-size:${sizeX.toFixed(5)}% auto`,
-        `background-position:${positionX.toFixed(5)}% ${positionY.toFixed(5)}%`,
-    ].join(";");
-
-    return `<span class="emblem-atlas-background" aria-hidden="true" style="${style}"></span>`;
+    return renderAtlasBackground(state.assetAtlases.raids, EMBLEM_BACKGROUNDS[emblem.kindNum], {
+        className: "emblem-atlas-background",
+    });
 }
 
 function renderRuneIcon(rune, grade, size) {

@@ -1,7 +1,7 @@
-import { renderAtlasIcon, renderAtlasIconById } from "./asset-atlas.js?v=bb03d33acd53";
-import { loadGuildRaidData } from "./data.js?v=bb03d33acd53";
-import { defaultNavLinks, renderNavbar } from "./layout.js?v=bb03d33acd53";
-import { escapeHtml, formatNumber } from "./utils.js?v=bb03d33acd53";
+import { renderAtlasIcon, renderAtlasIconById } from "./asset-atlas.js?v=20261109-atlas-fix";
+import { loadGuildRaidData } from "./data.js?v=20261109-atlas-fix";
+import { defaultNavLinks, renderNavbar } from "./layout.js?v=20261109-atlas-fix";
+import { escapeHtml, formatNumber } from "./utils.js?v=20261109-atlas-fix";
 
 const RAID_COUNT = 5;
 const WEAKPOINTS = [
@@ -200,7 +200,7 @@ function showDetailView() {
     els.detailBack.href = `#/guild-raids/${state.selectedMain}/${state.selectedDifficulty}`;
     els.detailTitle.textContent = getBossName(boss);
     els.detailMeta.textContent = `${getMainName(boss.main)} / Stage ${boss.difficult} / Boss ${boss.sub} / Lv. ${boss.level} / HP ${formatNumber(boss.hp)}`;
-    els.detailIcon.innerHTML = renderBossIcon(boss, 106, "relic-main-icon-sprite");
+    els.detailIcon.innerHTML = renderBossIcon(boss, 106, 76, "relic-main-icon-sprite");
     els.detailNavigation.innerHTML = renderBossNavigation(boss);
     els.detailContent.innerHTML = renderBossDetail(boss);
 }
@@ -228,7 +228,7 @@ function renderDifficulty(rows) {
     const href = `#/guild-raids/${raid.main}/${raid.difficult}`;
     return `
         <a class="guild-raid-difficulty" href="${href}">
-            <span class="guild-raid-stage-icon">${renderRaidIcon(`Raid${raid.main}_Main.png`, getMainName(raid.main), 112)}</span>
+            <span class="guild-raid-stage-icon">${renderRaidIcon(`Raid${raid.main}_Main.png`, getMainName(raid.main), 112, "", 70, getRaidAtlas(raid.main))}</span>
             <span class="guild-raid-stage-copy"><strong>Stage ${raid.difficult}</strong><small>${rows.length} bosses / ${raid.limit} hours</small></span>
             <span class="guild-raid-stage-cost">Open Cost <strong>${formatNumber(raid.openCost)}</strong></span>
         </a>
@@ -239,7 +239,7 @@ function renderBossListItem(raid) {
     const name = getBossName(raid);
     return `
         <a class="guild-raid-boss-row" href="#/guild-raids/${raid.main}/${raid.difficult}/${raid.sub}">
-            <span class="guild-raid-boss-portrait">${renderBossIcon(raid, 101)}</span>
+            <span class="guild-raid-boss-portrait">${renderBossIcon(raid, 101, 70)}</span>
             <span>${escapeHtml(name)}</span>
         </a>
     `;
@@ -395,26 +395,30 @@ function renderAttackPatterns(raid) {
     return `<ul class="guild-raid-attack-patterns">${patterns.map((pattern) => `<li>${escapeHtml(normalizeAttackPattern(pattern))}</li>`).join("")}</ul>`;
 }
 
-function renderBossIcon(raid, size, className = "") {
-    const atlas = state.assetAtlases.raids;
+function getRaidAtlas(main) {
+    return state.assetAtlases[main === 1 ? "raids" : `raids${main}`] || state.assetAtlases.raids;
+}
+
+function renderBossIcon(raid, width, height, className = "") {
+    const atlas = getRaidAtlas(raid.main);
     const frameName = `MRaid${raid.main}_${raid.sub}_on.png`;
     if (atlas && atlas.frames && atlas.frames[frameName]) {
-        return renderAtlasIcon(atlas, frameName, { label: getBossName(raid), size, className, missingText: "?" });
+        return renderAtlasIcon(atlas, frameName, { label: getBossName(raid), width, height, className, missingText: "?" });
     }
     return renderAtlasIcon(state.assetAtlases.ui, "Icon_Boss", {
         label: getBossName(raid),
-        size,
+        width,
+        height,
         className,
         missingText: "?",
     });
 }
 
-function renderRaidIcon(frameName, label, size, className = "", fallbackFrame = "RaidPortal.png") {
-    const atlas = state.assetAtlases.raids;
-    const resolvedFrame = atlas && atlas.frames && atlas.frames[frameName]
-        ? frameName
-        : fallbackFrame;
-    return renderAtlasIcon(atlas, resolvedFrame, { label, size, className, missingText: "?" });
+function renderRaidIcon(frameName, label, width, className = "", height = width, atlas = state.assetAtlases.raids) {
+    const hasFrame = atlas && atlas.frames && atlas.frames[frameName];
+    return renderAtlasIcon(hasFrame ? atlas : state.assetAtlases.raids, hasFrame ? frameName : "RaidPortal.png", {
+        label, width, height, className, missingText: "?",
+    });
 }
 
 function renderTribeIcon(tribe, size) {

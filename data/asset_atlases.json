@@ -15,6 +15,10 @@
         "uiRaid": {
             "json": "images/atlases/ui-raid/UI_RAID.json",
             "image": "images/atlases/ui-raid/UI_RAID.png"
+        },
+        "uiRaid2": {
+            "json": "images/atlases/ui-raid/UI_RAID2.json",
+            "image": "images/atlases/ui-raid/UI_RAID2.png"
         }
     },
     "sets": {
@@ -44,6 +48,9 @@
         },
         "raids": {
             "source": "uiRaid"
+        },
+        "raids2": {
+            "source": "uiRaid2"
         }
     }
 }

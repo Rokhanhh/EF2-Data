@@ -1,6 +1,6 @@
-import { versionedUrl } from "./cache-bust.js?v=bb03d33acd53";
-import { DATA_PATHS } from "./constants.js?v=bb03d33acd53";
-import { loadAssetAtlases } from "./asset-atlas.js?v=bb03d33acd53";
+import { versionedUrl } from "./cache-bust.js?v=20261109-atlas-fix";
+import { DATA_PATHS } from "./constants.js?v=20261109-atlas-fix";
+import { loadAssetAtlases } from "./asset-atlas.js?v=20261109-atlas-fix";
 
 export async function loadRelicData() {
     const [treasureBook, valueBook, setBook, limitBreakBook, locale, assetAtlases] = await Promise.all([
@@ -88,7 +88,7 @@ export async function loadGuildRaidData() {
         loadJson(DATA_PATHS.pets),
         loadJson(DATA_PATHS.units),
         loadJson(DATA_PATHS.locale),
-        loadAssetAtlases(undefined, ["ui", "pets", "raids"]),
+        loadAssetAtlases(undefined, ["ui", "pets", "raids", "raids2"]),
     ]);
 
     const raids = toArrayBook(raidBook)

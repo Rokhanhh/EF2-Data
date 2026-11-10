@@ -1,5 +1,5 @@
-import { SKILL_LABELS, TARGET_LABELS } from "./constants.js?v=bb03d33acd53";
-import { clamp } from "./utils.js?v=bb03d33acd53";
+import { SKILL_LABELS, TARGET_LABELS } from "./constants.js?v=20261109-atlas-fix";
+import { clamp } from "./utils.js?v=20261109-atlas-fix";
 
 export function getAbilityId(treasure, skillIndex, trans) {
     if (skillIndex === 1) {

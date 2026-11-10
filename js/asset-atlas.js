@@ -1,5 +1,5 @@
-import { versionedUrl } from "./cache-bust.js?v=bb03d33acd53";
-import { escapeHtml } from "./utils.js?v=bb03d33acd53";
+import { versionedUrl } from "./cache-bust.js?v=20261109-atlas-fix";
+import { escapeHtml } from "./utils.js?v=20261109-atlas-fix";
 
 let atlasConfigCache;
 const sourceCache = new Map();
@@ -60,27 +60,22 @@ export function renderAtlasIcon(atlas, frameName, options = {}) {
     const label = options.label || frameName;
     const className = options.className || "";
     const size = options.size || 48;
+    const width = options.width || size;
+    const height = options.height || size;
     const sprite = atlas && atlas.frames ? atlas.frames[frameName] : null;
 
     if (!sprite || !atlas.size) {
-        const missingStyle = `width:${size}px;height:${size}px`;
+        const missingStyle = `width:${width}px;height:${height}px`;
         return `<span class="sprite-icon sprite-icon-missing ${escapeHtml(className)}" role="img" aria-label="${escapeHtml(label)}" style="${missingStyle}">${escapeHtml(options.missingText || "?")}</span>`;
     }
 
-    const frame = sprite.frame;
-    const sourceSize = sprite.sourceSize || { w: frame.w, h: frame.h };
-    const sourceOffset = sprite.spriteSourceSize || { x: 0, y: 0 };
-    const scale = size / Math.max(sourceSize.w, sourceSize.h);
+    const { frame, sourceSize, sourceOffset, rotated, clipWidth, clipHeight, packedWidth, packedHeight } = spriteGeometry(sprite);
+    const scale = Math.min(width / sourceSize.w, height / sourceSize.h);
     const outerWidth = sourceSize.w * scale;
     const outerHeight = sourceSize.h * scale;
-    const rotated = Boolean(sprite.rotated);
-    const clipWidth = rotated ? sourceOffset.w : frame.w;
-    const clipHeight = rotated ? sourceOffset.h : frame.h;
-    const packedWidth = rotated ? frame.h : frame.w;
-    const packedHeight = rotated ? frame.w : frame.h;
     const outerStyle = [
-        `width:${size}px`,
-        `height:${size}px`,
+        `width:${width}px`,
+        `height:${height}px`,
     ].join(";");
     const clipStyle = [
         `left:${sourceOffset.x}px`,
@@ -98,12 +93,41 @@ export function renderAtlasIcon(atlas, frameName, options = {}) {
     const canvasStyle = [
         `width:${sourceSize.w}px`,
         `height:${sourceSize.h}px`,
-        `left:${formatCssNumber((size - outerWidth) / 2)}px`,
-        `top:${formatCssNumber((size - outerHeight) / 2)}px`,
+        `left:${formatCssNumber((width - outerWidth) / 2)}px`,
+        `top:${formatCssNumber((height - outerHeight) / 2)}px`,
         `transform:scale(${formatCssNumber(scale)})`,
     ].join(";");
 
     return `<span class="sprite-icon ${escapeHtml(className)}" role="img" aria-label="${escapeHtml(label)}" style="${outerStyle}"><span class="sprite-icon-canvas" style="${canvasStyle}"><span class="sprite-icon-clip" style="${clipStyle}"><span class="sprite-icon-frame" style="${imageStyle}"></span></span></span></span>`;
+}
+
+export function renderAtlasBackground(atlas, frameName, options = {}) {
+    const sprite = atlas && atlas.frames ? atlas.frames[frameName] : null;
+    if (!sprite || !atlas.size) return "";
+
+    const { frame, sourceSize, sourceOffset, rotated, clipWidth, clipHeight, packedWidth, packedHeight } = spriteGeometry(sprite);
+    const transform = rotated ? ` transform="translate(0 ${clipHeight}) rotate(-90)"` : "";
+
+    // Nested viewports crop before rotating, so adjacent atlas frames stay hidden
+    // as the decorative background stretches to fit its container.
+    return `<svg class="${escapeHtml(options.className || "")}" width="100%" height="100%" viewBox="0 0 ${sourceSize.w} ${sourceSize.h}" preserveAspectRatio="none" aria-hidden="true" focusable="false"><svg x="${sourceOffset.x}" y="${sourceOffset.y}" width="${clipWidth}" height="${clipHeight}" viewBox="0 0 ${clipWidth} ${clipHeight}" overflow="hidden"><svg width="${packedWidth}" height="${packedHeight}" viewBox="${frame.x} ${frame.y} ${packedWidth} ${packedHeight}" overflow="hidden"${transform}><image href="${escapeHtml(atlas.image)}" width="${atlas.size.w}" height="${atlas.size.h}"></image></svg></svg></svg>`;
+}
+
+function spriteGeometry(sprite) {
+    const frame = sprite.frame;
+    const sourceSize = sprite.sourceSize || { w: frame.w, h: frame.h };
+    const sourceOffset = sprite.spriteSourceSize || { x: 0, y: 0, w: frame.w, h: frame.h };
+    const rotated = Boolean(sprite.rotated);
+    return {
+        frame,
+        sourceSize,
+        sourceOffset,
+        rotated,
+        clipWidth: rotated ? sourceOffset.w : frame.w,
+        clipHeight: rotated ? sourceOffset.h : frame.h,
+        packedWidth: rotated ? frame.h : frame.w,
+        packedHeight: rotated ? frame.w : frame.h,
+    };
 }
 
 export function renderAtlasIconById(atlas, id, options = {}) {

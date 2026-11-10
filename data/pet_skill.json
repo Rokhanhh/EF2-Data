@@ -1411,12 +1411,12 @@
   },
   {
     "kindNum": 1009,
-    "id": "",
+    "id": "RESIST_2",
     "name": "",
     "sub": "",
     "type": "RAID",
-    "desc": "",
-    "merge": "",
+    "desc": "화염저항을 증가시킴",
+    "merge": "add",
     "isPercent": ""
   },
   {
