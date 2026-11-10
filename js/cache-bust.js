@@ -1,4 +1,4 @@
-export const BUILD_VERSION = "20261109-atlas-fix";
+export const BUILD_VERSION = "b483b43cd2c0";
 
 export function versionedUrl(path) {
     if (!path) return path;
