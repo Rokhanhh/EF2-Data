@@ -1,7 +1,7 @@
-import { renderAtlasIcon, renderAtlasIconById } from "./asset-atlas.js?v=20261116135650370534";
-import { ENHANCEMENT_LEVEL_LIMIT, MATERIAL_ICON_FRAMES, MATERIAL_NAMES } from "./constants.js?v=20261116135650370534";
-import { loadRelicData } from "./data.js?v=20261116135650370534";
-import { defaultNavLinks, renderNavbar } from "./layout.js?v=20261116135650370534";
+import { renderAtlasIcon, renderAtlasIconById } from "./asset-atlas.js?v=3ba8c10cf4f6";
+import { ENHANCEMENT_LEVEL_LIMIT, MATERIAL_ICON_FRAMES, MATERIAL_NAMES } from "./constants.js?v=3ba8c10cf4f6";
+import { loadRelicData } from "./data.js?v=3ba8c10cf4f6";
+import { defaultNavLinks, renderNavbar } from "./layout.js?v=3ba8c10cf4f6";
 import {
     getAbilityId,
     getArtifactSet,
@@ -14,8 +14,8 @@ import {
     shouldShowSkill2,
     skillLabel,
     totalMaterialCost,
-} from "./relic-calculations.js?v=20261116135650370534";
-import { clamp, escapeHtml, formatNumber } from "./utils.js?v=20261116135650370534";
+} from "./relic-calculations.js?v=3ba8c10cf4f6";
+import { clamp, escapeHtml, formatNumber } from "./utils.js?v=3ba8c10cf4f6";
 
 const state = {
     treasures: [],

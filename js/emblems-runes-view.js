@@ -1,7 +1,7 @@
-import { renderAtlasBackground, renderAtlasIcon } from "./asset-atlas.js?v=20261116135650370534";
-import { loadEmblemsRunesData } from "./data.js?v=20261116135650370534";
-import { defaultNavLinks, renderNavbar } from "./layout.js?v=20261116135650370534";
-import { escapeHtml } from "./utils.js?v=20261116135650370534";
+import { renderAtlasBackground, renderAtlasIcon } from "./asset-atlas.js?v=3ba8c10cf4f6";
+import { loadEmblemsRunesData } from "./data.js?v=3ba8c10cf4f6";
+import { defaultNavLinks, renderNavbar } from "./layout.js?v=3ba8c10cf4f6";
+import { escapeHtml } from "./utils.js?v=3ba8c10cf4f6";
 
 const EMBLEM_ICONS = {
     A: "emblem_tnk.png",

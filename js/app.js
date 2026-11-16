@@ -1,10 +1,10 @@
-import { loadAssetAtlases, renderAtlasIconById } from "./asset-atlas.js?v=20261116135650370534";
-import { defaultNavLinks, renderFooter, renderNavbar } from "./layout.js?v=20261116135650370534";
-import { initGuildRaidsView, renderGuildRaidsRoute } from "./guild-raids-view.js?v=20261116135650370534";
-import { initEmblemsRunesView, renderEmblemsRunesRoute } from "./emblems-runes-view.js?v=20261116135650370534";
-import { initPetsView, renderPetsRoute } from "./pets-view.js?v=20261116135650370534";
-import { initRelicsView, renderRelicsRoute } from "./relics-view.js?v=20261116135650370534";
-import { initUnitsView, renderUnitsRoute } from "./units-view.js?v=20261116135650370534";
+import { loadAssetAtlases, renderAtlasIconById } from "./asset-atlas.js?v=3ba8c10cf4f6";
+import { defaultNavLinks, renderFooter, renderNavbar } from "./layout.js?v=3ba8c10cf4f6";
+import { initGuildRaidsView, renderGuildRaidsRoute } from "./guild-raids-view.js?v=3ba8c10cf4f6";
+import { initEmblemsRunesView, renderEmblemsRunesRoute } from "./emblems-runes-view.js?v=3ba8c10cf4f6";
+import { initPetsView, renderPetsRoute } from "./pets-view.js?v=3ba8c10cf4f6";
+import { initRelicsView, renderRelicsRoute } from "./relics-view.js?v=3ba8c10cf4f6";
+import { initUnitsView, renderUnitsRoute } from "./units-view.js?v=3ba8c10cf4f6";
 
 (function () {
     "use strict";
