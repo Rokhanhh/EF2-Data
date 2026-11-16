@@ -1580,6 +1580,46 @@
     "isPercent": ""
   },
   {
+    "kindNum": 1026,
+    "id": "RAIDHU_H",
+    "name": "",
+    "sub": "",
+    "type": "RAID",
+    "desc": "레이드에서 인간 병사의 체력을 증가시킴",
+    "merge": "add",
+    "isPercent": ""
+  },
+  {
+    "kindNum": 1027,
+    "id": "RAIDHU_E",
+    "name": "",
+    "sub": "",
+    "type": "RAID",
+    "desc": "레이드에서 엘프 병사의 체력을 증가시킴",
+    "merge": "add",
+    "isPercent": ""
+  },
+  {
+    "kindNum": 1028,
+    "id": "RAIDHU_U",
+    "name": "",
+    "sub": "",
+    "type": "RAID",
+    "desc": "레이드에서 언데드 병사의 체력을 증가시킴",
+    "merge": "add",
+    "isPercent": ""
+  },
+  {
+    "kindNum": 1029,
+    "id": "RAIDHU_O",
+    "name": "",
+    "sub": "",
+    "type": "RAID",
+    "desc": "레이드에서 오크 병사의 체력을 증가시킴",
+    "merge": "add",
+    "isPercent": ""
+  },
+  {
     "kindNum": 10001,
     "id": "master_71",
     "name": "",

@@ -1,7 +1,7 @@
-import { renderAtlasIcon, renderAtlasIconById } from "./asset-atlas.js?v=b483b43cd2c0";
-import { loadUnitData } from "./data.js?v=b483b43cd2c0";
-import { defaultNavLinks, renderNavbar } from "./layout.js?v=b483b43cd2c0";
-import { escapeHtml, formatNumber } from "./utils.js?v=b483b43cd2c0";
+import { renderAtlasIcon, renderAtlasIconById } from "./asset-atlas.js?v=20261116135650370534";
+import { loadUnitData } from "./data.js?v=20261116135650370534";
+import { defaultNavLinks, renderNavbar } from "./layout.js?v=20261116135650370534";
+import { escapeHtml, formatNumber } from "./utils.js?v=20261116135650370534";
 
 const TRIBES = [
     { id: 1, label: "Human" },
